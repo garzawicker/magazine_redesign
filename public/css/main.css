@@ -1,8 +1,8 @@
 * {
-  -webkit-transition: all 0.5s ease-in-out;
-  -moz-transition: all 0.5s ease-in-out;
-  -o-transition: all 0.5s ease-in-out;
-  transition: all 0.5s ease-in-out;
+  	-webkit-transition: all 0.5s ease-in-out;
+  	-moz-transition: all 0.5s ease-in-out;
+  	-o-transition: all 0.5s ease-in-out;
+  	transition: all 0.5s ease-in-out;
 }
 
 #msudenver-logo{
@@ -37,14 +37,21 @@ footer{
 }
 
 #hero-text {
+	max-width: 300px;
+	min-width: 300px;
 	padding-left: 500px;
 }
 
-#hero-text   .more-btn {
-	padding-left: 90%
+#hero-text .more-btn > button {
+	font-size: 30px;
+	margin-left: 90%
 }
 
-
+.pad-left-by-x{
+	margin-top: 0px;
+	font-size: 30px;
+	margin-left: 80%;
+}
 
 /*
 .more-btn .btn .btn-primary .btn-large
