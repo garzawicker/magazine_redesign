@@ -1,28 +1,39 @@
-* {
+*{
   	-webkit-transition: all 0.5s ease-in-out;
   	-moz-transition: all 0.5s ease-in-out;
   	-o-transition: all 0.5s ease-in-out;
   	transition: all 0.5s ease-in-out;
 }
 
-#msudenver-logo{
+.msudenver-logo{
 	position:  absolute;
 	left:  50px;
 	top:  50px;
 }
-#magazine-logo{
-	position: relative;
-	margin-left: 66%;
+.magazine-logo{
+	position: absolute;
+	top: 25px;
+	left: 70%;
+	width: 300px;
 }
-#black-container{
-	height: 150px;
+
+.magazine-logo-change{
+	position: absolute;
+	top: 8px;
+	left: 80%;
+	width: 200px;
+
 }
+
 .row-fluid{
 	padding-top: 25px;
 	padding-bottom: 50px;
 }
 .container-fluid{
 	height: 150px;
+}
+.container-fluid-change{
+	height: 10px;
 }
 
 body {
