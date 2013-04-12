@@ -11,9 +11,8 @@
 	top:  50px;
 }
 #magazine-logo{
-
-	padding-left:  59%;
-	
+	position: relative;
+	margin-left: 66%;
 }
 #black-container{
 	height: 150px;
@@ -31,7 +30,7 @@ body {
 	padding-bottom: 40px;
 }
 footer{
-	
+
 	text-align: center;
 }
 
@@ -56,52 +55,4 @@ footer{
 	margin-left: 80%;
 }
 
-/*
-.more-btn .btn .btn-primary .btn-large
-{
-  -webkit-border-radius: 500px;
-     -moz-border-radius:  500px;
-          border-radius: 500px;
-}*/
 
-
-@media (min-width: 320px) and (max-width: 980px) {
-	/* Enable use of floated navbar text */
-	.navbar-text.pull-right {
-		float: none;
-		padding-left: 5px;
-		padding-right: 5px;
-	}
-	#magazine-logo {
-		padding-left:  59%;
-		padding-top: 10px;
-		padding-right: 500px;
-	}
-	#black-container{
-		height: 150px;
-	}
-}
-@media (min-width: 320px) {
-	/* Enable use of floated navbar text */
-	#magazine-logo {
-		padding-left: 15px;
-		padding-top: 10px;
-		max-width: 80%;
-		
-	}
-	#black-container{
-		height:  100px;
-	}
-
-
-	#hero-text {
-
-		text-align: right;
-		max-width: 300px;
-		min-width: 300px;
-		padding-left: 0px;
-	}
-	#hero-text > #more-btn button{
-		padding-left: 0px;
-	}
-}
