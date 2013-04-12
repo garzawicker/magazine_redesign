@@ -7,15 +7,16 @@ $(document).ready(function(){
 	$(window).scroll(function(){
 
 		var position = $('body').scrollTop();
-
+		$(".magazine-logo").removeClass("magazine-logo-change");
+		$(".container-fluid").removeClass("container-fluid-change");
+		$(".msudenver-logo").removeClass("msudenver-logo-change");
+		
 		if(position !== 0) {
-			$(".magazine-logo").removeClass("magazine-logo-change");
-			$(".container-fluid").removeClass("container-fluid-change");
-		}else if(position ===0){
-			// $(".magazine-logo").toggleClass("magazine-logo-change");
+			$(".container-fluid").toggleClass("container-fluid-change");
+			$(".magazine-logo").toggleClass("magazine-logo-change");
+			$(".msudenver-logo").toggleClass("msudenver-logo-change");
 		}
-		$(".container-fluid").toggleClass("container-fluid-change");
-		$(".magazine-logo").toggleClass("magazine-logo-change");
+		
 
 	});
 

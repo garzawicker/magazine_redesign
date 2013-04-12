@@ -10,11 +10,16 @@
 	left:  50px;
 	top:  50px;
 }
+.msudenver-logo-change{
+	position:  absolute;
+	left:  5px;
+	top:  5px;
+}
 .magazine-logo{
 	position: absolute;
 	top: 25px;
-	left: 70%;
-	width: 300px;
+	left: 60%;
+	width: 400px;
 }
 
 .magazine-logo-change{
@@ -50,7 +55,7 @@ footer{
 }
 
 #hero-text {
-	max-width: 300px;
+	max- width: 300px;
 	min-width: 300px;
 	padding-left: 500px;
 }
