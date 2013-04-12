@@ -1103,7 +1103,7 @@
 
 @media (min-width: 980px) {
   .nav-collapse.collapse {
-    height: auto !important;
-    overflow: visible !important;
+    /*height: auto !important;*/
+    /*overflow: visible !important;*/
   }
 }

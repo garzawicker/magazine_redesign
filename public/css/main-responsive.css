@@ -21,31 +21,21 @@
 @media (max-width: 320px) {
 	
 	
-/*	#black-container{
-		position: auto;
-		height:  200px;
-	}*/
-/*	
-	#magazine-logo {
-		margin-left: auto;
-		padding-left: 15px;
-		padding-top: 15px;
-		max-width: 80%;
+	
+	.container-fluid{
+		position: absolute;
+		top: 0px;
 		
 	}
-*/
+
 	
 }
 
 /*  >= 320*/
-@media (min-height:320px){
-/*	#hero-text {
-		text-align: left;
-		font-size: 1em;
-		padding: inherit;
+@media (min-width:320px){
+	.container-fluid{
+		position: relative;
+		padding-top: 20px;
+		
 	}
-	#hero-text > #more-btn button{
-		padding-left: 0px;
-	}*/
-	
 } 
