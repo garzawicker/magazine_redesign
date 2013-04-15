@@ -1,3 +1,11 @@
+# Mac specifics
 .DS_Store
-./setup-backup-files
-./public/img/psd
+
+# File backups
+./setup-backup-files/*
+
+# Photoshop files
+./public/img/psd/*
+
+# Debugging tools 
+./debugging/*

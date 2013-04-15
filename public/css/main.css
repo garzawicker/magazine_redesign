@@ -4,31 +4,33 @@
   	-o-transition: all 0.5s ease-in-out;
   	transition: all 0.5s ease-in-out;
 }
+a{
 
+}
 .msudenver-logo{
-
 	position:  absolute;
-	width: 400px;
 	left:  50px;
 	top:  25px;
 }
 .msudenver-logo-change{
+
+	/*background-image: url("/img/responsive/msud-logo-C.png") ;*/
+	background-repeat: no-repeat;
 	position:  absolute;
-	width: 350px;
 	left:  25px;
 	top:  5px;
 }
 .magazine-logo{
 	position: absolute;
 	top: 25px;
-	left: 60%;
+	right: 50px;
 	width: 400px;
 }
 
 .magazine-logo-change{
 	position: absolute;
 	top: 8px;
-	left: 80%;
+	
 	width: 200px;
 
 }
@@ -54,7 +56,7 @@ footer{
 	padding: 9px 0;
 }
 
-#hero-text   {
+/*#hero-text   {
 	width: 250px;
 	padding-left:  450px;
 }
@@ -63,7 +65,7 @@ footer{
 	margin-left:  160px;
 	font-size: 40px;
 	
-}
+}*/
 
 .pad-left-by-x{
 	margin-top: 0px;
