@@ -12,16 +12,39 @@
 		padding-right: 5px;
 	}
 
-	/* insert */
+	/* our media queries  */
 
-
-}
-
-/*  <= 320*/
-@media (min-width: 0px) and (max-width:320px){
-	.container-fluid{
-		height: 15px;
+	body {
+		padding-top: 165px;
+		padding-bottom: 40px;
 	}
+
+
 }
 
-/*  >= 320*/
+/*  < 550  */
+@media (max-width : 550px){
+	.container-fluid{
+		position: relative;
+		padding-top: 0px;
+		margin:auto;
+	}
+	.msudenver-logo{
+		position:  absolute;
+		width: 400px;
+		left:  0px;
+		top:  50px;
+	}
+	img.msudenver-logo{
+		background-image: url("/img/responsive/msudenver-logo-resposive.png") no-repeat; 
+	}
+	.magazine-logo{
+		position:  absolute;
+		width: 200px;
+		left:  550px;
+		top:  70px;
+
+	}
+
+}
+

@@ -6,6 +6,7 @@
 }
 
 .msudenver-logo{
+
 	position:  absolute;
 	width: 400px;
 	left:  50px;
@@ -43,10 +44,7 @@
 	height: 60px;
 }
 
-body {
-	padding-top: 165px;
-	padding-bottom: 40px;
-}
+
 footer{
 
 	text-align: center;

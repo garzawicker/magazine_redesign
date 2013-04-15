@@ -1,6 +1,8 @@
 
 
 $(document).ready(function(){
+	sizedebuggin()
+
 
 	$('.media button').addClass("pad-left-by-x");
 
@@ -19,4 +21,19 @@ $(document).ready(function(){
 		}
 	});
 });
+
+
+
+// remove for production
+
+function sizedebuggin(){
+	var container = $('#content-width');
+	// on load 
+	container.text(" "+ $(window).width());
+
+	// on resize
+	$(window).resize(function(){
+		container.text(" "+ $(window).width());
+	});
+}
 
