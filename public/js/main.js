@@ -10,8 +10,7 @@ $(document).ready(function(){
 		$(".magazine-logo").removeClass("magazine-logo-change");
 		$(".container-fluid").removeClass("container-fluid-change");
 		$(".msudenver-logo").removeClass("msudenver-logo-change");
-		
-		if(position !== 0) {
+		if(position > 35) {
 			$(".container-fluid").toggleClass("container-fluid-change");
 			$(".magazine-logo").toggleClass("magazine-logo-change");
 			$(".msudenver-logo").toggleClass("msudenver-logo-change");

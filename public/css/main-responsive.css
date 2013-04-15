@@ -15,27 +15,13 @@
 	/* insert */
 
 
-
+}
 
 /*  <= 320*/
-@media (max-width: 320px) {
-	
-	
-	
+@media (min-width: 0px) and (max-width:320px){
 	.container-fluid{
-		position: absolute;
-		top: 0px;
-		
+		height: 15px;
 	}
-
-	
 }
 
 /*  >= 320*/
-@media (min-width:320px){
-	.container-fluid{
-		position: relative;
-		padding-top: 20px;
-		
-	}
-} 
