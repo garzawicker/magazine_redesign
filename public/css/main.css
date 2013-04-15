@@ -13,9 +13,9 @@
 }
 .msudenver-logo-change{
 	position:  absolute;
-	width: 300px;
+	width: 350px;
 	left:  25px;
-	top:  0px;
+	top:  5px;
 }
 .magazine-logo{
 	position: absolute;
@@ -40,7 +40,7 @@
 	height: 150px;
 }
 .container-fluid-change{
-	height: 10px;
+	height: 60px;
 }
 
 body {
