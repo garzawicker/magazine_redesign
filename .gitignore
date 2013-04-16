@@ -1,0 +1,11 @@
+# Mac specifics
+.DS_Store
+
+# File backups
+setup-backup-files/
+
+# Photoshop files
+public/img/psd/
+
+# Debugging tools 
+debugging/
