@@ -3,6 +3,18 @@
 	 viewport is 700px wide or wider ..
 	 @media (min-width: 700px) { ... }
 */
+@media (min-width: 1200px){
+	.span12{
+		max-width: 960px;
+	}
+	.span9{
+		max-width: 860px;
+		
+	}
+	.span3{
+		max-width:  300px;
+	}
+}
 
 @media (min-width: 980px) {
 	/* Enable use of floated navbar text */
