@@ -18,7 +18,7 @@
 
 @media (min-width: 980px) {
 	/* Enable use of floated navbar text */
-	.navbar-text.pull-right {
+	.navbar-text .pull-right {
 		float: none;
 		padding-left: 5px;
 		padding-right: 5px;
@@ -32,7 +32,7 @@
 	}
 	.msudenver-logo{
 		margin-top: auto;
-		top: 20px;
+		/*top: 10px;*/
 	}
 
 

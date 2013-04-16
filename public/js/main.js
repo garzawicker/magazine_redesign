@@ -15,10 +15,10 @@ $(document).ready(function(){
 		$(".msudenver-logo").removeClass("msudenver-logo-change");
 
 		// reset image path 
-		changeImagePath("img/responsive/msud-logo-A.png");
+		// changeImagePath("img/responsive/msud-logo-A.png");
 
 		if(position > 0 && width > 550) {
-			changeImagePath();
+			// changeImagePath();
 			$(".container-fluid").toggleClass("container-fluid-change");
 			$(".magazine-logo").toggleClass("magazine-logo-change");
 			$(".msudenver-logo").toggleClass("msudenver-logo-change");
@@ -26,15 +26,12 @@ $(document).ready(function(){
 	});
 });
 function changeImagePath(path){
-	var _path;
-	if(!path){
-		$(".msudenver-logo").css("top", "5px");
-		_path = path ||  "img/responsive/msud-logo-C.png";
-	}
+	
+	var _path = path ||  "img/responsive/msud-logo-C.png";
 
 
 	$("img.msudenver-logo").attr('src', _path);
-	$(".msudenver-logo").css("top", "20px");
+	// $(".msudenver-logo").css("top", "5px");
 }
 
 
