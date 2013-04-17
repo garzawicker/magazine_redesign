@@ -17,7 +17,7 @@ $(document).ready(function(){
 		// reset image path 
 		// changeImagePath("img/responsive/msud-logo-A.png");
 
-		if(position > 10 || width > 550) {
+		if(position > 10 && width > 550) {
 			// changeImagePath();
 			$(".container-fluid").toggleClass("container-fluid-change");
 			$(".magazine-logo").toggleClass("magazine-logo-change");

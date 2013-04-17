@@ -24,7 +24,7 @@
 		padding-right: 5px;
 	}
 
-	/* MSUD Magazine @media queries  */
+	/* MSUD Magazine @media queries @DV */
 
 	body {
 		padding-top: 165px;
@@ -34,6 +34,13 @@
 		margin-top: auto;
 		/*top: 10px;*/
 	}
+	.magazine-logo{
+		top: 25px;
+	}
+	.magazine-logo-change{
+		top: 10px;
+	}
+
 
 
 }
