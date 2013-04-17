@@ -25,11 +25,9 @@ $(document).ready(function(){
 		}
 	});
 });
+
 function changeImagePath(path){
-	
 	var _path = path ||  "img/responsive/msud-logo-C.png";
-
-
 	$("img.msudenver-logo").attr('src', _path);
 	// $(".msudenver-logo").css("top", "5px");
 }
