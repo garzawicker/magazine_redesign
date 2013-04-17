@@ -2,20 +2,35 @@
 	@media querie syntax
 	 viewport is 700px wide or wider ..
 	 @media (min-width: 700px) { ... }
+
+*/
+
+/*
+		
 */
 @media (min-width: 1200px){
-	.span12{
-		max-width: 960px;
+	
+	.span12 {
+		
+		max-width: 1200px;
+		padding-top: 165px;
+		padding-bottom: 40px;
+		margin: 0;
 	}
-	.span9{
-		max-width: 860px;
+	#main-container{
+		padding-top: 165px;
+		padding-bottom: 40px;
 	}
-	.span3{
-		max-width:  300px;
+	.magazine-logo{
+		top: 25px;
+	}
+	.magazine-logo-change{
+		top: 10px;
 	}
 }
 
-@media (min-width: 980px) {
+@media (min-width: 980px) and (max-width: 1199px){
+
 	/* Enable use of floated navbar text */
 
 	.navbar-text .pull-right {
@@ -25,6 +40,7 @@
 	}
 
 	/* MSUD Magazine @media queries @DV */
+
 
 /*
 
@@ -38,11 +54,12 @@
 	id for older browsers.
 	
 */
-	.row-fluid.span12 {
-		padding-top: 165px;
-		padding-bottom: 40px;
+
+	.row-fluid .span12 {
+		padding: 165px 15% 40px 15%;	
+	
 	}
-	#mai=n-container{
+	#main-container{
 		padding-top: 165px;
 		padding-bottom: 40px;
 	}
@@ -52,16 +69,13 @@
 	.magazine-logo-change{
 		top: 10px;
 	}
-
-
-
 }
 
 /*
-		_*_
+		                 _*_
 	
 	S M A L L  T  A B  L E T  - P O R T R A I T
-		(600x800)
+		           (600x800)
 
 */
 @media (min-width: 600px) and (max-width: 979px){
@@ -82,7 +96,7 @@
 }
 
 /*  
-		_*_ 
+		     _*_ 
 
 	M O B I L E - P O R T R A I T
 
@@ -95,30 +109,25 @@
 	}
 
 	.magazine-logo{
-		/*width: 50%;*/
-		/*top: 25px;*/
 		left: 15px;
 		width: 320px;
-		/*padding-left: 50px;*/
 	}
 
-/*	.magazine-logo-change{
-		top: 10px;
-	}
-*/
-	
 	.msudenver-logo{
 		display: none;
 	}
 }
 
 
-/*  < 350 */
-@media (max-width : 350px){
-
+/*  < 349 */
+@media (max-width : 349px){
 	.msudenver-logo{
 		display: none;
 	}
+	.container-fluid{
+		height: 80px;
+	}
+
 
 }
 
