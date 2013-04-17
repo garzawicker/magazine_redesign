@@ -1,0 +1,79 @@
+/*
+	@media querie syntax
+	 viewport is 700px wide or wider ..
+	 @media (min-width: 700px) { ... }
+*/
+@media (min-width: 1200px){
+	.span12{
+		max-width: 960px;
+	}
+	.span9{
+		max-width: 860px;
+		
+	}
+	.span3{
+		max-width:  300px;
+	}
+}
+
+@media (min-width: 980px) {
+	/* Enable use of floated navbar text */
+	.navbar-text .pull-right {
+		float: none;
+		padding-left: 5px;
+		padding-right: 5px;
+	}
+
+	/* MSUD Magazine @media queries  */
+
+	body {
+		padding-top: 165px;
+		padding-bottom: 40px;
+	}
+	.msudenver-logo{
+		margin-top: auto;
+		/*top: 10px;*/
+	}
+
+
+}
+
+@media (min-width: 551px) and (max-width: 979){
+
+	.container-fluid{
+		height: 50px;
+	}
+	.msudenver-logo{
+		width: 50%;
+	}
+}
+
+
+/*  < 550  */
+@media (max-width : 550px){
+	.row-fluid {
+		margin-top: auto; 
+		padding-top: inherit;
+	}
+	
+	.container-fluid{
+		position: relative;
+		margin: auto;
+		height: 80px;
+	}
+	.msudenver-logo{
+		display: none;
+	}
+	.msudenver-logo{
+		/*background-image: url("/img/responsive/msudenver-logo-resposive.png") ;*/
+		background-repeat: no-repeat;
+	}
+	.magazine-logo{
+		position:  absolute;
+		left: 0;
+		top: 0;
+
+	}
+
+}
+
