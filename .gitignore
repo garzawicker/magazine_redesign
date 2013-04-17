@@ -2,7 +2,7 @@
 .DS_Store
 
 # File backups
-setup-backup-files/
+./setup-backup-files
 
 # Photoshop files
 public/img/psd/
@@ -12,3 +12,4 @@ debugging/
 
 # DreamWeaver specific
 _notes/
+
