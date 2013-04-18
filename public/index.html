@@ -18,7 +18,8 @@
 		<!-- Le styles --><!-- <link rel="stylesheet" href="css/normalize.css"> -->
 		<link href="css/bootstrap.css" rel="stylesheet">
 		
-		<link href="css/bootstrap-responsive.css" rel="stylesheet">
+		<link rel="stylesheet" href="css/bootstrap-responsive.css">
+		<link rel="stylesheet" href="css/backup.docs.css">
 		<link rel="stylesheet" href="css/magazine.css">
 		<link rel="stylesheet" href="css/magazine-responsive.css">
 
@@ -45,30 +46,38 @@
 		<!-- END-BLACK-HEADER -->
 
 		<!-- BEGIN-COINTAINER-FLUID -->
-		<div class="container-fluid">
+		<div class="container">
 			<!-- BEGIN-ROW-FLUID -->
-			<div class="row-fluid span12" id="main-container" >
+			<div class="row-fluid span12 " id="main-container" >
 				<div class="span3">
-					<div class="well sidebar-nav">
-						<ul class="nav nav-list">
-							<li class="nav-header">Sidebar</li>
-							<li class="active"><a href="#">Current Issue</a></li>
-							<li><a href="#">Archieve</a></li>
-							<li><a href="#">Nav 3</a></li>
-							<li><a href="#">Contact Us</a></li>
-							<li style="color:red">Content Width:<span id="content-width" style="color:red"></span>
-							</li>
-							<!-- Submit class notes button -->
-					                          <li><a href="#"><img src="img/submitClassNotes.button.png" alt="">
-					                          </a></li>
-                      						<!-- Newsroom button -->
-					                          <li><a href="#"><img src="img/newsroom.button.png" alt=""></a>
-					                          </li>
-						</ul>
-		  			</div><!--/.well -->
-				</div><!--/span-->
-			 	<!-- BEGIN MAIN  SPAN 9 CONTAINER GROUP -->
-				<div class="span9">
+					<ul class=" sidebar-nav bs-docs-sidenav  nav   nav-list affix-top">
+						<li class="nav-header">Sidebar</li>
+						<li style="color:red">Content Width:<span id="content-width" style="color:red; float:right"></span>
+						</li>
+						<li class="active"><a href="#">Current Issue</a></li>
+						<li><a href="#">Archieve</a></li>
+						<li><a href="#">Nav 3</a></li>
+						<li><a href="#">Contact Us</a></li>
+		     			             <li><a href="#dropdowns"><i class="icon-chevron-right"></i> Dropdowns</a></li>
+						<li><a href="#buttonGroups"><i class="icon-chevron-right"></i> Button groups</a></li>
+						<li><a href="#buttonDropdowns"><i class="icon-chevron-right"></i> Button dropdowns</a></li>
+						<li><a href="#navs"><i class="icon-chevron-right"></i> Navs</a></li>
+						<li><a href="#navbar"><i class="icon-chevron-right"></i> Navbar</a></li>
+						<li><a href="#breadcrumbs"><i class="icon-chevron-right"></i> Breadcrumbs</a></li>
+						<li><a href="#pagination"><i class="icon-chevron-right"></i> Pagination</a></li>
+						<li><a href="#labels-badges"><i class="icon-chevron-right"></i> Labels and badges</a></li>
+						<li><a href="#typography"><i class="icon-chevron-right"></i> Typography</a></li>
+						<!-- Submit class notes button -->
+				                          <li><a href="#"><img src="img/submitClassNotes.button.png" alt="">
+				                          </a></li>
+	              						<!-- Newsroom button -->
+				                          <li><a href="#"><img src="img/newsroom.button.png" alt=""></a>
+				                          </li>
+					</ul>
+			</div>
+		  	
+			<!-- BEGIN MAIN  SPAN 9 CONTAINER GROUP -->
+			<div class="span9">
 				 	<div class="hero-unit">
 						<div id="hero-text">
 							<h2>Heading 2</h2>

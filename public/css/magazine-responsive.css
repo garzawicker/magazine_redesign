@@ -10,23 +10,17 @@
 */
 @media (min-width: 1200px){
 	
-	.span12 {
-		
-		max-width: 1200px;
-		padding-top: 165px;
-		padding-bottom: 40px;
-		margin: 0;
-	}
-	#main-container{
-		padding-top: 165px;
-		padding-bottom: 40px;
-	}
 	.magazine-logo{
 		top: 25px;
 	}
 	.magazine-logo-change{
 		top: 10px;
 	}
+	.span12 {
+              	padding-top: 165px;
+		padding-bottom: 40px;
+	  }
+	
 }
 
 @media (min-width: 980px) and (max-width: 1199px){

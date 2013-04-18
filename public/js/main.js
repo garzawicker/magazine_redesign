@@ -33,7 +33,7 @@ function changeImagePath(path){
 }
 
 
-// remove for production
+// remove for production  dlsamdlsa
 
 function sizedebuggin(){
 	var container = $('#content-width');
