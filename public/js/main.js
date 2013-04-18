@@ -1,4 +1,4 @@
-
+var test;
 
 $(document).ready(function(){
 	// remove for production
@@ -8,7 +8,8 @@ $(document).ready(function(){
 	$('.media button').addClass("pad-left-by-x");
 
 	$(window).scroll(function(){
-		var position = $('body').scrollTop();
+		var position = $(window).scrollTop();
+		test = position;
 		var width = $(window).width();
 		$(".magazine-logo").removeClass("magazine-logo-change");
 		$(".container-fluid").removeClass("container-fluid-change");
@@ -17,7 +18,7 @@ $(document).ready(function(){
 		// reset image path 
 		// changeImagePath("img/responsive/msud-logo-A.png");
 
-		if(position > 10 && width > 550) {
+		if( position > 10 && width > 550) {
 			// changeImagePath();
 			$(".container-fluid").toggleClass("container-fluid-change");
 			$(".magazine-logo").toggleClass("magazine-logo-change");
