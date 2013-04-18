@@ -9,7 +9,7 @@
 	position:  absolute;
 	left:  50px;
 	top:   30px;
-	width: 400px;
+	width: 450px;
 }
 .msudenver-logo-change{
 	left:  25px;
@@ -48,9 +48,22 @@ footer{
 
 
 .pad-left-by-x{
-	margin-top: 0px;
+	margin-top: 0;
 	font-size: 30px;
 	margin-left: 80%;
 }
 
 
+.black-buttons > a{
+	text-align: left;
+	line-height: 3em;
+	background-color: black;
+	color:white;
+}
+.black-buttons > a:hover{
+
+	color:black;
+}
+.sidebar-nav {
+	line-height: 3em;
+}
