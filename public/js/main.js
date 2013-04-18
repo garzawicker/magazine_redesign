@@ -1,6 +1,6 @@
-var test;
 
 $(document).ready(function(){
+	'use strict';
 	// remove for production
 	sizedebuggin();
 
@@ -9,7 +9,6 @@ $(document).ready(function(){
 
 	$(window).scroll(function(){
 		var position = $(window).scrollTop();
-		test = position;
 		var width = $(window).width();
 		$(".magazine-logo").removeClass("magazine-logo-change");
 		$(".container-fluid").removeClass("container-fluid-change");
