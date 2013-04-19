@@ -1,8 +1,8 @@
 # Mac specifics
 .DS_Store
 
-# File backups
-setup-backup-files
+# File backups and large assets
+backups-and-assets
 
 # Photoshop files
 public/img/psd/

@@ -6,7 +6,21 @@
 */
 
 
+/*  
+		    _*_ 
+	
+	D E S K T O P - V I E W
+	      
+
+*/
 @media (min-width: 1200px){
+
+	.carousel-caption{
+
+		position: absolute;
+		top: inherit;
+		margin: 10% auto 10% auto;
+	}
 	
 	.magazine-logo{
 		top: 25px;
@@ -109,6 +123,9 @@
 	.msudenver-logo, .msudenver-logo {
 		display: none;
 	}
+	.magazine-logo{
+		top: 35px;
+	}
 }
 
 /*  
@@ -152,18 +169,18 @@
 /*  < 349 */
 @media (max-width : 349px){
 	.hero-text p, h2{
-		padding: 10px 15px 10px 5%;
+		margin-right: 50px;
+		padding: 10px 25px 10px 5%;
 		margin: inherit;
 	}
 
 	.carousel-caption  {
 		position: relative;
-		/*padding: inherit;*/
-		margin: inherit;
-		right: inherit;
+		margin: 10px auto 10px auto;
+		/*margin: auto;
 		top: inherit;
-		left: inherit;
-		width: 100%;
+		left: inherit;*/
+
 		
 	}
 

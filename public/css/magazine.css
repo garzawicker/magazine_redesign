@@ -72,10 +72,7 @@ footer{
 
 .carousel-caption {
 	position: absolute;
-	top: 500px;
-	left: 900px;
-	right: 0;
-	padding-right: 0;
+	
 	bottom: inherit;
 	background: #333333;
 	background: rgba(0, 0, 0, 0.75);
