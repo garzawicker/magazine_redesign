@@ -97,3 +97,21 @@ footer{
 .hero-image{
 	width: 100%;
 }
+
+/* MAGAZINE PREVIEW STYLE*/
+.magazine-preview {
+	margin-top: 0;
+	line-height: 1em;
+}
+.magazine-preview p{
+	padding:10px;
+	line-height: 1.4em;
+	
+	letter-spacing: 0.1em;
+}
+
+.magazine-preview > img {
+	max-width: 100%;
+}
+
+

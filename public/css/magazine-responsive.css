@@ -6,6 +6,18 @@
 */
 
 
+
+
+
+/*  
+		            _*_ 
+	
+	L A R G E - D E S K T O P - V I E W
+	      
+
+*/
+
+
 /*  
 		    _*_ 
 	
@@ -16,10 +28,13 @@
 @media (min-width: 1200px){
 
 	.carousel-caption{
-
+		float: right;
 		position: absolute;
-		top: inherit;
-		margin: 10% auto 10% auto;
+		top: 500px;
+		left: 900px;
+		right: 10px;
+		width:340px;
+		/*margin: 10% auto 10% auto;*/
 	}
 	
 	.magazine-logo{
@@ -36,6 +51,15 @@
 }
 
 @media (min-width: 980px) and (max-width: 1199px){
+	.carousel-caption{
+		float: right;
+		position: absolute;
+		top: 350px;
+		left: 700px;
+		right: 150px;
+		width:250px;
+		/*margin: 10% auto 10% auto;*/
+	}
 
 	/* Enable use of floated navbar text */
 
