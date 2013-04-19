@@ -56,7 +56,7 @@ footer{
 
 .black-buttons > a{
 	text-align: left;
-	line-height: 3em;
+	line-height: 2em;
 	background-color: black;
 	color:white;
 }
@@ -71,27 +71,26 @@ footer{
 
 
 .carousel-caption {
-  position: relative;
-  padding-top: 0;
-
-   /*  padding-right: 0;
-  	bottom: inherit;
-  	left: 800px;*/
-  padding: 15px;
-  background: #333333;
-  background: rgba(0, 0, 0, 0.75);
+	position: absolute;
+	top: 400px;
+	left: 900px;
+	max-width: 300px;
+	padding-right: 0;
+	bottom: inherit;
+	background: #333333;
+	background: rgba(0, 0, 0, 0.75);
 }
 
 .carousel-caption h2,
 .carousel-caption p {
-  line-height: 25px;
-  color: #ffffff;
+	line-height: 25px;
+	color: #ffffff;
 }
 
 .carousel-caption h2 {
-  margin: 10 0 5px;
+	margin: 10 0 5px;
 }
 
 .carousel-caption p {
-  margin-bottom: 0;
+	margin-bottom: 0;
 }
