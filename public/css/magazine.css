@@ -72,9 +72,9 @@ footer{
 
 .carousel-caption {
 	position: absolute;
-	top: 400px;
+	top: 500px;
 	left: 900px;
-	max-width: 300px;
+	right: 0;
 	padding-right: 0;
 	bottom: inherit;
 	background: #333333;
@@ -93,4 +93,10 @@ footer{
 
 .carousel-caption p {
 	margin-bottom: 0;
+}
+.story-image{
+	width: 100%;
+}
+.hero-image{
+	width: 100%;
 }

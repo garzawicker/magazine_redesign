@@ -1,13 +1,11 @@
 /*
-	@media querie syntax
-	 viewport is 700px wide or wider ..
-	 @media (min-width: 700px) { ... }
+	@media querie syntax ::
+	viewport is 700px wide or wider ..
+	@media (min-width: 700px) { ... }
 
 */
 
-/*
-		
-*/
+
 @media (min-width: 1200px){
 	
 	.magazine-logo{
@@ -74,16 +72,40 @@
 */
 @media (min-width: 600px) and (max-width: 979px){
 	
-	
+	.carousel-caption  {
+		position: relative;
+		/*padding: inherit;*/
+		margin: inherit;
+		right: inherit;
+		top: inherit;
+		left: inherit;
+		width: 100%;
+		
+	}
 	.msudenver-logo{
 		display: none;
 	}
 	.magazine-logo{
-		top: 25px;
+		top: 35px;
 	}
 }
 
 @media(min-width: 481px) and (max-width:599px){
+	
+	.hero-text p, h2{
+		padding: 10px 15px 10px 5%;
+		margin: inherit;
+	}
+	.carousel-caption  {
+		position: relative;
+		/*padding: inherit;*/
+		margin: inherit;
+		right: inherit;
+		top: inherit;
+		left: inherit;
+		width: 100%;
+		
+	}
 	.msudenver-logo, .msudenver-logo {
 		display: none;
 	}
@@ -97,7 +119,20 @@
 */
 @media (min-width: 350px) and (max-width: 480px){
 
-
+	.carousel-caption  {
+		position: relative;
+		/*padding: inherit;*/
+		margin: inherit;
+		right: inherit;
+		top: inherit;
+		left: inherit;
+		width: 100%;
+		
+	}
+	.hero-text p, h2{
+		padding: 10px 15px 10px 5%;
+		margin: inherit;
+	}
 	.container-fluid{
 		height: 80px;
 	}
@@ -110,11 +145,28 @@
 	.msudenver-logo{
 		display: none;
 	}
+	
 }
 
 
 /*  < 349 */
 @media (max-width : 349px){
+	.hero-text p, h2{
+		padding: 10px 15px 10px 5%;
+		margin: inherit;
+	}
+
+	.carousel-caption  {
+		position: relative;
+		/*padding: inherit;*/
+		margin: inherit;
+		right: inherit;
+		top: inherit;
+		left: inherit;
+		width: 100%;
+		
+	}
+
 	.msudenver-logo{
 		display: none;
 	}
