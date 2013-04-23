@@ -10,16 +10,23 @@
 
 
 /*  
-		            _*_ 
+		          _*_ 
 	
 	L A R G E - D E S K T O P - V I E W
 	      
 
+
+
+
+
 */
 
 
+
+
+
 /*  
-		    _*_ 
+		     _*_ 
 	
 	D E S K T O P - V I E W
 	      
@@ -28,15 +35,15 @@
 @media (min-width: 1200px){
 
 	.carousel-caption{
-		float: right;
-		position: absolute;
-		top: 500px;
-		left: 900px;
-		right: 10px;
-		width:340px;
-		/*margin: 10% auto 10% auto;*/
+		position: relative;
+		left: 0;
+		right: 0;
+		top: -240px;
+		padding-bottom: inherit;
+		margin-bottom: 0;
+		width: 300px;
+		
 	}
-	
 	.magazine-logo{
 		top: 25px;
 	}
@@ -51,15 +58,6 @@
 }
 
 @media (min-width: 980px) and (max-width: 1199px){
-	.carousel-caption{
-		float: right;
-		position: absolute;
-		top: 350px;
-		left: 700px;
-		right: 150px;
-		width:250px;
-		/*margin: 10% auto 10% auto;*/
-	}
 
 	/* Enable use of floated navbar text */
 
@@ -69,22 +67,31 @@
 		padding-right: 5px;
 	}
 
-	/* MSUD Magazine @media queries @DV */
+	/* MSU-DENVER Magazine @media queries @DV */
+
+	.carousel-caption{
+		float: right;
+		position: absolute;
+		top: 350px;
+		left: 700px;
+		right: 150px;
+		width:250px;
+		/*margin: 10% auto 10% auto;  centering */ 
+	}
+
 
 
 /*
-
 		:- N O T  E -:
 
 	Class chaining ie.
 	
-	.foo.bar { } 	<~ not cool in IE 6 
+	.foo.bar { } 	<~ not allowed in IE 6 
 
 	Just in case this style provides a reset 
 	id for older browsers.
-	
-*/
 
+*/
 	.row-fluid .span12 {
 		padding: 165px 15% 40px 15%;	
 	
@@ -102,17 +109,17 @@
 }
 
 /*
-		                 _*_
+	                             _*_
 	
-	S M A L L  T  A B  L E T  - P O R T R A I T
-		           (600x800)
+	S M A L L - T A B L E T - P O R T R A I T
+		        
+		          (600x800)
 
 */
 @media (min-width: 600px) and (max-width: 979px){
 	
 	.carousel-caption  {
 		position: relative;
-		/*padding: inherit;*/
 		margin: inherit;
 		right: inherit;
 		top: inherit;
@@ -130,13 +137,8 @@
 
 @media(min-width: 481px) and (max-width:599px){
 	
-	.hero-text p, h2{
-		padding: 10px 15px 10px 5%;
-		margin: inherit;
-	}
 	.carousel-caption  {
 		position: relative;
-		/*padding: inherit;*/
 		margin: inherit;
 		right: inherit;
 		top: inherit;
@@ -153,7 +155,7 @@
 }
 
 /*  
-		     _*_ 
+		        _*_ 
 
 	M O B I L E - P O R T R A I T
 
@@ -162,7 +164,6 @@
 
 	.carousel-caption  {
 		position: relative;
-		/*padding: inherit;*/
 		margin: inherit;
 		right: inherit;
 		top: inherit;
@@ -170,19 +171,13 @@
 		width: 100%;
 		
 	}
-	.hero-text p, h2{
-		padding: 10px 15px 10px 5%;
-		margin: inherit;
-	}
 	.container-fluid{
 		height: 80px;
 	}
-
 	.magazine-logo{
 		left: 15px;
 		width: 320px;
 	}
-
 	.msudenver-logo{
 		display: none;
 	}
@@ -192,22 +187,12 @@
 
 /*  < 349 */
 @media (max-width : 349px){
-	.hero-text p, h2{
-		margin-right: 50px;
-		padding: 10px 25px 10px 5%;
-		margin: inherit;
-	}
+
 
 	.carousel-caption  {
 		position: relative;
 		margin: 10px auto 10px auto;
-		/*margin: auto;
-		top: inherit;
-		left: inherit;*/
-
-		
 	}
-
 	.msudenver-logo{
 		display: none;
 	}
