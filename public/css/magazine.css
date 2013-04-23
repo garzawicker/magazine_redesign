@@ -46,14 +46,6 @@ footer{
 	padding: 9px 0;
 }
 
-
-.pad-left-by-x{
-	margin-top: 0;
-	font-size: 30px;
-	margin-left: 80%;
-}
-
-
 .black-buttons > a{
 	text-align: left;
 	line-height: 2em;
@@ -61,7 +53,6 @@ footer{
 	color:white;
 }
 .black-buttons > a:hover{
-
 	color:black;
 }
 .sidebar-nav {
@@ -71,8 +62,8 @@ footer{
 
 
 .carousel-caption {
-	position: absolute;
-	
+	position: relative;
+	left: inherit;
 	bottom: inherit;
 	background: #333333;
 	background: rgba(0, 0, 0, 0.75);
@@ -91,27 +82,31 @@ footer{
 .carousel-caption p {
 	margin-bottom: 0;
 }
-.story-image{
+.story-image .hero-image{
 	width: 100%;
 }
-.hero-image{
-	width: 100%;
-}
-
 /* MAGAZINE PREVIEW STYLE*/
 .magazine-preview {
 	margin-top: 0;
 	line-height: 1em;
 }
 .magazine-preview p{
+	color: inherit;
 	padding:10px;
 	line-height: 1.4em;
-	
 	letter-spacing: 0.1em;
 }
 
 .magazine-preview > img {
-	max-width: 100%;
+	margin: 0 auto 0 auto;
+	width: 250px;
+}
+.magazine-preview:hover {
+	color: gray;
+	
+}
+.magazine-preview{
+	cursor:pointer;
 }
 
 

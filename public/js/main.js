@@ -1,12 +1,19 @@
 
 $(document).ready(function(){
-	'use strict';
+	'use strict' ;
+
+	var width_threshold = 1200;
+	var ulr_to_magazine= "http://google.com";
+
 	// remove for production
 	sizedebuggin();
 
-
-	$('.media button').addClass("pad-left-by-x");
-
+	// makes magazine preview clickable 
+	$("section.magazine-preview").click(function(){
+		// document.location.href = "http://www.google.com";
+		window.open(ulr_to_magazine, '_blank');
+	});
+	// scrollTop function
 	$(window).scroll(function(){
 		var position = $(window).scrollTop();
 		var width = $(window).width();
@@ -17,7 +24,7 @@ $(document).ready(function(){
 		// reset image path 
 		// changeImagePath("img/responsive/msud-logo-A.png");
 
-		if( position > 10 && width > 1200) {
+		if( position > 10 && width > width_threshold) {
 			// changeImagePath();
 			$(".container-fluid").toggleClass("container-fluid-change");
 			$(".magazine-logo").toggleClass("magazine-logo-change");
@@ -26,11 +33,6 @@ $(document).ready(function(){
 	});
 });
 
-function changeImagePath(path){
-	var _path = path ||  "img/responsive/msud-logo-C.png";
-	$("img.msudenver-logo").attr('src', _path);
-	// $(".msudenver-logo").css("top", "5px");
-}
 
 
 // remove for production  dlsamdlsa
