@@ -13,19 +13,21 @@ $(document).ready(function(){
 		window.open(ulr, '_blank');
 	});
 
+
 	// scrollTop function
 	$(window).scroll(function(){
 		var position = $(window).scrollTop();
-		var width = $(window).width();
+		var width     =  $(window).width();
 		$(".magazine-logo").removeClass("magazine-logo-change");
 		$(".container-fluid").removeClass("container-fluid-change");
 		$(".msudenver-logo").removeClass("msudenver-logo-change");
 
-		if( position > 10 && width > width_threshold) {
+		if( position > 15 && width > width_threshold) {
 			$(".container-fluid").toggleClass("container-fluid-change");
 			$(".magazine-logo").toggleClass("magazine-logo-change");
 			$(".msudenver-logo").toggleClass("msudenver-logo-change");
 		}
+
 	});
 });
 

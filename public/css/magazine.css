@@ -42,23 +42,14 @@ footer{
 	text-align: center;
 }
 
-.sidebar-nav a {
-	padding: 9px 0;
-	
-}
-.sidebar-nav > a:not(.black-buttons):not(:first-child){
-	color: white;
-	background-color: gray;
-}
 
-.bs-docs-sidenav li:not(.black-buttons) > a:hover{
+
+
+.bs-docs-sidenav >  a:hover{
 	color: black;
 	background-color: white;
 }
-.bs-docs-sidenav > li > a:hover {
-	color:black;
 
-}
 
 .black-buttons {
 	color:white;
@@ -72,7 +63,23 @@ footer{
 	line-height: 3em;
 }
 
+.left-nav-1 > ul >li:not(:first-child):not(:nth-child(2)) {
+	color: white;
+	text-shadow: black !important;
+	background-color: gray;
+}
 
+.left-nav-1 > ul >li > a{
+	color: white;
+	text-shadow: black !important;
+}
+.left-nav-1 > ul >li > a:hover{
+	color: black;
+	text-shadow: black !important;
+}	
+.black-buttons:hover{
+	color: black;
+}
 
 .carousel-caption {
 	position: relative;
@@ -95,9 +102,9 @@ footer{
 .carousel-caption p {
 	margin-bottom: 0;
 }
-.story-image .hero-image{
+/*.story-image .hero-image{
 	width: 100%;
-}
+}*/
 /* MAGAZINE PREVIEW STYLE*/
 .magazine-preview {
 	margin-top: 0;
