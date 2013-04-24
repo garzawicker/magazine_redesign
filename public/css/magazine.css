@@ -46,11 +46,11 @@ footer{
 	padding: 9px 0;
 	
 }
-.bs-docs-sidenav li > a:not(.black-buttons){
-	/*padding-bottom: 15px;*/
+.sidebar-nav > a:not(.black-buttons):not(:first-child){
 	color: white;
 	background-color: gray;
 }
+
 .bs-docs-sidenav li:not(.black-buttons) > a:hover{
 	color: black;
 	background-color: white;
