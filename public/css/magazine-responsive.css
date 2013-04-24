@@ -35,13 +35,7 @@
 @media (min-width: 1200px){
 
 	.carousel-caption{
-		position: relative;
-		left: 0;
-		right: 0;
-		top: -240px;
-		padding-bottom: inherit;
-		margin-bottom: 0;
-		width: 300px;
+		
 		
 	}
 	.magazine-logo{
@@ -118,15 +112,7 @@
 */
 @media (min-width: 600px) and (max-width: 979px){
 	
-	.carousel-caption  {
-		position: relative;
-		margin: inherit;
-		right: inherit;
-		top: inherit;
-		left: inherit;
-		width: 100%;
-		
-	}
+	
 	.msudenver-logo{
 		display: none;
 	}
@@ -161,23 +147,18 @@
 
 */
 @media (min-width: 350px) and (max-width: 480px){
-	#left-side-nav{
-		margin-top: 0;
+	.row-fluid{
 		padding-top: 0;
+		margin-top: -50px;
+	}
+	#left-side-nav{
+		margin: 0;
+		padding: 0;
 	}
 	.magazine-preview > img{
 		display: none;
 	}
 
-	.carousel-caption  {
-		position: relative;
-		margin: inherit;
-		right: inherit;
-		top: inherit;
-		left: inherit;
-		width: 100%;
-		
-	}
 	.container-fluid{
 		height: 80px;
 	}
@@ -188,6 +169,10 @@
 	.msudenver-logo{
 		display: none;
 	}
+		.carousel-caption  {
+		position: relative;
+		margin: 0 auto 0 auto;
+	}
 	
 }
 
@@ -196,10 +181,7 @@
 @media (max-width : 349px){
 
 
-	.carousel-caption  {
-		position: relative;
-		margin: 10px auto 10px auto;
-	}
+
 	.msudenver-logo{
 		display: none;
 	}
