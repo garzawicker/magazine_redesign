@@ -161,6 +161,13 @@
 
 */
 @media (min-width: 350px) and (max-width: 480px){
+	#left-side-nav{
+		margin-top: 0;
+		padding-top: 0;
+	}
+	.magazine-preview > img{
+		display: none;
+	}
 
 	.carousel-caption  {
 		position: relative;

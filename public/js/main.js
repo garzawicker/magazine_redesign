@@ -7,9 +7,10 @@ $(document).ready(function(){
 
 	// remove for production
 	sizedebuggin();
-
+	
 	// makes magazine preview clickable 
 	$("section.magazine-preview").click(function(){
+		ulr_to_magazine = $(this).data().href ;
 		// document.location.href = "http://www.google.com";
 		window.open(ulr_to_magazine, '_blank');
 	});

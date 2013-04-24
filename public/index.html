@@ -4,7 +4,7 @@
 <!--[if IE 8]>         <html class="no-js lt-ie9"><html class="no-js">  <![endif]-->
 <html lang="en"> 
 	<head>
-		<!-- t -->
+		
 		<meta charset="utf-8">
 		<!-- Tell IE to render using its latest rendering engine -->
 		<!-- and if avaiilable, optionally use google chrome frame -->
@@ -16,7 +16,7 @@
 		<meta name="description" content="">
 		<meta name="viewport" content="width=device-width">
 
-        		<!-- @MGW UNCOMMENT META DATA  -->
+		<!-- @MGW UNCOMMENT META DATA  -->
 
 		<!-- <t4 type="navigation" id="504">  Meta Data  id="504" -->
 		<!-- <t4 type="meta" id="1">  meta DC.keywords id="1"-->
@@ -51,7 +51,8 @@
 
 		<!-- BEGIN-BLACK-HEADER WITH LOGOS -->
 		  <div class="navbar navbar-inverse navbar-fixed-top">
-		 	 <div class="navbar-inner">
+			 <div id="collapse-navigation" class="navbar-inner">
+		
 				<div class="container-fluid">
 					<a href="http://msudenver.edu"><img class="msudenver-logo" src="img/responsive/msud-logo-C.png" alt=""></a>
 					<img class="magazine-logo"   src="img/magazine_logo.png" alt="">
@@ -63,21 +64,25 @@
 		<!-- BEGIN-MAIN CONTENT -->
 		<div class="container">
 			<!-- BEGIN LEFT SIDEBAR NAVIGATION -->
-			<div class="row-fluid span12 " id="main-container" >
-				<div class="">
-					<div class="span3 ">
+			<div id="main-container"  class="row-fluid span12  " >
+				
+				<div id="left-side-nav">
+					<div class="span3">
 						<ul class=" sidebar-nav bs-docs-sidenav  nav   nav-list nav">
 							<li class="nav-header">Sidebar</li>
 							<li style="color:red">Content Width:<span id="content-width" style="color:red;"></span>
 							</li>
-			     				<li class="active"><a href="#dropdowns"><i class="active icon-chevron-right"></i> 
-			     				Current Issue</a></li>
+								<li class="active"><a href="#dropdowns"><i class="active icon-chevron-right"></i> 
+								Current Issue</a></li>
 							<li><a href="#"><i class="icon-chevron-right"></i> Archive</a></li>
 							<li><a href="#"><i class="icon-chevron-right"></i> About</a></li>
 							<li><a href="#"><i class="icon-chevron-right"></i> Contact Us</a></li>
 						</ul>
+
 						<!-- M A G A Z I N E - D O W N L O A D   P R E V I E W  I M A G E-->
-						<section class=" magazine-preview" >
+						<!-- @MGW INSERT LINK TO MAGAZINE DOWNLOAD INTO DATA-HREF -->
+						
+						<section class=" magazine-preview"  data-href="http://www.google.com/images" >
 							
 							<img class="img-polaroid" src="img/sample_images/magazine-preview.png" alt="">
 							<p>
@@ -87,9 +92,9 @@
 							</p>
 							
 							<!-- @MGW - INSERT LINK TO MAGAZINE DOWNLOAD HERE -->
-
 							
 						</section>
+
 						<ul class="sidebar-nav bs-docs-sidenav  nav   nav-list nav">
 							<!-- buttons -->
 							<li class="black-buttons"><a href="#">
@@ -102,21 +107,22 @@
 						</ul>
 					</div>
 				</div>
+
 			<!-- END LEFT SIDEBAR NAVIGATION -->
 
-		  	<!-- SM Header Ends Here -->
+			<!-- SM Header Ends Here -->
 
 			<!-- BEGIN MAIN  SPAN 9 CONTAINER GROUP -->
 			<div class="span9">
-				 	<div class="">
-				 		<img class="hero-image img-polaroid" src="img/sample_images/FresquezCarlos_0001_091113cc.jpg" alt="">
+					<div class="">
+						<img class="hero-image img-polaroid" src="img/sample_images/FresquezCarlos_0001_091113cc.jpg" alt="">
 						<div class="carousel-caption hero-text pull-right">
 							<h2>Heading 2</h2>
 							<p>This is a template for a simple marketing or informational website. It includes a large callout called the hero unit and three supporting pieces of content. Use it as a starting point to create something more unique.
 							</p>
 						</div>
 					</div>
-				 	<!-- BEGIN THREE FEATURE GROUP -->
+					<!-- BEGIN THREE FEATURE GROUP -->
 					 <div class="row-fluid">
 						<div class="span4">
 							<img class="story-image img-polaroid " src="img/sample_images/3.png" alt="">
@@ -126,9 +132,9 @@
 						</div>
 						<div class="span4">
 							<img class="story-image img-polaroid" src="img/sample_images/4.png" alt="">
-						  	<h2>Heading 2</h2>
-						  	<p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-						  	<p><a class="btn" href="#">Full Story &raquo;</a></p>
+							<h2>Heading 2</h2>
+							<p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+							<p><a class="btn" href="#">Full Story &raquo;</a></p>
 						</div>
 						<div class="span4">
 							<img class="story-image img-polaroid" src="img/sample_images/5.png" alt="">
@@ -137,13 +143,13 @@
 							  <p><a class="btn" href="#">Full Story &raquo;</a></p>
 						</div>
 					</div>
-				 	<!-- END THREE FEATURE GROUP -->
+					<!-- END THREE FEATURE GROUP -->
 					<div class="row-fluid">
 						<div class="media">
 							<a class="pull-left" href="#">
 								<img class="media-object" src="img/box64x64.png" alt="">
-						 	</a>
-						 	<div class="media-body">
+							</a>
+							<div class="media-body">
 								<h4 class="media-heading">Media heading</h4>
 								<p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.
 								</p>
@@ -152,8 +158,8 @@
 						<div class="media">
 							<a class="pull-left" href="#">
 								<img class="media-object" src="img/box64x64.png" alt="">
-						 	</a>
-						 	<div class="media-body">
+							</a>
+							<div class="media-body">
 								<h4 class="media-heading">Media heading</h4>
 								<p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.
 								</p>
@@ -162,8 +168,8 @@
 						<div class="media">
 							<a class="pull-left" href="#">
 								<img class="media-object" src="img/box64x64.png" alt="">
-						 	</a>
-						 	<div class="media-body">
+							</a>
+							<div class="media-body">
 								<h4 class="media-heading">Media heading</h4>
 								<p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.
 								</p>
@@ -172,8 +178,8 @@
 						<div class="media">
 							<a class="pull-left" href="#">
 								<img class="media-object" src="img/box64x64.png" alt="">
-						 	</a>
-						 	<div class="media-body">
+							</a>
+							<div class="media-body">
 								<h4 class="media-heading">Media heading</h4>
 								<p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.
 								</p>
@@ -182,8 +188,8 @@
 						<div class="media">
 							<a class="pull-left" href="#">
 								<img class="media-object" src="img/box64x64.png" alt="">
-						 	</a>
-						 	<div class="media-body">
+							</a>
+							<div class="media-body">
 								<h4 class="media-heading">Media heading</h4>
 								<p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.
 								</p>
@@ -192,8 +198,8 @@
 						<div class="media">
 							<a class="pull-left" href="#">
 								<img class="media-object" src="img/box64x64.png" alt="">
-						 	</a>
-						 	<div class="media-body">
+							</a>
+							<div class="media-body">
 								<h4 class="media-heading">Media heading</h4>
 								<p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.
 								</p>
@@ -202,8 +208,8 @@
 						<div class="media">
 							<a class="pull-left" href="#">
 								<img class="media-object" src="img/box64x64.png" alt="">
-						 	</a>
-						 	<div class="media-body">
+							</a>
+							<div class="media-body">
 								<h4 class="media-heading">Media heading</h4>
 								<p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.
 								</p>
@@ -212,8 +218,8 @@
 						<div class="media">
 							<a class="pull-left" href="#">
 								<img class="media-object" src="img/box64x64.png" alt="">
-						 	</a>
-						 	<div class="media-body">
+							</a>
+							<div class="media-body">
 								<h4 class="media-heading">Media heading</h4>
 								<p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.
 								</p>
@@ -222,8 +228,8 @@
 						<div class="media">
 							<a class="pull-left" href="#">
 								<img class="media-object" src="img/box64x64.png" alt="">
-						 	</a>
-						 	<div class="media-body">
+							</a>
+							<div class="media-body">
 								<h4 class="media-heading">Media heading</h4>
 								<p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.
 								</p>
@@ -232,8 +238,8 @@
 						<div class="media">
 							<a class="pull-left" href="#">
 								<img class="media-object" src="img/box64x64.png" alt="">
-						 	</a>
-						 	<div class="media-body">
+							</a>
+							<div class="media-body">
 								<h4 class="media-heading">Media heading</h4>
 								<p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.
 								</p>
@@ -246,22 +252,22 @@
 			<!-- END-ROW-FLUID -->	
 
 			<!-- @MGW -->
-                		<!--  F O O T E R--> 
+						<!--  F O O T E R--> 
 				<hr>
-	  			<footer>
+				<footer>
 					<p class="ar">&nbsp;<br>
 						<!-- @MGW -->
 						<!-- <t4 type="edit-page" action="direct-edit" text="&copy;">  -->
 						Metropolitan  Denver Magazine 2013 | 
 						<a href="/privacy/">Privacy Statement</a>
 						<br>
-                                          			<a href="http://tops.state.co.us/">State of Colorado's Transparency Online Project (TOP)</a>
-                                          		</p>
+						<a href="http://tops.state.co.us/">State of Colorado's Transparency Online Project (TOP)</a>
+					</p>
 				</footer> 
 			</div>
 
 		<!--END OF FLUID CONTAINER // MAIN CONTAINER-->	
-	  	</div>
+		</div>
 
 		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
 		<script>window.jQuery || document.write('<script src="js/vendor/jquery-1.9.0.min.js><\/script>')</script>
