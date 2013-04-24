@@ -35,7 +35,7 @@
 @media (min-width: 1200px){
 
 	.carousel-caption{
-		
+		float: right;
 		
 	}
 	.magazine-logo{
@@ -169,8 +169,9 @@
 	.msudenver-logo{
 		display: none;
 	}
-		.carousel-caption  {
+	.carousel-caption  {
 		position: relative;
+		padding-bottom: 50px; 
 		margin: 0 auto 0 auto;
 	}
 	

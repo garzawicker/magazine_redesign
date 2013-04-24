@@ -42,19 +42,32 @@ footer{
 	text-align: center;
 }
 
-.sidebar-nav {
+.sidebar-nav a {
 	padding: 9px 0;
+	
+}
+.bs-docs-sidenav li > a:not(.black-buttons){
+	/*padding-bottom: 15px;*/
+	color: white;
+	background-color: gray;
+}
+.bs-docs-sidenav li:not(.black-buttons) > a:hover{
+	color: black;
+	background-color: white;
+}
+.bs-docs-sidenav > li > a:hover {
+	color:black;
+
 }
 
-.black-buttons > a{
+.black-buttons {
+	color:white;
 	text-align: left;
 	line-height: 2em;
 	background-color: black;
-	color:white;
+	
 }
-.black-buttons > a:hover{
-	color:black;
-}
+
 .sidebar-nav {
 	line-height: 3em;
 }
