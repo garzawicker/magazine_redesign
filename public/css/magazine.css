@@ -42,9 +42,6 @@ footer{
 	text-align: center;
 }
 
-
-
-
 .bs-docs-sidenav >  a:hover{
 	color: black;
 	background-color: white;
@@ -160,10 +157,7 @@ hr {
 
 */
 
-/*.currentbranch0 a, .multilevel-linkul-0 span > a {
-	list-style: none;
-	color: white;
-}*/
+
 .left-nav-1  {
 	margin-left: 0;
 	list-style: none;
@@ -249,33 +243,41 @@ hr {
 	background-color: #8A898d;
 	list-style: none;
 }
+
+.currentbranch2{
+
+}
 .currentbranch2 > a{
-	color: white;
+	color: black;
 	display: block;
 	margin: 0 0 -1px;
 	padding: 8px 4%;
 	background-color: rgb(0,68,124);
-	/*background-image: url("../img/glyphicons-halflings-white.png");*/
-	background-position: 14px 14px;
-	text-decoration: none;
-
-
+	background-color: white;
 
 }
 
-/* WHILE CARD SELCTOR*/
-/*
+
+/* active or current issue color: #0088cc*/
+
+.left-nav-1 > li:first-child {
+	background-color: #0088cc;
+
+}
+
+		/* WHILE CARD SELCTOR*/
+
+
 [class^="currentbranch"] > a,
 [class*="currentbranch"] > a{
-	background-image: url("../img/glyphicons-halflings-white.png");
-	background-image: url("../img/glyphicons-halflings.png");
+	/*background-image: url("../img/glyphicons-halflings-white.png");
+	background-image: url("../img/glyphicons-halflings.png");*/
+	border-left: none;
 
 	
-
+}
 	
-}*/
-
-		 /*hover*/
+			 /*hover*/
 
 
 .currentbranch0 > a:hover, .multilevel-linkul-0 > li > a:hover , 
