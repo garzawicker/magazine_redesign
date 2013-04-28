@@ -143,10 +143,26 @@ footer{
 	/*padding-top: 150px;*/
 }
 
+
+/* 
+
+	O V E R W R I T E S
+	---------+---------
+
+ 	for Bootstrap.css 
+ 	and docs.css 
+
+*/
+
+
 hr {
   margin: inherit;
   border-top: 1px solid #eeeeee;
   border-bottom: 1px solid #ffffff;
+}
+
+.bs-docs-sidenav > li > a {
+  border: none;
 }
 
 
@@ -270,8 +286,6 @@ hr {
 
 [class^="currentbranch"] > a,
 [class*="currentbranch"] > a{
-	/*background-image: url("../img/glyphicons-halflings-white.png");
-	background-image: url("../img/glyphicons-halflings.png");*/
 	border-left: none;
 
 	

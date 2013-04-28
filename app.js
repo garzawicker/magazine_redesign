@@ -2,7 +2,6 @@ var static = require('node-static');
 var http   = require('http');
 // create new static server and serve the ./public directory
 
-// var file = new (static.Server)('./public');
 var file = new(static.Server)('./public');
 http.createServer(function(request,response){
 	request.addListener("end", function(){
