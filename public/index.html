@@ -18,24 +18,12 @@
 		<meta name="description" content="">
 		<meta name="viewport" content="width=device-width">
 
-		<!-- @MGW UNCOMMENT META DATA  -->
-
-		<!-- <t4 type="navigation" id="504">  Meta Data  id="504" -->
-		<!-- <t4 type="meta" id="1">  meta DC.keywords id="1"-->
-		<!-- <t4 type="meta" id="2">  meta DC.abstract   id="2"-->
-		<!-- <t4 type="meta" id="3">  meta DC.author -->
-		<!-- <t4 type="meta" id="4">  meta DC.copyright -->
-		<!-- <t4 type="meta" id="5"> meta DC.title -->
-		<!--<t4 type="meta" id="6">  meta DC.description -->
-		<!--<t4 type="meta" id="7">  meta DC.language -->
-		<!--<t4 type="meta" id="8">   meta DC.modified -->
-		<!-- <t4 type="meta" id="9">   meta DC.format -->
-		<!--<t4 type="meta" id="10">  meta DC.date -->
-		<!-- <t4 type="meta" id="11"> meta DC.contributor -->
-
+		<!-- @MGW INSERT META DATA  -->
 
 		<!-- E X T E R N A L -S T Y L E S -->
 
+		<link rel="stylesheet" 
+		href="css/bootstrap.css">
 		<link rel="stylesheet" 
 		href="css/bootstrap-responsive.css">
 		<link rel="stylesheet" href="css/docs.css">
@@ -51,10 +39,6 @@
 		<script src="js/checklocalstorage.js"></script>
 	</head>
 	<body>
-		<!--[if lt IE 6]>
-			<p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
-		<![endif]-->
-
 		<!-- BEGIN-BLACK-HEADER WITH LOGOS -->
 		  <div class="navbar navbar-inverse navbar-fixed-top">
 			 <div id="collapse-navigation" class="navbar-inner">
@@ -85,6 +69,13 @@
 							<li><a href="#"><i class="icon-chevron-right"></i> Contact Us</a></li>
 						</ul>
 
+
+						<section>
+							<h4>Magazine Search</h4>
+							<gcse:searchbox-only></gcse:searchbox-only>
+						</section>
+
+
 						<!-- M A G A Z I N E - D O W N L O A D   P R E V I E W  I M A G E-->
 						<!-- @MGW INSERT LINK TO MAGAZINE DOWNLOAD INTO DATA-HREF -->
 						
@@ -114,147 +105,155 @@
 					</div>
 				</div>
 
-			<!-- END LEFT SIDEBAR NAVIGATION -->
+				<!-- END LEFT SIDEBAR NAVIGATION -->
 
-			<!-- SM Header Ends Here -->
 
-			<!-- BEGIN MAIN  SPAN 9 CONTAINER GROUP -->
-			<div class="span9">
-					<div class="">
-						<img class="hero-image img-polaroid" src="img/sample_images/FresquezCarlos_0001_091113cc.jpg" alt="">
-						<div class="carousel-caption">
-							<h2>Heading 2</h2>
-							<p>This is a template for a simple marketing or informational website. It includes a large callout called the hero unit and three supporting pieces of content. Use it as a starting point to create something more unique.
-							</p>
+				<!-- BEGIN MAIN  SPAN 9 CONTAINER GROUP -->
+				<div class="span9">
+
+						<!-- SM Header Ends Here -->
+					
+						<div class="">
+							<img class="hero-image img-polaroid" src="img/sample_images/FresquezCarlos_0001_091113cc.jpg" alt="">
+							<div class="carousel-caption">
+								<h2>Heading 2</h2>
+								<p>This is a template for a simple marketing or informational website. It includes a large callout called the hero unit and three supporting pieces of content. Use it as a starting point to create something more unique.
+								</p>
+							</div>
 						</div>
-					</div>
-					<!-- BEGIN THREE FEATURE GROUP -->
-					 <div class="row-fluid">
-						<div class="span4">
-							<img class="story-image img-polaroid " src="img/sample_images/3.png" alt="">
-						  <h2>Heading 1</h2>
-						  <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-						  <p><a class="btn" href="#">Full Story &raquo;</a></p>
-						</div>
-						<div class="span4">
-							<img class="story-image img-polaroid" src="img/sample_images/4.png" alt="">
-							<h2>Heading 2</h2>
-							<p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-							<p><a class="btn" href="#">Full Story &raquo;</a></p>
-						</div>
-						<div class="span4">
-							<img class="story-image img-polaroid" src="img/sample_images/5.png" alt="">
-							  <h2>Heading 3</h2>
+
+						<!-- BEGIN THREE FEATURE GROUP -->
+
+						 <div class="row-fluid">
+							<div class="span4">
+								<img class="story-image img-polaroid " src="img/sample_images/3.png" alt="">
+							  <h2>Heading 1</h2>
 							  <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
 							  <p><a class="btn" href="#">Full Story &raquo;</a></p>
-						</div>
-					</div>
-					<!-- END THREE FEATURE GROUP -->
-					<div class="row-fluid">
-						<div class="media">
-							<a class="pull-left" href="#">
-								<img class="media-object" src="img/box64x64.png" alt="">
-							</a>
-							<div class="media-body">
-								<h4 class="media-heading">Media heading</h4>
-								<p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.
-								</p>
+							</div>
+							<div class="span4">
+								<img class="story-image img-polaroid" src="img/sample_images/4.png" alt="">
+								<h2>Heading 2</h2>
+								<p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+								<p><a class="btn" href="#">Full Story &raquo;</a></p>
+							</div>
+							<div class="span4">
+								<img class="story-image img-polaroid" src="img/sample_images/5.png" alt="">
+								  <h2>Heading 3</h2>
+								  <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+								  <p><a class="btn" href="#">Full Story &raquo;</a></p>
 							</div>
 						</div>
-						<div class="media">
-							<a class="pull-left" href="#">
-								<img class="media-object" src="img/box64x64.png" alt="">
-							</a>
-							<div class="media-body">
-								<h4 class="media-heading">Media heading</h4>
-								<p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.
-								</p>
+						<!-- END THREE FEATURE GROUP -->
+						<div class="row-fluid">
+							<div class="media">
+								<a class="pull-left" href="#">
+									<img class="media-object" src="img/box64x64.png" alt="">
+								</a>
+								<div class="media-body">
+									<h4 class="media-heading">Media heading</h4>
+									<p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.
+									</p>
+								</div>
 							</div>
-						</div>
-						<div class="media">
-							<a class="pull-left" href="#">
-								<img class="media-object" src="img/box64x64.png" alt="">
-							</a>
-							<div class="media-body">
-								<h4 class="media-heading">Media heading</h4>
-								<p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.
-								</p>
+							<div class="media">
+								<a class="pull-left" href="#">
+									<img class="media-object" src="img/box64x64.png" alt="">
+								</a>
+								<div class="media-body">
+									<h4 class="media-heading">Media heading</h4>
+									<p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.
+									</p>
+								</div>
 							</div>
-						</div>
-						<div class="media">
-							<a class="pull-left" href="#">
-								<img class="media-object" src="img/box64x64.png" alt="">
-							</a>
-							<div class="media-body">
-								<h4 class="media-heading">Media heading</h4>
-								<p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.
-								</p>
+							<div class="media">
+								<a class="pull-left" href="#">
+									<img class="media-object" src="img/box64x64.png" alt="">
+								</a>
+								<div class="media-body">
+									<h4 class="media-heading">Media heading</h4>
+									<p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.
+									</p>
+								</div>
 							</div>
-						</div>
-						<div class="media">
-							<a class="pull-left" href="#">
-								<img class="media-object" src="img/box64x64.png" alt="">
-							</a>
-							<div class="media-body">
-								<h4 class="media-heading">Media heading</h4>
-								<p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.
-								</p>
+							<div class="media">
+								<a class="pull-left" href="#">
+									<img class="media-object" src="img/box64x64.png" alt="">
+								</a>
+								<div class="media-body">
+									<h4 class="media-heading">Media heading</h4>
+									<p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.
+									</p>
+								</div>
 							</div>
-						</div>
-						<div class="media">
-							<a class="pull-left" href="#">
-								<img class="media-object" src="img/box64x64.png" alt="">
-							</a>
-							<div class="media-body">
-								<h4 class="media-heading">Media heading</h4>
-								<p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.
-								</p>
+							<div class="media">
+								<a class="pull-left" href="#">
+									<img class="media-object" src="img/box64x64.png" alt="">
+								</a>
+								<div class="media-body">
+									<h4 class="media-heading">Media heading</h4>
+									<p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.
+									</p>
+								</div>
 							</div>
-						</div>
-						<div class="media">
-							<a class="pull-left" href="#">
-								<img class="media-object" src="img/box64x64.png" alt="">
-							</a>
-							<div class="media-body">
-								<h4 class="media-heading">Media heading</h4>
-								<p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.
-								</p>
+							<div class="media">
+								<a class="pull-left" href="#">
+									<img class="media-object" src="img/box64x64.png" alt="">
+								</a>
+								<div class="media-body">
+									<h4 class="media-heading">Media heading</h4>
+									<p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.
+									</p>
+								</div>
 							</div>
-						</div>
-						<div class="media">
-							<a class="pull-left" href="#">
-								<img class="media-object" src="img/box64x64.png" alt="">
-							</a>
-							<div class="media-body">
-								<h4 class="media-heading">Media heading</h4>
-								<p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.
-								</p>
+							<div class="media">
+								<a class="pull-left" href="#">
+									<img class="media-object" src="img/box64x64.png" alt="">
+								</a>
+								<div class="media-body">
+									<h4 class="media-heading">Media heading</h4>
+									<p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.
+									</p>
+								</div>
 							</div>
-						</div>
-						<div class="media">
-							<a class="pull-left" href="#">
-								<img class="media-object" src="img/box64x64.png" alt="">
-							</a>
-							<div class="media-body">
-								<h4 class="media-heading">Media heading</h4>
-								<p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.
-								</p>
+							<div class="media">
+								<a class="pull-left" href="#">
+									<img class="media-object" src="img/box64x64.png" alt="">
+								</a>
+								<div class="media-body">
+									<h4 class="media-heading">Media heading</h4>
+									<p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.
+									</p>
+								</div>
 							</div>
-						</div>
-						<div class="media">
-							<a class="pull-left" href="#">
-								<img class="media-object" src="img/box64x64.png" alt="">
-							</a>
-							<div class="media-body">
-								<h4 class="media-heading">Media heading</h4>
-								<p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.
-								</p>
+							<div class="media">
+								<a class="pull-left" href="#">
+									<img class="media-object" src="img/box64x64.png" alt="">
+								</a>
+								<div class="media-body">
+									<h4 class="media-heading">Media heading</h4>
+									<p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.
+									</p>
+								</div>
 							</div>
+							<div class="media">
+								<a class="pull-left" href="#">
+									<img class="media-object" src="img/box64x64.png" alt="">
+								</a>
+								<div class="media-body">
+									<h4 class="media-heading">Media heading</h4>
+									<p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.
+									</p>
+								</div>
+							</div>
+						<!-- END OF MEDIA-ROW -->	
 						</div>
-					<!-- END OF MEDIA-ROW -->	
-					</div>
-				<!-- END MAIN  SPAN 9 CONTAINER GROUP -->
+						
+						<!-- SITEMANAGER START FOOTER -->
+
+					<!-- END MAIN  SPAN 9 CONTAINER GROUP -->
 				</div>
+
 				<!-- END-ROW-FLUID -->	
 
 				<!-- @MGW -->
@@ -264,9 +263,7 @@
 					<p class="ar">&nbsp;<br>
 						<!-- @MGW -->
 
-						<!-- <t4 type="edit-page" action="direct-edit" text="&copy;">  -->
-
-						Metropolitan  Denver Magazine 2013 | 
+						&copy;	Metropolitan  Denver Magazine 2013 | 
 						<a href="/privacy/">Privacy Statement</a>
 						<br>
 						<a href="http://tops.state.co.us/">State of Colorado's Transparency Online Project (TOP)</a>
@@ -282,8 +279,24 @@
 	
 		<script src="js/main.js"></script>
 		
-	<!-- Google Analytics -->
-	<!-- @MGW UNCOMMENT  T4 TAG TO NAV ITEM-->
-	<!-- <t4 type="navigation" id="103"> -->
+		<!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+		<script>
+		            var _gaq=[['_setAccount','UA-505529-1'],['_trackPageview']];
+		            (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+		            g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
+		            s.parentNode.insertBefore(g,s)}(document,'script'));
+		</script>
+		<!-- Google search -->
+		<script>
+		  (function() {
+		    var cx = '004867254463714202705:7eewc-qjr3g';
+		    var gcse = document.createElement('script'); gcse.type = 'text/javascript'; gcse.async = true;
+		    gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
+		        '//www.google.com/cse/cse.js?cx=' + cx;
+		    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(gcse, s);
+		  })();
+		</script>
+
+
 	</body>
 </html>
