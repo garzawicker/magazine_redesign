@@ -33,8 +33,7 @@
 		<link rel="stylesheet" href="css/magazine-responsive.css">
 
 		<!-- E X T E R N A L -S C R I P T S -->
-		<script src="js/vendor/modernizr-2.6.2.min.js">
-		</script>
+		<script src="js/vendor/modernizr-2.6.2.min.js"></script>
 		<script src="js/plugins.js"></script>
 		<script src="js/log.js"></script>
 		<script src="js/checklocalstorage.js"></script>
@@ -69,18 +68,9 @@
 							<li><a href="#"><i class="icon-chevron-right"></i> Contact Us</a></li>
 						</ul>
 
+						<!-- Google Search Section-->
 
 						<section>
-							<!-- Google search -->
-							<script>
-							(function() {
-							var cx = '004867254463714202705:7eewc-qjr3g';
-							var gcse = document.createElement('script'); gcse.type = 'text/javascript'; gcse.async = true;
-							gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
-							'//www.google.com/cse/cse.js?cx=' + cx;
-							var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(gcse, s);
-							})();
-							</script>
 							<h4>Magazine Search</h4>
 							<gcse:searchbox-only></gcse:searchbox-only>
 						</section>
@@ -300,7 +290,15 @@
 		            g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
 		            s.parentNode.insertBefore(g,s)}(document,'script'));
 		</script>
-		
-
+		<!-- Google Search Script-->
+		<script>
+			(function() {
+			var cx = '004867254463714202705:7eewc-qjr3g';
+			var gcse = document.createElement('script'); gcse.type = 'text/javascript'; gcse.async = true;
+			gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
+			'//www.google.com/cse/cse.js?cx=' + cx;
+			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(gcse, s);
+			})();
+		</script>
 	</body>
 </html>
