@@ -6,9 +6,6 @@
 */
 
 
-
-
-
 /*  
 		          _*_ 
 	
@@ -20,9 +17,6 @@
 
 
 */
-
-
-
 
 
 /*  
@@ -47,11 +41,20 @@
 	.span12 {
 		/*padding-top: 130px;*/
 		padding-top: 165px;
+
+        padding-top: 150px;
 		padding-bottom: 50px;
 	  }
 	
 }
 
+/*  
+		     		_*_ 
+	
+	S M A L L  D E S K T O P/L A R G E  T A B L E T - V I E W
+	      
+
+*/
 @media (min-width: 980px) and (max-width: 1199px){
 
 	/* Enable use of floated navbar text */
@@ -105,14 +108,12 @@
 /*
 	                             _*_
 	
-	S M A L L - T A B L E T - P O R T R A I T
+	T A B L E T - H O R I Z O N T A L (iPad)
 		        
-		          (600x800)
-
 */
-@media (min-width: 600px) and (max-width: 979px){
-	
-	
+
+@media (min-width: 768px) and (max-width: 979px){
+
 	.msudenver-logo{
 		display: none;
 	}
@@ -121,7 +122,14 @@
 	}
 }
 
-@media(min-width: 481px) and (max-width:599px){
+/*
+	                             _*_
+	
+	T A B L E T - P O R T R A I T
+
+
+*/
+@media (max-width: 767px){
 	
 	.carousel-caption  {
 		position: relative;
@@ -140,13 +148,14 @@
 	}
 }
 
+
 /*  
 		        _*_ 
 
 	M O B I L E - P O R T R A I T
 
 */
-@media (min-width: 350px) and (max-width: 480px){
+@media (min-width: 320px) and (max-width: 480px){
 	.row-fluid{
 		padding-top: 0;
 		margin-top: -50px;
@@ -164,7 +173,7 @@
 	}
 	.magazine-logo{
 		left: 15px;
-		width: 320px;
+		width: 300px;
 	}
 	.msudenver-logo{
 		display: none;
@@ -176,18 +185,3 @@
 	}
 	
 }
-
-
-/*  < 349 */
-@media (max-width : 349px){
-
-	.msudenver-logo{
-		display: none;
-	}
-	.container-fluid{
-		height: 80px;
-	}
-
-
-}
-
