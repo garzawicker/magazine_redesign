@@ -28,10 +28,10 @@
 */
 @media (min-width: 1200px){
 
-	.carousel-caption{
+	/*.carousel-caption{
 		float: right;
 		
-	}
+	}*/
 	.magazine-logo{
 		top: 25px;
 	}
@@ -144,7 +144,8 @@
 		display: none;
 	}
 	.magazine-logo{
-		top: 35px;
+		/*top: 35px;*/
+		left: 10px;
 	}
 }
 
@@ -180,8 +181,11 @@
 	}
 	.carousel-caption  {
 		position: relative;
-		padding-bottom: 50px; 
-		margin: 0 auto 0 auto;
+		width: auto;
+		margin-top:10px;
+		/*padding-bottom: 50px; */
+		margin-bottom: 100px;
+
 	}
 	
 }
