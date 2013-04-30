@@ -28,22 +28,16 @@
 */
 @media (min-width: 1200px){
 
-	/*.carousel-caption{
-		float: right;
-		
-	}*/
 	.magazine-logo{
 		top: 25px;
+
 	}
 	.magazine-logo-change{
 		top: 10px;
 	}
 	.span12 {
-		/*padding-top: 130px;*/
-		padding-top: 165px;
-
-        padding-top: 150px;
-		padding-bottom: 50px;
+        		padding-top: 150px;
+	
 	  }
 	
 }
@@ -68,12 +62,7 @@
 	/* MSU-DENVER Magazine @media queries @DV */
 
 	.carousel-caption{
-		float: right;
-		position: absolute;
-		top: 350px;
-		left: 700px;
-		right: 150px;
-		width:250px;
+		width: auto;
 	}
 
 
@@ -131,13 +120,17 @@
 */
 @media (max-width: 767px){
 	
+	.span12 {
+        		padding-top: 0;
+	}
+	
 	.carousel-caption  {
 		position: relative;
 		margin: inherit;
 		right: inherit;
 		top: inherit;
 		left: inherit;
-		width: 100%;
+		width: auto;
 		
 	}
 	.msudenver-logo, .msudenver-logo {
