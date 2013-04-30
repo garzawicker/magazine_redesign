@@ -310,3 +310,7 @@ footer , footer > p{
 	background-color: rgb(0,0,0);
 
 }
+
+.bs-docs-sidenav {
+    padding: 0;
+}
