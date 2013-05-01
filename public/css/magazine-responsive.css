@@ -129,7 +129,7 @@
 
 
 */
-@media (max-width: 767px){
+@media (min-width: 480px) and (max-width: 767px){
 	
 	.carousel-caption  {
 		position: relative;
@@ -145,14 +145,14 @@
 	}
 	.magazine-logo{
 		top: 35px;
+        
 	}
 }
-
 
 /*  
 		        _*_ 
 
-	M O B I L E - P O R T R A I T
+	M O B I L E - L A N D S C A P E
 
 */
 @media (min-width: 320px) and (max-width: 480px){
@@ -172,8 +172,9 @@
 		height: 80px;
 	}
 	.magazine-logo{
-		left: 15px;
-		width: 300px;
+		left: 1px;
+		width: 280px;
+        top: 10px;
 	}
 	.msudenver-logo{
 		display: none;
@@ -183,5 +184,52 @@
 		padding-bottom: 50px; 
 		margin: 0 auto 0 auto;
 	}
+    .row-fluid {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+	
+}
+
+
+/*  
+		        _*_ 
+
+	M O B I L E - P O R T R A I T
+
+*/
+@media (min-width: 120px) and (max-width: 320px){
+	.row-fluid{
+		padding-top: 0;
+		margin-top: -50px;
+	}
+	#left-side-nav{
+		margin: 0;
+		padding: 0;
+	}
+	.magazine-preview > img{
+		display: none;
+	}
+
+	.container-fluid{
+		height: 80px;
+	}
+	.magazine-logo{
+		left: 1px;
+		width: 280px;
+        top: 10px;
+	}
+	.msudenver-logo{
+		display: none;
+	}
+	.carousel-caption  {
+		position: relative;
+		padding-bottom: 50px; 
+		margin: 0 auto 0 auto;
+	}
+    .row-fluid {
+    padding-top: 0;
+    padding-bottom: 0;
+}
 	
 }
