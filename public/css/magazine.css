@@ -280,11 +280,6 @@ hr {
 }
 
 
-.footer-bg {
-/*	width: 100%;
-	height: 100px;
-*/	/*background-color: rgb(0,0,0);*/
-} 
 .footer-bg > p{
 	margin: 0;
 	padding: 0;
@@ -292,7 +287,6 @@ hr {
 	color:white;
 	text-align: center;
 	word-break: keep-all;
-	/*background-color: rgb(0,0,0);*/
 	
 }
 .footer-bg > p > a:hover {
@@ -316,6 +310,13 @@ hr {
 .navbar-fixed-bottom{
 	background-color: rgb(0,0,0);
 	position: inherit;
+}
+
+
+/* SEARCH BOX STYLES */
+
+input.gsc-search-button {
+	border: none;
 }
 
 
