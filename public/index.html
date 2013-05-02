@@ -48,56 +48,83 @@
 					<a href="http://sitemanager.msudenver.edu/m/"><img class="magazine-logo"   src="img/magazine_logo.png" alt=""></a>
 					
 				</div>
+				<div class="container">
+					<button type="button" class="btn btn-navbar" data-toggle="collapse" 
+					data-target=".nav-collapse">
+					            <span class="icon-bar"></span>
+					            <span class="icon-bar"></span>
+					            <span class="icon-bar"></span>
+					</button>
+				</div>
+				
 			</div>
 		</div>
 		<!-- END-BLACK-HEADER WITH LOGOS-->
 
 		<!-- BEGIN-MAIN CONTENT -->
 		<div class="container">
+			
 			<!-- BEGIN LEFT SIDEBAR NAVIGATION -->
-			<div id="main-container"  class="row-fluid span12  " >
-				<div id="left-side-nav">
-					<div class="span3 left-nav-1">
-						<ul class="sidebar-nav bs-docs-sidenav nav-list nav left-nav-1">
-							<li class="nav-header">Sidebar</li>
-							<li style="color:red">Content Width:<span id="content-width" style="color:red;"></span>
+			<div id="main-container"  class="row-fluid span12" >
+				<div id="left-side-nav span3 left-nav-1">
+					<div class="sidebar-nav bs-docs-sidenav nav-list nav left-nav-1 ">
+						<ul class="nav-collapse">
+							<!-- <li class="nav-header">Sidebar</li> -->
+							<li style="color:red">Content Width:<span id="content-width" style="color:red;"></span> 
 							</li>
-							<li class="active"><a href="#dropdowns" class="left-nav-1"><i class="active icon-chevron-right"></i> 
+							<li class="brand"><a href="#dropdowns" class="left-nav-1"><i class="active icon-chevron-right"></i> 
 								Current Issue</a></li>
 							<li><a href="#" class="left-nav-1"><i class="icon-chevron-right"></i> Archive</a></li>
 							<li><a href="#"><i class="icon-chevron-right"></i> About</a></li>
 							<li><a href="#"><i class="icon-chevron-right"></i> Contact Us</a></li>
+							<li class="search-box">
+								<h4>Magazine Search</h4>
+								
+							</li>
+							
+							
+							<li><gcse:searchbox-only></gcse:searchbox-only></li>
+							<li class="digital-edition">
+								<img class="img-polaroid" src="img/sample_images/magazine-preview.png" alt="">
+								<p>
+								<b>DIGITAL EDITION</b>
+								<br>
+								Read the full magazine including alumni class notes
+								</p>
+							</li>
+
+
+							<li>
+								<a href="#"  class="black-buttons">
+							 		SUBMIT CLASS NOTES
+								</a>
+							</li>
+							<li >
+								<a href="#"  class="black-buttons">
+								 	NEWSROOM
+								</a>
+							<li>
 						</ul>
 
-						<!-- Google Search Section-->
+					
 
-						<section>
-
-							<h4>Magazine Search</h4>
-							<gcse:searchbox-only></gcse:searchbox-only>
-
-							
-						</section>
+					
 
 
 						<!-- M A G A Z I N E - D O W N L O A D   P R E V I E W  I M A G E-->
 						<!-- @MGW INSERT LINK TO MAGAZINE DOWNLOAD INTO DATA-HREF -->
 						
-						<section class="magazine-preview"  data-href="http://www.google.com/images" >
+						<li class="magazine-preview"  data-href="http://www.google.com/images" >
+						
 							
-							<img class="img-polaroid" src="img/sample_images/magazine-preview.png" alt="">
-							<p>
-							<b>DIGITAL EDITION</b>
-							<br>
-							Read the full magazine including alumni class notes
-							</p>
 							
+
 							<!-- @MGW - INSERT LINK TO MAGAZINE DOWNLOAD HERE -->
 							
-						</section>
-
+						</li>
+						<!--  
 						<ul class="sidebar-nav bs-docs-sidenav  nav   nav-list nav">
-							<!-- buttons -->
+						
 							<li><a href="#"  class="black-buttons">
 							 SUBMIT CLASS NOTES
 							</a></li>
@@ -106,6 +133,7 @@
 							</a>
 							</li>
 						</ul>
+						-->
 					</div>
 				</div>
 

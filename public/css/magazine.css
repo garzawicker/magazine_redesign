@@ -51,16 +51,11 @@
 	background-color: black;
 	
 }
-
+.black-buttons > a:hover{
+	color: white;
+}
 .sidebar-nav {
 	line-height: 3em;
-}
-
-
-.left-nav-1 > ul >li{
-	color: white;
-	text-shadow: black !important;
-	background-color: #585759;
 }
 
 .left-nav-1 > ul >li > a{
@@ -71,9 +66,7 @@
 	color: black;
 	text-shadow: black !important;
 }	
-.black-buttons:hover{
-	color: black;
-}
+
 
 .carousel-caption {
 	position: relative;
@@ -315,8 +308,29 @@ hr {
 
 /* SEARCH BOX STYLES */
 
-input.gsc-search-button {
-	border: none;
+.search-box{
+	width:auto;
+}
+
+
+.digital-edition > p{
+	color: black;
+	padding: 15px;
+}
+
+
+.left-nav-1 > ul >li:not(.digital-edition){
+	color: white;
+	text-shadow: black !important;
+	background-color: #585759;
+}
+.search-box > h4{
+	color:black;
+	background-color: white;
+}
+
+.search-box {
+	background-color: white;
 }
 
 
