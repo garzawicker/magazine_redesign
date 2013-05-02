@@ -5,6 +5,11 @@
   	transition: all 0.5s ease-in-out;
 }
 
+a {
+color: rgb(14, 96, 138);
+text-decoration: none;
+}
+
 .msudenver-logo{
 	position:  absolute;
 	left:  50px;
@@ -49,7 +54,7 @@
 	text-align: left;
 	line-height: 2em;
 	background-color: black;
-	
+
 }
 
 .sidebar-nav {
@@ -70,7 +75,7 @@
 .left-nav-1 > ul >li > a:hover{
 	color: black;
 	text-shadow: black !important;
-}	
+}
 .black-buttons:hover{
 	color: black;
 }
@@ -98,7 +103,7 @@
 }
 
 
-/* 
+/*
 
 	MAGAZINE PREVIEW
 	-----------------
@@ -129,7 +134,7 @@
 
 
 
-/* 
+/*
 
 	SITE MANAGER NAVIGATION STYLE
 	+---------------------------+
@@ -209,7 +214,7 @@
 	background-color: #717073;
 	border-top: 1px solid #e5e5e5;
 	border-bottom: none;
-	
+
 }
 
 	/* year label */
@@ -246,24 +251,24 @@
 [class*="currentbranch"] > a{
 	border-left: none;
 }*/
-	
+
 	/*hover*/
 
-.currentbranch0 > a:hover, .multilevel-linkul-0 > li > a:hover , 
-.currentbranch1 > a:hover, .multilevel-linkul-1 > li > a:hover, 
+.currentbranch0 > a:hover, .multilevel-linkul-0 > li > a:hover ,
+.currentbranch1 > a:hover, .multilevel-linkul-1 > li > a:hover,
 .currentbranch2 > a:hover{
 	background-color: white;
 	color: black;
 }
 
 
-/* 
+/*
 
 	O V E R W R I T E S
 	------+--------
 
- 	for Bootstrap.css 
- 	and docs.css 
+ 	for Bootstrap.css
+ 	and docs.css
 
 */
 
@@ -287,11 +292,16 @@ hr {
 	color:white;
 	text-align: center;
 	word-break: keep-all;
-	
+
 }
-.footer-bg > p > a:hover {
+.footer-bg > p > a {
 	color: white;
 }
+
+.footer-bg > p > a:hover {
+	color: rgb(14, 96, 138);
+}
+
 .bs-docs-sidenav {
 	padding: 0;
 }
