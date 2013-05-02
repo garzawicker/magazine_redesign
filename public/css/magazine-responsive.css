@@ -150,9 +150,11 @@
 
 */
 @media (min-width: 320px) and (max-width: 480px){
+	.navbar-fixed-top{
+		margin-bottom: 0;
+	}
 	.row-fluid{
-		padding-top: 0;
-		margin-top: -50px;
+		margin-top: -70px;
 	}
 	#left-side-nav{
 		margin: 0;
@@ -163,7 +165,7 @@
 	}
 
 	.container-fluid{
-		height: 80px;
+		height: 40px;
 	}
 	.magazine-logo{
 		left: 15px;
@@ -178,7 +180,26 @@
 		margin-top:10px;
 		/*padding-bottom: 50px; */
 		margin-bottom: 100px;
-
 	}
+	/* MEDIA OBJECTS */
+
+	/* media objects row 2nd */
+	.row-fluid:nth-child(3){
+		padding-top: 80px;
+	}
+	.media{
+		margin:0;
+		padding-top: 15px;
+	}
+	.media-object {
+		float: left;
+	}
+	.media-body {
+		margin: 0;
+		padding: 0;
+		width: auto;
+		padding-left: 10px;
+	}
+
 	
 }

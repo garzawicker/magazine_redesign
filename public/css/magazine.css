@@ -321,7 +321,7 @@ hr {
 
 .left-nav-1 > ul >li:not(.digital-edition){
 	color: white;
-	text-shadow: black !important;
+	text-shadow: black;
 	background-color: #585759;
 }
 .search-box > h4{
