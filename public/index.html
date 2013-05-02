@@ -32,12 +32,6 @@
 		<link rel="stylesheet" href="css/magazine.css">
 		<link rel="stylesheet" href="css/magazine-responsive.css">
 
-		<!-- E X T E R N A L -S C R I P T S -->
-		<script src="js/vendor/modernizr-2.6.2.min.js"></script>
-		<script src="js/plugins.js"></script>
-		<script src="js/log.js"></script>
-		<script src="js/checklocalstorage.js"></script>
-
 	</head>
 	<body>
 		<!-- BEGIN-BLACK-HEADER WITH LOGOS -->
@@ -48,6 +42,14 @@
 					<a href="http://msudenver.edu"><img class="msudenver-logo" src="img/responsive/msud-logo-C.png" alt=""></a>
 					<a href="http://sitemanager.msudenver.edu/m/"><img class="magazine-logo"   src="img/magazine_logo.png" alt=""></a>
 				</div>
+				<div class="container">
+					<button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+					            <span class="icon-bar"></span>
+					            <span class="icon-bar"></span>
+					            <span class="icon-bar"></span>
+					</button>
+				</div>
+				
 			</div>
 		</div>
 		<!-- END-BLACK-HEADER WITH LOGOS-->
@@ -55,65 +57,57 @@
 		<!-- BEGIN-MAIN CONTENT -->
 		<div class="container">
 			<!-- BEGIN LEFT SIDEBAR NAVIGATION -->
-			<div id="main-container"  class="row-fluid span12  " >
+			<div id="main-container"  class="row-fluid span12" >
 				<div id="left-side-nav">
 					<div class="span3 left-nav-1">
-						<ul class="sidebar-nav bs-docs-sidenav nav-list nav left-nav-1">
-							<li style="color:red">Content Width:<span id="content-width" style="color:red;"></span>
+						<ul class="sidebar-nav bs-docs-sidenav nav-list nav left-nav-1 nav-collapse collapse">
+							<!-- <li class="nav-header">Sidebar</li> -->
+							<li style="color:red">Content Width:<span id="content-width" style="color:red;"></span> 
 							</li>
-							<li class="active"><a href="#dropdowns" class="left-nav-1"><i class="active icon-chevron-right"></i>
+							<li class="brand"><a href="#dropdowns" class="left-nav-1"><i class="active icon-chevron-right"></i> 
 								Current Issue</a></li>
 							<li><a href="#" class="left-nav-1"><i class="icon-chevron-right"></i> Archive</a></li>
 							<li><a href="#"><i class="icon-chevron-right"></i> About</a></li>
 							<li><a href="#"><i class="icon-chevron-right"></i> Contact Us</a></li>
-						</ul>
-
-						<!-- Google Search Section-->
-
-						<section>
-							<h4>Magazine Search</h4>
-                            <gcse:search></gcse:search>
-						</section>
-
-
-						<!-- M A G A Z I N E - D O W N L O A D   P R E V I E W  I M A G E-->
-						<!-- @MGW INSERT LINK TO MAGAZINE DOWNLOAD INTO DATA-HREF -->
-
-						<section class="magazine-preview"  data-href="http://www.google.com/images" >
-
-							<img class="img-polaroid" src="img/final_images/sp13cover_final.jpg" alt="">
-							<p>
-							<b>DIGITAL EDITION</b>
-							<br>
-							Read the full magazine including alumni class notes
-							</p>
-
-							<!-- @MGW - INSERT LINK TO MAGAZINE DOWNLOAD HERE -->
-
-						</section>
-
-						<ul class="sidebar-nav bs-docs-sidenav  nav   nav-list nav">
-							<!-- buttons -->
-							<li><a href="/alumni/keepingintouch/updatemyprofile/"  class="black-buttons">
-							 SUBMIT CLASS NOTES
-							</a></li>
-							<li><a href="/newsroom/"  class="black-buttons">
-							 NEWSROOM
-							</a>
+							<li class="search-box">
+								<h4>Magazine Search</h4>
+								
 							</li>
+							
+							
+							<p><gcse:searchbox-only></gcse:searchbox-only>
+							<li class="digital-edition magazine-preview " >
+								<img class="img-polaroid" src="img/final_images/sp13cover_final.jpg" alt="">
+								<p>
+								<b>DIGITAL EDITION</b>
+								<br>
+								Read the full magazine including alumni class notes
+								</p>
+							</li>
+
+
+							<li>
+								<a href="#"  class="black-buttons">
+							 		SUBMIT CLASS NOTES
+								</a>
+							</li>
+							<li >
+								<a href="#"  class="black-buttons">
+								 	NEWSROOM
+								</a>
+							<li>
 						</ul>
 
 						<section>
                             <!-- AddThis Button BEGIN -->
-                            <div class="addthis_toolbox addthis_default_style addthis_32x32_style">
-                                <a class="addthis_button_preferred_1"></a>
-                                <a class="addthis_button_preferred_2"></a>
-                                <a class="addthis_button_preferred_3"></a>
-                                <a class="addthis_button_preferred_4"></a>
-                                <a class="addthis_button_compact"></a>
-                                <a class="addthis_counter addthis_bubble_style"></a>
-                            </div>
-                            <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-50ad441403391130"></script>
+                          <ul class="addthis_toolbox addthis_default_style addthis_32x32_style nav ">
+			<li><a class="addthis_button_preferred_1"></a></li>
+			<li><a class="addthis_button_preferred_2"></a></li>
+			<li><a class="addthis_button_preferred_3"></a></li>
+			<li><a class="addthis_button_preferred_4"></a></li>
+			<li><a class="addthis_button_compact"></a></li>
+			<li><a class="addthis_counter addthis_bubble_style"></a></li>
+                          </ul>
                             <!-- AddThis Button END -->
 						</section>
 					</div>
@@ -297,15 +291,15 @@
 
 		<script src="js/main.js"></script>
 
-		<!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
-		<script>
-		            var _gaq=[['_setAccount','UA-505529-1'],['_trackPageview']];
-		            (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
-		            g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
-		            s.parentNode.insertBefore(g,s)}(document,'script'));
-		</script>
-		<!-- Google Search Script-->
-                <script>
+	<!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+	<script>
+	            var _gaq=[['_setAccount','UA-505529-1'],['_trackPageview']];
+	            (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+	            g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
+	            s.parentNode.insertBefore(g,s)}(document,'script'));
+	</script>
+	<!-- Google Search Script-->
+  	<script>
                     (function() {
                     var cx = '011688688170056286566:qgdsrb4rrlo';
                     var gcse = document.createElement('script');
@@ -317,5 +311,15 @@
                     s.parentNode.insertBefore(gcse, s);
                     })();
             </script>
+            <!-- Add this - widget -->
+            <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-50ad441403391130"></script>
+            
+	<script src="js/vendor/modernizr-2.6.2.min.js"></script>
+	<script src="js/plugins.js"></script>
+	<script src="js/log.js"></script>
+	<script src="js/checklocalstorage.js"></script>
+	<script src="js/bootstrap-button.js"></script>
+	<script src="js/bootstrap-collapse.js"></script>
+	<!--<script src="js/bootstrap-transition.js"></script>-->
 	</body>
 </html>
