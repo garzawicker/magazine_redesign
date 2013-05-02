@@ -79,7 +79,7 @@
 
 */
 	.row-fluid .span12 {
-		padding: 165px 15% 40px 15%;	
+		padding: 0 15% 40px 15%;	
 	
 	}
 	#main-container{
@@ -119,6 +119,9 @@
 
 */
 @media (max-width: 767px){
+	.row-fluid{
+		margin:0;
+	}
 	
 	.span12 {
         		padding-top: 0;
@@ -153,18 +156,25 @@
 	.search-box{
 		display: none;
 	}
-
+	.digital-edition, .magazine-preview > p{
+		display: none;
+	}
+	.span12{
+		padding-top: 0;
+		margin-top: 0;
+	}
 	.navbar-fixed-top{
 		margin-bottom: 0;
 	}
 	.row-fluid{
-		margin-top: 70px;
+		margin:0;
+		/*margin-top: -100px;*/
 	}
-	.left-side-nav{
-		
+	.left-nav, .left-nav-1{
+	/*	margin-top:80px;*/
+		padding: 0;
 	}
-
-	.magazine-preview {
+	.magazine-preview > img{
 		display: none;
 	}
 
