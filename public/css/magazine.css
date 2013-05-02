@@ -322,6 +322,12 @@ hr {
 }
 
 
+.left-nav-1 > ul > section > ul > li{
+	background-color: white;
+}
+.left-nav-1 >  ul > li.search-box{
+	background-color: white;
+}
 .left-nav-1 > ul >li:not(.digital-edition){
 	color: white;
 	text-shadow: black;
@@ -336,4 +342,9 @@ hr {
 	background-color: white;
 }
 
+.addthis_toolbox , .addthis_default_style, .addthis_32x32_style > li > a{
+	padding: 0;
+	margin-top: 0;
+
+}
 

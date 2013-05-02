@@ -153,6 +153,15 @@
 
 */
 @media (min-width: 320px) and (max-width: 480px){
+	.span3, .left-nav-1{
+		padding: 0;
+		margin:0;
+	}
+	.addthis_toolbox , .addthis_default_style, .addthis_32x32_style  {
+		padding: 0;
+		display: block;
+		margin: 0;
+	}
 	.search-box{
 		display: none;
 	}
@@ -160,8 +169,8 @@
 		display: none;
 	}
 	.span12{
-		padding-top: 0;
-		margin-top: 0;
+		padding: 0;
+		margin: 0;
 	}
 	.navbar-fixed-top{
 		margin-bottom: 0;
