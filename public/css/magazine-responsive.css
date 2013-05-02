@@ -150,17 +150,21 @@
 
 */
 @media (min-width: 320px) and (max-width: 480px){
+	.search-box{
+		display: none;
+	}
+
 	.navbar-fixed-top{
 		margin-bottom: 0;
 	}
 	.row-fluid{
-		margin-top: -70px;
+		margin-top: 70px;
 	}
-	#left-side-nav{
-		margin: 0;
-		padding: 0;
+	.left-side-nav{
+		
 	}
-	.magazine-preview > img{
+
+	.magazine-preview {
 		display: none;
 	}
 
