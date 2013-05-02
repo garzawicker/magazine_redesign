@@ -13,3 +13,6 @@ debugging/
 # DreamWeaver specific
 _notes/
 
+# node_modules
+node_modules/
+
