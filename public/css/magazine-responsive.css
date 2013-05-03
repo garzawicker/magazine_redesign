@@ -145,6 +145,9 @@
 	}
 }
 
+.left-nav-hidden{
+		display: none;
+	}
 
 /*  
 		        _*_ 
@@ -166,7 +169,7 @@
 	.search-box{
 		display: none;
 	}
-	.digital-edition, .magazine-preview > p{
+	.left-nav-hidden{
 		display: none;
 	}
 	.span12{
