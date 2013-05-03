@@ -1,5 +1,9 @@
 # Mac specifics
 .DS_Store
+._*
+.spotlight-v100
+.Trashes
+Thumbs.db
 
 # File backups and large assets
 backups-and-assets
@@ -15,4 +19,6 @@ _notes/
 
 # node_modules
 node_modules/
+
+# OS generated files #
 
