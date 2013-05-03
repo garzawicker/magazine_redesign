@@ -79,7 +79,7 @@
 
 */
 	.row-fluid .span12 {
-		padding: 165px 15% 40px 15%;	
+		padding: 0 15% 40px 15%;	
 	
 	}
 	#main-container{
@@ -118,7 +118,10 @@
 
 
 */
-@media (min-width: 480px) and (max-width: 767px){
+@media (max-width: 767px){
+	.row-fluid{
+		margin:0;
+	}
 	
 	.span12 {
         		padding-top: 0;
@@ -137,58 +140,14 @@
 		display: none;
 	}
 	.magazine-logo{
-<<<<<<< HEAD
-		top: 35px;
-        
-=======
 		/*top: 35px;*/
 		left: 10px;
->>>>>>> c11eb070ac20fd97940fda8714299959a2ea0c7f
 	}
 }
 
-/*  
-		        _*_ 
-
-	M O B I L E - L A N D S C A P E
-
-*/
-@media (min-width: 320px) and (max-width: 480px){
-	.row-fluid{
-		padding-top: 0;
-		margin-top: -50px;
-	}
-	#left-side-nav{
-		margin: 0;
-		padding: 0;
-	}
-	.magazine-preview > img{
+.left-nav-hidden{
 		display: none;
 	}
-
-	.container-fluid{
-		height: 80px;
-	}
-	.magazine-logo{
-		left: 1px;
-		width: 280px;
-        top: 10px;
-	}
-	.msudenver-logo{
-		display: none;
-	}
-	.carousel-caption  {
-		position: relative;
-		padding-bottom: 50px; 
-		margin: 0 auto 0 auto;
-	}
-    .row-fluid {
-    padding-top: 0;
-    padding-bottom: 0;
-}
-	
-}
-
 
 /*  
 		        _*_ 
@@ -196,13 +155,35 @@
 	M O B I L E - P O R T R A I T
 
 */
-@media (min-width: 120px) and (max-width: 320px){
-	.row-fluid{
-		padding-top: 0;
-		margin-top: -50px;
+@media (min-width: 320px) and (max-width: 480px){
+	.span3, .left-nav-1{
+		padding: 0;
+		margin:0;
 	}
-	#left-side-nav{
+	.addthis_toolbox , .addthis_default_style, .addthis_32x32_style  {
+		padding: 0;
+		display: block;
 		margin: 0;
+	}
+	.search-box{
+		display: none;
+	}
+	.left-nav-hidden{
+		display: none;
+	}
+	.span12{
+		padding: 0;
+		margin: 0;
+	}
+	.navbar-fixed-top{
+		margin-bottom: 0;
+	}
+	.row-fluid{
+		margin:0;
+		/*margin-top: -100px;*/
+	}
+	.left-nav, .left-nav-1{
+	/*	margin-top:80px;*/
 		padding: 0;
 	}
 	.magazine-preview > img{
@@ -210,12 +191,11 @@
 	}
 
 	.container-fluid{
-		height: 80px;
+		height: 40px;
 	}
 	.magazine-logo{
-		left: 1px;
-		width: 280px;
-        top: 10px;
+		left: 15px;
+		width: 300px;
 	}
 	.msudenver-logo{
 		display: none;
@@ -226,11 +206,26 @@
 		margin-top:10px;
 		/*padding-bottom: 50px; */
 		margin-bottom: 100px;
-
 	}
-    .row-fluid {
-    padding-top: 0;
-    padding-bottom: 0;
-}
+	/* MEDIA OBJECTS */
+
+	/* media objects row 2nd */
+	.row-fluid:nth-child(3){
+		padding-top: 80px;
+	}
+	.media{
+		margin:0;
+		padding-top: 15px;
+	}
+	.media-object {
+		float: left;
+	}
+	.media-body {
+		margin: 0;
+		padding: 0;
+		width: auto;
+		padding-left: 10px;
+	}
+
 	
 }

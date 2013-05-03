@@ -30,13 +30,8 @@
 		<link rel="stylesheet" href="css/bootstrap-responsive.css">
 		<link rel="stylesheet" href="css/docs.css">
 		<link rel="stylesheet" href="css/magazine.css">
+		<!-- <link rel="stylesheet" href="css/normalize.css"> -->
 		<link rel="stylesheet" href="css/magazine-responsive.css">
-
-		<!-- E X T E R N A L -S C R I P T S -->
-		<script src="js/vendor/modernizr-2.6.2.min.js"></script>
-		<script src="js/plugins.js"></script>
-		<script src="js/log.js"></script>
-		<script src="js/checklocalstorage.js"></script>
 
 	</head>
 	<body>
@@ -48,76 +43,82 @@
 					<a href="http://msudenver.edu"><img class="msudenver-logo" src="img/responsive/msud-logo-C.png" alt=""></a>
 					<a href="http://sitemanager.msudenver.edu/m/"><img class="magazine-logo"   src="img/magazine_logo.png" alt=""></a>
 				</div>
+				<div class="container">
+					<button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+					            <span class="icon-bar"></span>
+					            <span class="icon-bar"></span>
+					            <span class="icon-bar"></span>
+					</button>
+				</div>
+				
 			</div>
 		</div>
 		<!-- END-BLACK-HEADER WITH LOGOS-->
 
 		<!-- BEGIN-MAIN CONTENT -->
 		<div class="container">
-			<!-- BEGIN LEFT SIDEBAR NAVIGATION -->
-			<div id="main-container"  class="row-fluid span12  " >
-				<div id="left-side-nav">
-					<div class="span3 left-nav-1">
-						<ul class="sidebar-nav bs-docs-sidenav nav-list nav left-nav-1">
-							<li style="color:red">Content Width:<span id="content-width" style="color:red;"></span>
+			
+			<div id="main-container"  class="row-fluid span12" >
+				<!-- BEGIN LEFT SIDEBAR NAVIGATION -->
+                <div class="span3 left-nav-1">
+						<ul class="sidebar-nav bs-docs-sidenav nav-list nav left-nav-1 nav-collapse collapse">
+							<!-- <li class="nav-header">Sidebar</li> -->
+							<li style="color:red">Content Width:<span id="content-width" style="color:red;"></span> 
 							</li>
-							<li class="active"><a href="#dropdowns" class="left-nav-1"><i class="active icon-chevron-right"></i>
+							<li class="brand"><a href="#dropdowns" class="left-nav-1"><i class="active icon-chevron-right"></i> 
 								Current Issue</a></li>
-							<li><a href="#" class="left-nav-1"><i class="icon-chevron-right"></i> Archive</a></li>
+							<li><a href="#"><i class="icon-chevron-right"></i> Archive</a></li>
 							<li><a href="#"><i class="icon-chevron-right"></i> About</a></li>
 							<li><a href="#"><i class="icon-chevron-right"></i> Contact Us</a></li>
-						</ul>
+                            </ul>
+                        
+                           <div class="left-nav-hidden bs-docs-sidenav">
+                            <section class="search-box">
+                            <h4>Magazine Search</h4>
+							<gcse:searchbox-only></gcse:searchbox-only>
+							
+							</section>
+							
+						
+							<section class="left-nav-hidden">
+								<img class="img-polaroid" src="img/final_images/sp13cover_final.jpg" alt="">
+								<p>
+								<b>DIGITAL EDITION</b>
+								<br>
+								Read the full magazine including alumni class notes
+								</p>
+							</section>
 
-						<!-- Google Search Section-->
-
-						<section>
-							<h4>Magazine Search</h4>
-                            <gcse:search></gcse:search>
-						</section>
-
-
-						<!-- M A G A Z I N E - D O W N L O A D   P R E V I E W  I M A G E-->
-						<!-- @MGW INSERT LINK TO MAGAZINE DOWNLOAD INTO DATA-HREF -->
-
-						<section class="magazine-preview"  data-href="http://www.google.com/images" >
-
-							<img class="img-polaroid" src="img/final_images/sp13cover_final.jpg" alt="">
-							<p>
-							<b>DIGITAL EDITION</b>
-							<br>
-							Read the full magazine including alumni class notes
-							</p>
-
-							<!-- @MGW - INSERT LINK TO MAGAZINE DOWNLOAD HERE -->
-
-						</section>
-
-						<ul class="sidebar-nav bs-docs-sidenav  nav   nav-list nav">
-							<!-- buttons -->
-							<li><a href="/alumni/keepingintouch/updatemyprofile/"  class="black-buttons">
-							 SUBMIT CLASS NOTES
-							</a></li>
-							<li><a href="/newsroom/"  class="black-buttons">
-							 NEWSROOM
-							</a>
+                            <ul class="sidebar-nav bs-docs-sidenav  nav   nav-list nav">
+							<li>
+								<a href="/alumni/keepingintouch/updatemyprofile/" class="black-buttons" >
+							 		SUBMIT CLASS NOTES
+								</a>
 							</li>
-						</ul>
-
-						<section>
-                            <!-- AddThis Button BEGIN -->
-                            <div class="addthis_toolbox addthis_default_style addthis_32x32_style">
-                                <a class="addthis_button_preferred_1"></a>
-                                <a class="addthis_button_preferred_2"></a>
-                                <a class="addthis_button_preferred_3"></a>
-                                <a class="addthis_button_preferred_4"></a>
-                                <a class="addthis_button_compact"></a>
-                                <a class="addthis_counter addthis_bubble_style"></a>
-                            </div>
-                            <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-50ad441403391130"></script>
-                            <!-- AddThis Button END -->
-						</section>
-					</div>
-				</div>
+							<li >
+								<a href="/newsroom/" class="black-buttons">
+								 	NEWSROOM
+								</a>
+							<li>
+                            </li>
+                             </ul>
+								<!-- AddThis Button BEGIN -->
+						<section>     
+							<ul class="addthis_toolbox addthis_default_style addthis_32x32_style nav ">
+							<li><a class="addthis_button_preferred_1"></a></li>
+							<li><a class="addthis_button_preferred_2"></a></li>
+							<li><a class="addthis_button_preferred_3"></a></li>
+							<li><a class="addthis_button_preferred_4"></a></li>
+							<li><a class="addthis_button_compact"></a></li>
+							<li><a class="addthis_counter addthis_bubble_style"></a></li>
+				            </ul>
+				         </section>
+						</div>
+						</div>
+                   
+				                     
+				                            <!-- AddThis Button END -->
+					
 
 				<!-- END LEFT SIDEBAR NAVIGATION -->
 
@@ -127,8 +128,8 @@
 
 						<!-- SM Header Ends Here -->
 
-						<div class="">
-							<img class="hero-image img-polaroid" src="img/final_images/20130315_glassballs.jpg" alt="">
+						<div>
+							<img class="hero-image img-polaroid" src="img/final_images/glassballs.jpg" alt="">
 							<div class="carousel-caption">
 								<h2>Hero</h2>
 								<p>This is a template for a simple marketing or informational website. It includes a large callout called the hero unit and three supporting pieces of content. Use it as a starting point to create something more unique.
@@ -140,22 +141,22 @@
 
 						 <div class="row-fluid">
 							<div class="span4">
-								<img class="story-image img-polaroid " src="img/sample_images/3.png" alt="">
+								<img class="story-image img-polaroid " src="img/final_images/THE-NEW-U.jpg" alt="">
 							  <h2>Heading 1</h2>
 							  <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-							  <p><a class="btn" href="#">Full Story &raquo;</a></p>
-							</div>
-							<div class="span4">
-								<img class="story-image img-polaroid" src="img/final_images/THE-NEW-U.jpg" alt="">
-								<h2>Heading 2</h2>
-								<p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-								<p><a class="btn" href="#">Full Story &raquo;</a></p>
+							  <p><a class="btn btn-inverse" href="#">Full Story &raquo;</a></p>
 							</div>
 							<div class="span4">
 								<img class="story-image img-polaroid" src="img/final_images/SINGLE.20130316_basketball_472.jpg" alt="">
+								<h2>Heading 2</h2>
+								<p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+								<p><a class="btn btn-inverse" href="#">Full Story &raquo;</a></p>
+							</div>
+							<div class="span4">
+								<img class="story-image img-polaroid" src="img/sample_images/5.png" alt="">
 								  <h2>Heading 3</h2>
 								  <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-								  <p><a class="btn" href="#">Full Story &raquo;</a></p>
+								  <p><a class="btn btn-inverse" href="#">Full Story &raquo;</a></p>
 							</div>
 						</div>
 						<!-- END THREE FEATURE GROUP -->
@@ -282,8 +283,7 @@
 				<p class="ar">
 					&nbsp;
 					<br>
-					&copy;	Metropolitan  Denver Magazine 2013 |
-					<a href="/privacy/">Privacy Statement</a>
+					&copy;	Metropolitan  Denver Magazine 2013
 					<br>
 					<a href="http://tops.state.co.us/">State of Colorado's Transparency Online Project (TOP)</a>
 				</p>
@@ -297,15 +297,15 @@
 
 		<script src="js/main.js"></script>
 
-		<!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
-		<script>
-		            var _gaq=[['_setAccount','UA-505529-1'],['_trackPageview']];
-		            (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
-		            g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
-		            s.parentNode.insertBefore(g,s)}(document,'script'));
-		</script>
-		<!-- Google Search Script-->
-                <script>
+	<!-- Google Analytics-->
+	<script>
+	            var _gaq=[['_setAccount','UA-505529-1'],['_trackPageview']];
+	            (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+	            g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
+	            s.parentNode.insertBefore(g,s)}(document,'script'));
+	</script>
+	<!-- Google Search Script-->
+  	<script>
                     (function() {
                     var cx = '011688688170056286566:qgdsrb4rrlo';
                     var gcse = document.createElement('script');
@@ -317,5 +317,15 @@
                     s.parentNode.insertBefore(gcse, s);
                     })();
             </script>
+           
+    <!-- Add this - widget -->
+    <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-50ad441403391130"></script>
+	<script src="js/vendor/modernizr-2.6.2.min.js"></script>
+	<script src="js/plugins.js"></script>
+	<script src="js/log.js"></script>
+	<script src="js/checklocalstorage.js"></script>
+	<script src="js/bootstrap-button.js"></script>
+	<script src="js/bootstrap-collapse.js"></script>
+	<!--<script src="js/bootstrap-transition.js"></script>-->
 	</body>
 </html>

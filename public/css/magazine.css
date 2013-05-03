@@ -5,11 +5,6 @@
   	transition: all 0.5s ease-in-out;
 }
 
-a {
-color: rgb(14, 96, 138);
-text-decoration: none;
-}
-
 .msudenver-logo{
 	position:  absolute;
 	left:  50px;
@@ -54,18 +49,13 @@ text-decoration: none;
 	text-align: left;
 	line-height: 2em;
 	background-color: black;
-
+	
 }
-
+.black-buttons > a:hover{
+	color: white;
+}
 .sidebar-nav {
 	line-height: 3em;
-}
-
-
-.left-nav-1 > ul >li{
-	color: white;
-	text-shadow: black !important;
-	background-color: #585759;
 }
 
 .left-nav-1 > ul >li > a{
@@ -75,10 +65,8 @@ text-decoration: none;
 .left-nav-1 > ul >li > a:hover{
 	color: black;
 	text-shadow: black !important;
-}
-.black-buttons:hover{
-	color: black;
-}
+}	
+
 
 .carousel-caption {
 	position: relative;
@@ -103,7 +91,7 @@ text-decoration: none;
 }
 
 
-/*
+/* 
 
 	MAGAZINE PREVIEW
 	-----------------
@@ -134,7 +122,7 @@ text-decoration: none;
 
 
 
-/*
+/* 
 
 	SITE MANAGER NAVIGATION STYLE
 	+---------------------------+
@@ -214,7 +202,7 @@ text-decoration: none;
 	background-color: #717073;
 	border-top: 1px solid #e5e5e5;
 	border-bottom: none;
-
+	
 }
 
 	/* year label */
@@ -251,24 +239,24 @@ text-decoration: none;
 [class*="currentbranch"] > a{
 	border-left: none;
 }*/
-
+	
 	/*hover*/
 
-.currentbranch0 > a:hover, .multilevel-linkul-0 > li > a:hover ,
-.currentbranch1 > a:hover, .multilevel-linkul-1 > li > a:hover,
+.currentbranch0 > a:hover, .multilevel-linkul-0 > li > a:hover , 
+.currentbranch1 > a:hover, .multilevel-linkul-1 > li > a:hover, 
 .currentbranch2 > a:hover{
 	background-color: white;
 	color: black;
 }
 
 
-/*
+/* 
 
 	O V E R W R I T E S
 	------+--------
 
- 	for Bootstrap.css
- 	and docs.css
+ 	for Bootstrap.css 
+ 	and docs.css 
 
 */
 
@@ -292,16 +280,14 @@ hr {
 	color:white;
 	text-align: center;
 	word-break: keep-all;
-
+	
 }
 .footer-bg > p > a {
-	color: white;
+	color:white;
 }
-
 .footer-bg > p > a:hover {
-	color: rgb(14, 96, 138);
+	color: #0088cc;
 }
-
 .bs-docs-sidenav {
 	padding: 0;
 }
@@ -325,8 +311,40 @@ hr {
 
 /* SEARCH BOX STYLES */
 
-input.gsc-search-button {
-	border: none;
+.search-box{
+	width:auto;
 }
 
+
+.digital-edition > p{
+	color: black;
+	padding: 15px;
+}
+
+
+.left-nav-1 > ul > section > ul > li{
+	background-color: white;
+}
+.left-nav-1 >  ul > li.search-box{
+	background-color: white;
+}
+.left-nav-1 > ul >li:not(.digital-edition){
+	color: white;
+	text-shadow: black;
+	background-color: #585759;
+}
+.search-box > h4{
+	color:black;
+	background-color: white;
+}
+
+.search-box {
+	background-color: white;
+}
+
+.addthis_toolbox , .addthis_default_style, .addthis_32x32_style > li > a{
+	padding: 0;
+	margin-top: 0;
+
+}
 
