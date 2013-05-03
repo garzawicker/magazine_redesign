@@ -160,6 +160,7 @@
 	.addthis_toolbox , .addthis_default_style, .addthis_32x32_style  {
 		padding: 0;
 		display: block;
+		
 		margin: 0;
 	}
 	.search-box{
