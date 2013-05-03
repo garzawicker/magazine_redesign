@@ -30,6 +30,7 @@
 		<link rel="stylesheet" href="css/bootstrap-responsive.css">
 		<link rel="stylesheet" href="css/docs.css">
 		<link rel="stylesheet" href="css/magazine.css">
+		<!-- <link rel="stylesheet" href="css/normalize.css"> -->
 		<link rel="stylesheet" href="css/magazine-responsive.css">
 
 	</head>
@@ -56,46 +57,51 @@
 
 		<!-- BEGIN-MAIN CONTENT -->
 		<div class="container">
-			<!-- BEGIN LEFT SIDEBAR NAVIGATION -->
+			
 			<div id="main-container"  class="row-fluid span12" >
-				<div id="left-side-nav">
-					<div class="span3 left-nav-1">
+				<!-- BEGIN LEFT SIDEBAR NAVIGATION -->
+                <div class="span3 left-nav-1">
 						<ul class="sidebar-nav bs-docs-sidenav nav-list nav left-nav-1 nav-collapse collapse">
 							<!-- <li class="nav-header">Sidebar</li> -->
 							<li style="color:red">Content Width:<span id="content-width" style="color:red;"></span> 
 							</li>
 							<li class="brand"><a href="#dropdowns" class="left-nav-1"><i class="active icon-chevron-right"></i> 
 								Current Issue</a></li>
-							<li><a href="#" class="left-nav-1"><i class="icon-chevron-right"></i> Archive</a></li>
+							<li><a href="#"><i class="icon-chevron-right"></i> Archive</a></li>
 							<li><a href="#"><i class="icon-chevron-right"></i> About</a></li>
 							<li><a href="#"><i class="icon-chevron-right"></i> Contact Us</a></li>
-							<li class="search-box">
-								<h4>Magazine Search</h4>
-								<gcse:searchbox-only></gcse:searchbox-only>
-							</li>
+                            </ul>
+                        
+                           <div class="left-nav-hidden bs-docs-sidenav">
+                            <section class="search-box">
+                            <h4>Magazine Search</h4>
+							<gcse:searchbox-only></gcse:searchbox-only>
 							
+							</section>
 							
 						
-							<li class="digital-edition magazine-preview " >
+							<section class="left-nav-hidden">
 								<img class="img-polaroid" src="img/final_images/sp13cover_final.jpg" alt="">
 								<p>
 								<b>DIGITAL EDITION</b>
 								<br>
 								Read the full magazine including alumni class notes
 								</p>
-							</li>
+							</section>
 
-
+                            <ul class="sidebar-nav bs-docs-sidenav  nav   nav-list nav">
 							<li>
-								<a href="#"  class="black-buttons">
+								<a href="/alumni/keepingintouch/updatemyprofile/" class="black-buttons" >
 							 		SUBMIT CLASS NOTES
 								</a>
 							</li>
 							<li >
-								<a href="#"  class="black-buttons">
+								<a href="/newsroom/" class="black-buttons">
 								 	NEWSROOM
 								</a>
 							<li>
+                            </li>
+                             </ul>
 								<!-- AddThis Button BEGIN -->
 						<section>     
 							<ul class="addthis_toolbox addthis_default_style addthis_32x32_style nav ">
@@ -105,14 +111,14 @@
 							<li><a class="addthis_button_preferred_4"></a></li>
 							<li><a class="addthis_button_compact"></a></li>
 							<li><a class="addthis_counter addthis_bubble_style"></a></li>
-				                      		</ul>
-				                      </section>
-						</ul>
-						
+				            </ul>
+				         </section>
+						</div>
+						</div>
+                   
 				                     
 				                            <!-- AddThis Button END -->
-					</div>
-				</div>
+					
 
 				<!-- END LEFT SIDEBAR NAVIGATION -->
 
@@ -123,7 +129,7 @@
 						<!-- SM Header Ends Here -->
 
 						<div>
-							<img class="hero-image img-polaroid" src="img/sample_images/FresquezCarlos_0001_091113cc.jpg" alt="">
+							<img class="hero-image img-polaroid" src="img/final_images/glassballs.jpg" alt="">
 							<div class="carousel-caption">
 								<h2>Hero</h2>
 								<p>This is a template for a simple marketing or informational website. It includes a large callout called the hero unit and three supporting pieces of content. Use it as a starting point to create something more unique.
@@ -135,22 +141,22 @@
 
 						 <div class="row-fluid">
 							<div class="span4">
-								<img class="story-image img-polaroid " src="img/sample_images/3.png" alt="">
+								<img class="story-image img-polaroid " src="img/final_images/THE-NEW-U.jpg" alt="">
 							  <h2>Heading 1</h2>
 							  <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-							  <p><a class="btn" href="#">Full Story &raquo;</a></p>
+							  <p><a class="btn btn-inverse" href="#">Full Story &raquo;</a></p>
 							</div>
 							<div class="span4">
-								<img class="story-image img-polaroid" src="img/sample_images/4.png" alt="">
+								<img class="story-image img-polaroid" src="img/final_images/SINGLE.20130316_basketball_472.jpg" alt="">
 								<h2>Heading 2</h2>
 								<p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-								<p><a class="btn" href="#">Full Story &raquo;</a></p>
+								<p><a class="btn btn-inverse" href="#">Full Story &raquo;</a></p>
 							</div>
 							<div class="span4">
 								<img class="story-image img-polaroid" src="img/sample_images/5.png" alt="">
 								  <h2>Heading 3</h2>
 								  <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-								  <p><a class="btn" href="#">Full Story &raquo;</a></p>
+								  <p><a class="btn btn-inverse" href="#">Full Story &raquo;</a></p>
 							</div>
 						</div>
 						<!-- END THREE FEATURE GROUP -->
@@ -277,8 +283,7 @@
 				<p class="ar">
 					&nbsp;
 					<br>
-					&copy;	Metropolitan  Denver Magazine 2013 |
-					<a href="/privacy/">Privacy Statement</a>
+					&copy;	Metropolitan  Denver Magazine 2013
 					<br>
 					<a href="http://tops.state.co.us/">State of Colorado's Transparency Online Project (TOP)</a>
 				</p>
@@ -292,7 +297,7 @@
 
 		<script src="js/main.js"></script>
 
-	<!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+	<!-- Google Analytics-->
 	<script>
 	            var _gaq=[['_setAccount','UA-505529-1'],['_trackPageview']];
 	            (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
@@ -312,9 +317,9 @@
                     s.parentNode.insertBefore(gcse, s);
                     })();
             </script>
-            <!-- Add this - widget -->
-            <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-50ad441403391130"></script>
-            
+           
+    <!-- Add this - widget -->
+    <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-50ad441403391130"></script>
 	<script src="js/vendor/modernizr-2.6.2.min.js"></script>
 	<script src="js/plugins.js"></script>
 	<script src="js/log.js"></script>
