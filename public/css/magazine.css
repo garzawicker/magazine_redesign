@@ -52,7 +52,7 @@
 }
 
 
-.black-buttons > a {
+li.black-buttons > a {
 	color:white;
 	text-align: left;
 	line-height: 2em;
@@ -81,8 +81,8 @@
 	position: relative;
 	left: inherit;
 	bottom: inherit;
-	background: #333333;
-	background: rgba(0, 0, 0, 0.75);
+	background-color: #333333;
+	background-color: rgba(0, 0, 0, 0.75);
 }
 
 .carousel-caption > h2{
@@ -92,11 +92,11 @@
 
 
 .carousel-caption h2 {
-	margin: 10 0 5px;
+	margin: 0 0 5px;
 }
 
 .carousel-caption p {
-	margin-bottom: 0;
+	margin-bottom: 10px;
 }
 
 
@@ -110,6 +110,7 @@
 	cursor:pointer;
 	margin-top:0;
 	line-height: 1em;
+	margin-top: 25px;
 }
 .magazine-preview p{
 	color: inherit;
@@ -318,7 +319,8 @@ hr {
 
 /* SEARCH BOX STYLES */
 
-.search-box{
+.search-box > h4, { #___gcse_0{}
+	margin-top: 25px;
 	width:auto;
 }
 
@@ -376,4 +378,26 @@ section{
 .media-body p{
 	padding-left: 15px;
 	color: black;
+}
+
+/*
+	T H R E E - F E A T U R E 
+	S E C T I O N
+*/
+.three-feature-group{
+	padding-top: 20px;
+	margin-top: 25px;
+}
+
+.thumbnail{
+	cursor:pointer;
+	padding: 10px;
+}
+
+.span12 {
+    	padding-top: 125px;
+}
+.black-buttons-container > ul{
+	padding-top: 25px;
+	padding-bottom: 25px;
 }

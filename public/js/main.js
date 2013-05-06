@@ -8,11 +8,10 @@ $(document).ready(function(){
 	sizedebuggin();
 
 	// makes magazine preview clickable 
-	$("section.magazine-preview").click(function(){
+	$(".magazine-preview, .thumbnail").click(function(){
 		var ulr = $(this).data().href ;
 		window.open(ulr, '_blank');
 	});
-
 
 	// scrollTop function
 	$(window).scroll(function(){
