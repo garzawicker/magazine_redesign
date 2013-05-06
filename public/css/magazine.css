@@ -108,7 +108,7 @@
 */
 .magazine-preview {
 	cursor:pointer;
-	margin-top:0px;
+	margin-top:0;
 	line-height: 1em;
 }
 .magazine-preview p{
@@ -217,7 +217,7 @@
 .currentbranch1 > a{
 	color: white;
 	text-decoration: none;
-	background-color: 717073;
+	background-color: #717073;
 }
 .multilevel-linkul-1 > li {
 	background-color: #8A898d;
