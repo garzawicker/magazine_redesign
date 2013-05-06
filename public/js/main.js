@@ -10,7 +10,7 @@ $(document).ready(function(){
 	// makes magazine preview clickable 
 	$(".magazine-preview, .thumbnail").click(function(){
 		var ulr = $(this).data().href ;
-		window.open(ulr, '_blank');
+		window.open(ulr,"_self");
 	});
 
 	// scrollTop function

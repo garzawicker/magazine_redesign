@@ -401,3 +401,11 @@ section{
 	padding-top: 25px;
 	padding-bottom: 25px;
 }
+.three-feature-group >  .thumbnail {
+	height: 360px;
+}
+
+.thumbnail > p > a.btn.btn-inverse {
+	/*vertical-align: 150px;*/
+	
+}

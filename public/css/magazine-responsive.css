@@ -235,5 +235,9 @@
 		display: none;
 	}
 
+	.three-feature-group >  .thumbnail {
+		height: inherit;
+	}
+
 	
 }

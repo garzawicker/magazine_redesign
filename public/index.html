@@ -68,7 +68,7 @@
 							<li style="color:red">Content Width:<span id="content-width" style="color:red;"></span> 
 							</li>
 							<li class="brand"><a href="#dropdowns" class="left-nav-1"><i class="active icon-chevron-right"></i> 
-								Current Issue</a></li>
+							 	Current Issue</a></li>
 							<li><a href="#"><i class="icon-chevron-right"></i> Archive</a></li>
 							<li><a href="#"><i class="icon-chevron-right"></i> About</a></li>
 							<li><a href="#"><i class="icon-chevron-right"></i> Contact Us</a></li>
@@ -87,8 +87,13 @@
 							Read the full magazine including alumni class notes
 							</p>
 						</section>
+
 						<section class="black-buttons-container">
                             					<ul class=" bs-docs-sidenav nav ">
+
+						<section>
+                            <ul class="sidebar-nav bs-docs-sidenav  nav   nav-list nav ">
+
 								<li class="black-buttons">
 									<a href="/alumni/keepingintouch/updatemyprofile/">
 							 		SUBMIT CLASS NOTES
@@ -98,10 +103,10 @@
 									<a href="/newsroom/" >
 								 	NEWSROOM
 									</a>
-							
-					                            	</li>
-					                             </ul>
-					              </section>
+                                </li>
+					        </ul>
+                        </section>
+                        
 								<!-- AddThis Button BEGIN -->
 						<section class="addthis">     
 							<ul class="addthis_toolbox addthis_default_style addthis_32x32_style nav ">
@@ -111,8 +116,8 @@
 							<li><a class="addthis_button_preferred_4"></a></li>
 							<li><a class="addthis_button_compact"></a></li>
 							<li><a class="addthis_counter addthis_bubble_style"></a></li>
-				            			</ul>
-				         		</section>
+				            </ul>
+				        </section>
 					</div>
 				</div>
                    
@@ -128,34 +133,35 @@
 
 						<!-- SM Header Ends Here -->
 
-						<div class="thumbnail ">
+						<section class="thumbnail" data-href='<t4 type="content" name="Link" output="linkurl"/>'>
+						
 							<img class="hero-image" src="img/final_images/glassballs.jpg" alt="">
 							<div class="carousel-caption">
 								<h2>Hero</h2>
 								<p>This is a template for a simple marketing or informational website. It includes a large callout called the hero unit and three supporting pieces of content. Use it as a starting point to create something more unique.
 								</p>
 							</div>
-						</div>
+						</section>
 
 						<!-- BEGIN THREE FEATURE GROUP -->
 
 						 <div class="row-fluid three-feature-group">
 							<div class="span4 thumbnail">
 								<img class="story-image " src="img/final_images/THE-NEW-U.jpg" alt="">
-							  <h2>Heading 1</h2>
-							  <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-							  <p><a class="btn btn-inverse" href="#">Full Story &raquo;</a></p>
+								  <h2>Heading 1</h2>
+								  <p>Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+								  <p><a class="btn btn-inverse" href="#">Full Story &raquo;</a></p>
 							</div>
 							<div class="span4 thumbnail ">
 								<img class="story-image" src="img/final_images/SINGLE.20130316_basketball_472.jpg" alt="">
 								<h2>Heading 2</h2>
-								<p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+								<p>Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
 								<p><a class="btn btn-inverse" href="#">Full Story &raquo;</a></p>
 							</div>
 							<div class="span4 thumbnail ">
 								<img class="story-image" src="img/sample_images/5.png" alt="">
 								  <h2>Heading 3</h2>
-								  <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+								  <p>Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
 								  <p><a class="btn btn-inverse" href="#">Full Story &raquo;</a></p>
 							</div>
 						</div>
@@ -298,12 +304,20 @@
 		<script src="js/main.js"></script>
 
 	<!-- Google Analytics-->
-	<script>
-	            var _gaq=[['_setAccount','UA-505529-1'],['_trackPageview']];
-	            (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
-	            g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
-	            s.parentNode.insertBefore(g,s)}(document,'script'));
-	</script>
+        <script type="text/javascript">
+        
+          var _gaq = _gaq || [];
+          _gaq.push(['_setAccount', 'UA-505529-1']);
+          _gaq.push(['_trackPageview']);
+        
+          (function() {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+          })();
+        
+        </script>
+        
 	<!-- Google Search Script-->
   	<script>
                     (function() {
@@ -318,9 +332,10 @@
                     })();
             </script>
            
-    	<!-- Add this - widget -->
-    	<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-50ad441403391130"></script>
-	<script src="js/vendor/modernizr-2.6.2.min.js"></script>
+    <!-- Add this - widget -->
+    <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-50ad441403391130"></script>
+	
+    <script src="js/vendor/modernizr-2.6.2.min.js"></script>
 	<script src="js/plugins.js"></script>
 	<script src="js/log.js"></script>
 	<script src="js/checklocalstorage.js"></script>
