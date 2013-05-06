@@ -103,6 +103,9 @@
 */
 
 @media (min-width: 768px) and (max-width: 979px){
+	.container-fluid{
+		height: 100px;
+	}
 	.thumbnail > p > a{
 		position: relative;
 		top: 0;
@@ -132,6 +135,9 @@
 
 */
 @media (max-width: 767px){
+	.container-fluid{
+		height: 60px;
+	}
 	.thumbnail > p > a{
 		position: relative;
 		top: 0;
