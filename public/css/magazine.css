@@ -405,7 +405,15 @@ section{
 	height: 360px;
 }
 
-.thumbnail > p > a.btn.btn-inverse {
-	/*vertical-align: 150px;*/
-	
+.thumbnail > p > a{
+	position: absolute;
+	top: 1235px;
 }
+/*hr{
+	border: 0.4px;
+  	width: 90%;
+	text-align: center;
+	border-color: silver;
+}*/
+/*<hr align="center" size=".4"  color="silver" width="100%">*/
+
