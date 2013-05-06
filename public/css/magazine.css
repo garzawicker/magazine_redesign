@@ -5,6 +5,15 @@
   	transition: all 0.5s ease-in-out;
 }
 */
+
+.magazine-logo-change, .msudenver-logo,.magazine-logo,
+.magazine-logo-change,.container-fluid{
+  	-webkit-transition: all 0.5s ease-in-out;
+  	-moz-transition: all 0.5s ease-in-out;
+  	-o-transition: all 0.5s ease-in-out;
+  	transition: all 0.5s ease-in-out;
+}
+
 .msudenver-logo{
 	position:  absolute;
 	left:  50px;
@@ -331,7 +340,7 @@ hr {
 	text-shadow: black;
 	background-color: #585759;
 }
-.search-box h4{
+.search-box > h4{
 	color:black;
 	background-color: white;
 }
@@ -363,8 +372,8 @@ section{
 	margin:0;
 }
 
-.media-body  a > h4 ,
-.media-body a >p{
-	padding-left: 20px;
+.media-body  a ,
+.media-body p{
+	padding-left: 15px;
 	color: black;
 }

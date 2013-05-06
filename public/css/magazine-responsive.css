@@ -155,13 +155,6 @@
 	M O B I L E - P O R T R A I T
 
 */
-
-
-@media (max-width: 480px) {
-	.nav-collapse {
-		-webkit-transform: none;
-	}
-}
 @media (min-width: 320px) and (max-width: 480px){
 
 	.bs-docs-sidenav{
@@ -223,24 +216,27 @@
 		margin-top:10px;
 		margin-bottom: 35px;
 	}
-	
+	/* MEDIA OBJECTS */
 
 	/* media objects row 2nd */
 	.row-fluid:nth-child(3){
 		padding-top: 50px;
 	}
-	
-
-	/* MEDIA ROW OBJECTS */
-
-
+	.media{
+		margin:0;
+		padding-top: 15px;
+	}
+	.media-body {
+		margin: 0;
+		padding: 0;
+		width: auto;
+		padding-left: 10px;
+	}
 
 	/* ADD THIS MEDIA */
 	.addthis{
 		display: none;
 	}
-
-
 
 	
 }
