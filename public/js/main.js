@@ -2,16 +2,28 @@
 $(document).ready(function(){
 	'use strict' ;
 
+	var location1 = "http://www.msudenver.edu/magazine/";
+	var location2 = "http://sitemanager.msudenver.edu/m/";
+
+	// make thumbails clickable if location == main magainze site
+	if(document.location.href === location1 || document.location.href === location2){
+		// makes magazine preview clickable 
+		$(".magazine-preview, .thumbnail").click(function(){
+			var ulr = $(this).data().href ;
+			window.open(ulr,"_self");
+		});
+	}else{
+		// reset cursor if not on main magainze site
+		$('.thumbnail').css('cursor', 'inherit');
+	}
+
+
 	var width_threshold = 1200;
 
 	// remove for production
 	sizedebuggin();
 
-	// makes magazine preview clickable 
-	$(".magazine-preview, .thumbnail").click(function(){
-		var ulr = $(this).data().href ;
-		window.open(ulr,"_self");
-	});
+
 
 	// scrollTop function
 	$(window).scroll(function(){
