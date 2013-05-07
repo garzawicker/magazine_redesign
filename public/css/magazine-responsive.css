@@ -143,8 +143,7 @@
 */
 @media (min-width: 481px) and (max-width: 767px){
 	.carousel-caption {
-		bottom: 140px;
-		padding-bottom: 0;
+		bottom: 150px;
 	}
 
 	.container-fluid{
@@ -163,16 +162,7 @@
 		margin-top: 0;
         		padding-top: 0;
 	}
-	
-	.carousel-caption  {
-		position: relative;
-		margin: inherit;
-		right: inherit;
-		top: inherit;
-		left: inherit;
-		width: auto;
-		
-	}
+
 	.msudenver-logo, .msudenver-logo {
 		display: none;
 	}
@@ -193,13 +183,20 @@
 
 */
 @media (min-width: 320px) and (max-width: 480px){
-	.carousel-caption {
-		bottom: 0;
-		float: none;
+	.three-feature-group{
 		position: relative;
-		top: 0;
+		padding-top: 0;
+		margin-top: 0;
+	}
+	.carousel-caption {
+		bottom: 30px;
+		margin-right: 0;
+		margin-left: 0;
+		/*position: relative;*/
+		/*top: 0px;*/
+		margin-top:0;
+		margin-bottom: 0;
 		background-color: rgba(0,0,0,1);
-		/*margin-bottom: 20px;*/
 	}
 
 	.bs-docs-sidenav{
@@ -229,8 +226,7 @@
 		margin-bottom: 0;
 	}
 	.row-fluid{
-		margin:0;
-		padding: 0;
+		
 	}
 	.left-nav, .left-nav-1{
 		padding: 0;
@@ -257,14 +253,13 @@
 	}
 	.carousel-caption  {
 		position: relative;
-		width: auto;
-		margin-top:10px;
+		margin-top:0;
 	}
 	/* MEDIA OBJECTS */
 
 	/* media objects row 2nd */
 	.row-fluid:nth-child(3){
-		padding-top: 50px;
+		/*padding-top: 50px;*/
 	}
 	.media{
 		margin:0;
