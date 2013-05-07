@@ -51,7 +51,14 @@
 	background-color: white;
 }
 
+.black-buttons{
+	padding-top: 15px;
 
+}
+
+.addthis{
+	margin-top: 25px;
+}
 li.black-buttons > a {
 	color:white;
 	text-align: left;
@@ -319,10 +326,10 @@ hr {
 
 /* SEARCH BOX STYLES */
 
-.search-box > h4, { #___gcse_0{}
-	margin-top: 25px;
+.search-box > h4{ 
 	width:auto;
 }
+
 
 
 .digital-edition > p{
