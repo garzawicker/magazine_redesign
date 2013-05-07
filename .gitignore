@@ -23,3 +23,6 @@ node_modules/
 # OS generated files #
 .swp
 
+
+/iisnode
+/web.config
