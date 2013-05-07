@@ -266,5 +266,10 @@
 		height: inherit;
 	}
 
+	/* RESET MARGINS FOR MOBILE */
+	.thumbnail.span6{
+		margin-left:0;
+	}
+
 	
 }

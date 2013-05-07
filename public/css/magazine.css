@@ -86,19 +86,15 @@ li.black-buttons > a {
 
 .carousel-caption {
 	position: relative;
-	left: inherit;
-	bottom: inherit;
+	float: left;
+	bottom: 120px;
 	background-color: #333333;
-	background-color: rgba(0, 0, 0, 0.75);
+	background-color: rgba(0, 0, 0, 0.35);
 }
-
-.carousel-caption > h2{
-	color: #ffffff;
-	line-height: 35px;
-}
-
 
 .carousel-caption h2 {
+	color: #ffffff;
+	line-height: 35px;
 	margin: 0 0 5px;
 }
 
@@ -399,6 +395,7 @@ section{
 .thumbnail{
 	cursor:pointer;
 	padding: 10px;
+	height: auto;
 }
 
 .span12 {
@@ -416,6 +413,7 @@ section{
 	position: absolute;
 	top: 1155px;
 }
+
 
 /*hr{
 	border: 0.4px;
