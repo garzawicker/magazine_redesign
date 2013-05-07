@@ -50,6 +50,9 @@
 
 */
 @media (min-width: 980px) and (max-width: 1199px){
+	.carousel-caption {
+		bottom: 140px;
+	}
 
 	/* Enable use of floated navbar text */
 
@@ -103,6 +106,10 @@
 */
 
 @media (min-width: 768px) and (max-width: 979px){
+	.carousel-caption {
+		bottom: 140px;
+	}
+
 	.container-fluid{
 		height: 100px;
 	}
@@ -134,7 +141,12 @@
 
 
 */
-@media (max-width: 767px){
+@media (min-width: 481px) and (max-width: 767px){
+	.carousel-caption {
+		bottom: 140px;
+		padding-bottom: 0;
+	}
+
 	.container-fluid{
 		height: 60px;
 	}
@@ -181,6 +193,14 @@
 
 */
 @media (min-width: 320px) and (max-width: 480px){
+	.carousel-caption {
+		bottom: 0;
+		float: none;
+		position: relative;
+		top: 0;
+		background-color: rgba(0,0,0,1);
+		/*margin-bottom: 20px;*/
+	}
 
 	.bs-docs-sidenav{
 		padding: 0; margin:0;
@@ -269,6 +289,9 @@
 	/* RESET MARGINS FOR MOBILE */
 	.thumbnail.span6{
 		margin-left:0;
+	}
+	a.btn,  a.btn-inverse{
+		display: none;
 	}
 
 	

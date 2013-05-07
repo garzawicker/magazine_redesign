@@ -84,31 +84,6 @@ li.black-buttons > a {
 }	
 
 
-.carousel-caption {
-	position: relative;
-	float: left;
-	bottom: 120px;
-	background-color: #333333;
-	background-color: rgba(0, 0, 0, 0.35);
-}
-
-.carousel-caption h2 {
-	color: #ffffff;
-	line-height: 35px;
-	margin: 0 0 5px;
-}
-
-.carousel-caption p {
-	margin-bottom: 10px;
-}
-
-table {
-  margin: 20px;
-  max-width: 100%;
-  background-color: transparent;
-  border-collapse: collapse;
-  border-spacing: 0;
-}
 
 
 /* 
@@ -396,8 +371,8 @@ section{
 	S E C T I O N
 */
 .three-feature-group{
-	padding-top: 20px;
-	margin-top: 25px;
+	padding-top: -120px;
+	margin-top: -125px;
 }
 
 .thumbnail{
@@ -419,9 +394,37 @@ section{
 
 .thumbnail > p > a{
 	position: absolute;
-	top: 1155px;
+	top: 1085px;
+}
+	
+	/* CAROUSEL-CAPTION STYLES  */
+
+.carousel-caption {
+	position: relative;
+	float: none;
+	bottom: 100px;
+	/*padding-bottom: 50px;*/
+	background-color: #333333;
+	background-color: rgba(0, 0, 0, 0.35);
 }
 
+.carousel-caption h2 {
+	color: #ffffff;
+	line-height: 35px;
+	margin: 0 0 5px;
+}
+
+.carousel-caption p {
+	margin-bottom: 10px;
+}
+
+table {
+	margin: 20px;
+	max-width: 100%;
+	background-color: transparent;
+	border-collapse: collapse;
+	border-spacing: 0;
+}
 
 /*hr{
 	border: 0.4px;
