@@ -2,11 +2,14 @@
 $(document).ready(function(){
 	'use strict' ;
 
-	var location1 = "http://www.msudenver.edu/magazine/";
+	var location1 = "http://msudenver.edu/magazine/";
 	var location2 = "http://sitemanager.msudenver.edu/m/";
+	var location3 = "http://msudenver.edu/m/";
+
+	var docLocation =  document.location.href;
 
 	// make thumbails clickable if location == main magainze site
-	if(document.location.href === location1 || document.location.href === location2){
+	if(docLocation === location1 || docLocation === location2 || docLocation === location3){
 		// makes magazine preview clickable 
 		$(".magazine-preview, .thumbnail").click(function(){
 			var ulr = $(this).data().href ;
