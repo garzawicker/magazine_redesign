@@ -28,12 +28,12 @@
 */
 @media (min-width: 1200px){
 	.span9{
-		/*padding-right: 25px;*/
+		padding-right: 25px;
 	}
 
 	.magazine-logo{
 		top: 25px;
-		padding-right: 25px;
+		/*padding-right: 25px;*/
 
 	}
 	.magazine-logo-change{
