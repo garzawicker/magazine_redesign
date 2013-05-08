@@ -13,8 +13,11 @@
 <div>
     <h1><t4 type="content" name="Headline" output="normal" modifiers=""  /></h1>
     <h1><small><t4 type="content" name="Subhead" output="normal" modifiers=""  /></small></h1>
-    <h4><t4 type="content" name="Author" output="normal" modifiers=""  /></h4>
+    <h4><t4 type="content" name="Author" output="selective-output" modifiers="" format="By $value"/></h4>
     <h4><t4 type="content" name="Authors Email Address" output="normal" modifiers=""  /></h4>
+   <!--  <a href="mailto:<t4 type="content" name="Authors Email Address" output="normal" modifiers="encode_emails"  />"><t4 type="content" output="selective-output" modifiers="htmlentities, nl2br" name="Author" format="By $value" /></a> --->
+
+
     <h5>Publish Date: <t4 type="content" name="Publish Date" output="normal" modifiers="" date_format="MMMM d, yyyy" /></h5>
     <p><t4 type="content" name="Content" output="normal" modifiers=""  /></p>
 </div>
