@@ -299,7 +299,7 @@ hr {
 
 .navbar-fixed-bottom{
 	background-color: rgb(0,0,0);
-	position: inherit;
+	position: relative;
 }
 
 
@@ -412,6 +412,7 @@ section{
 
 
 .carousel-caption {
+	cursor: pointer;
 	position: relative;
 	bottom: 130px;
 	margin-top: 0;

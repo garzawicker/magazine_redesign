@@ -6,12 +6,13 @@ $(document).ready(function(){
 	var location2 = "http://sitemanager.msudenver.edu/m/";
 	var location3 = "http://msudenver.edu/m/";
 
+
 	var docLocation =  document.location.href;
 
 	// make thumbails clickable if location == main magainze site
 	if(docLocation === location1 || docLocation === location2 || docLocation === location3){
 		// makes magazine preview clickable 
-		$(".magazine-preview, .thumbnail").click(function(){
+		$(".magazine-preview, .thumbnail, .carousel-caption").click(function(){
 			var ulr = $(this).data().href ;
 			window.open(ulr,"_self");
 		});
