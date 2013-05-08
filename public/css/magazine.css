@@ -376,7 +376,7 @@ section{
 }
 
 .thumbnail{
-	cursor:pointer;
+	/*cursor:pointer;*/
 	padding: 10px;
 	height: auto;
 }
@@ -397,13 +397,19 @@ section{
 	top: 1025px;
 }
 
+.hero-image{
+	cursor:inherit;
+}
 /*  
 	-H E R O - U N I T- 
 	------+--------
 
 */
 
+/*.thumbnail.hero-unit{
+	cursor:inherit;
 
+}*/
 .hero-unit{
 	  /*background-color: inherit;*/
 	  height: auto;
