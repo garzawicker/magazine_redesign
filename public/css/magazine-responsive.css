@@ -50,6 +50,9 @@
 
 */
 @media (min-width: 980px) and (max-width: 1199px){
+	.carousel-caption {
+		bottom: 140px;
+	}
 
 	/* Enable use of floated navbar text */
 
@@ -103,6 +106,10 @@
 */
 
 @media (min-width: 768px) and (max-width: 979px){
+	.carousel-caption {
+		bottom: 140px;
+	}
+
 	.container-fluid{
 		height: 100px;
 	}
@@ -134,7 +141,11 @@
 
 
 */
-@media (max-width: 767px){
+@media (min-width: 481px) and (max-width: 767px){
+	.carousel-caption {
+		bottom: 150px;
+	}
+
 	.container-fluid{
 		height: 60px;
 	}
@@ -151,16 +162,7 @@
 		margin-top: 0;
         		padding-top: 0;
 	}
-	
-	.carousel-caption  {
-		position: relative;
-		margin: inherit;
-		right: inherit;
-		top: inherit;
-		left: inherit;
-		width: auto;
-		
-	}
+
 	.msudenver-logo, .msudenver-logo {
 		display: none;
 	}
@@ -181,6 +183,21 @@
 
 */
 @media (min-width: 320px) and (max-width: 480px){
+	.three-feature-group{
+		position: relative;
+		padding-top: 0;
+		margin-top: 0;
+	}
+	.carousel-caption {
+		bottom: 30px;
+		margin-right: 0;
+		margin-left: 0;
+		/*position: relative;*/
+		/*top: 0px;*/
+		margin-top:0;
+		margin-bottom: 0;
+		background-color: rgba(0,0,0,1);
+	}
 
 	.bs-docs-sidenav{
 		padding: 0; margin:0;
@@ -209,8 +226,7 @@
 		margin-bottom: 0;
 	}
 	.row-fluid{
-		margin:0;
-		padding: 0;
+		
 	}
 	.left-nav, .left-nav-1{
 		padding: 0;
@@ -237,14 +253,13 @@
 	}
 	.carousel-caption  {
 		position: relative;
-		width: auto;
-		margin-top:10px;
+		margin-top:0;
 	}
 	/* MEDIA OBJECTS */
 
 	/* media objects row 2nd */
 	.row-fluid:nth-child(3){
-		padding-top: 50px;
+		/*padding-top: 50px;*/
 	}
 	.media{
 		margin:0;
@@ -264,6 +279,14 @@
 
 	.three-feature-group >  .thumbnail {
 		height: inherit;
+	}
+
+	/* RESET MARGINS FOR MOBILE */
+	.thumbnail.span6{
+		margin-left:0;
+	}
+	a.btn,  a.btn-inverse{
+		display: none;
 	}
 
 	

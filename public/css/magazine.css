@@ -84,35 +84,6 @@ li.black-buttons > a {
 }	
 
 
-.carousel-caption {
-	position: relative;
-	left: inherit;
-	bottom: inherit;
-	background-color: #333333;
-	background-color: rgba(0, 0, 0, 0.75);
-}
-
-.carousel-caption > h2{
-	color: #ffffff;
-	line-height: 35px;
-}
-
-
-.carousel-caption h2 {
-	margin: 0 0 5px;
-}
-
-.carousel-caption p {
-	margin-bottom: 10px;
-}
-
-table {
-  margin: 20px;
-  max-width: 100%;
-  background-color: transparent;
-  border-collapse: collapse;
-  border-spacing: 0;
-}
 
 
 /* 
@@ -148,7 +119,7 @@ table {
 /* 
 
 	SITE MANAGER NAVIGATION STYLE
-	+---------------------------+
+	+-------------------------+
 
 */
 
@@ -396,17 +367,18 @@ section{
 }
 
 /*
-	T H R E E - F E A T U R E 
-	S E C T I O N
+	T H R E E - F E A T U R E -S E C T I O N
+	---------------+---------------
 */
 .three-feature-group{
-	padding-top: 20px;
-	margin-top: 25px;
+	padding-top: -120px;
+	margin-top: -125px;
 }
 
 .thumbnail{
 	cursor:pointer;
 	padding: 10px;
+	height: auto;
 }
 
 .span12 {
@@ -422,7 +394,58 @@ section{
 
 .thumbnail > p > a{
 	position: absolute;
-	top: 1155px;
+	top: 1085px;
+}
+
+/*  
+	-H E R O - U N I T- 
+	------+--------
+
+*/
+
+
+.hero-unit{
+	  /*background-color: inherit;*/
+	  height: auto;
+}
+	/* CAROUSEL-CAPTION STYLES  */
+
+
+.carousel-caption {
+	position: relative;
+	bottom: 135px;
+	margin-top: 0;
+	margin-left: 11px;
+	margin-right: 11px;
+	margin-bottom: 20px;
+	
+	background-color: #333333;
+	background-color: rgba(0, 0, 0, 0.35);
+}
+
+.carousel-caption h2 {
+	color: #ffffff;
+	line-height: 35px;
+	margin: 0 0 5px;
+}
+
+
+/*table{
+	margin: 20px;
+	max-width: 100%;
+	background-color: transparent;
+	border-collapse: collapse;
+	border-spacing: 0;
+}*/
+
+form.gsc-search-box {
+	
+	padding-bottom: 0;
+	
+
+	/*max-width: auto;*/
+	
+	
 }
 
 /*hr{
