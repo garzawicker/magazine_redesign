@@ -146,6 +146,9 @@
 
 */
 @media (min-width: 481px) and (max-width: 767px){
+	table.caption{
+		margin: 50px;
+	}
 	.span3, .left-nav-1{
 		/*position:fixed;*/
 		padding-top: 0;
