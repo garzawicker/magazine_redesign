@@ -42,8 +42,17 @@
 	.span12 {
         		padding-top: 125px;
 	
-	  }
-	
+	}
+	.carousel-caption {
+		cursor: pointer;
+		position: relative;
+		bottom: 125px;
+	}
+	.btn, .btn-inverse{
+		position:fixed;
+		bottom: 20px
+	}
+
 }
 
 /*  
@@ -55,7 +64,7 @@
 */
 @media (min-width: 980px) and (max-width: 1199px){
 	.carousel-caption {
-		bottom: 140px;
+		/*bottom: 140px;*/
 	}
 
 	/* Enable use of floated navbar text */
@@ -69,7 +78,7 @@
 	/* MSU-DENVER Magazine @media queries */
 
 	.carousel-caption{
-		width: auto;
+		/*width: auto;*/
 	}
 
 
@@ -86,7 +95,7 @@
 
 */
 	
-
+	
 	.magazine-logo{
 		top: 25px;
 	}
@@ -97,9 +106,10 @@
 	.thumbnail > p > a{
 		position: relative;
 		top: 0;
-		
 	}
-
+	.three-feature-group >  .thumbnail {
+		height: inherit;
+	}
 }
 
 /*
@@ -111,7 +121,7 @@
 
 @media (min-width: 768px) and (max-width: 979px){
 	.carousel-caption {
-		bottom: 140px;
+		bottom: 145px;
 	}
 
 	.container-fluid{
@@ -146,65 +156,47 @@
 
 */
 @media (min-width: 481px) and (max-width: 767px){
+	.row-fluid, .span12,
+	.span9, .container{
+		padding: 0; margin:0;
+	}
 	table.caption{
-		margin: 50px;
+		margin: 10px 100px 25px 100px;
+	}
+	table.caption > p{
+		margin-top: 100px;
+		position: relative;
+		min-width: 300px;
 	}
 	.span3, .left-nav-1{
-		/*position:fixed;*/
 		padding-top: 0;
 		margin: 0;
-
 	}
-	.carousel-caption{
-		/*position: relative;*/
-	}
-	.hero-image, .hero-unit, .thumbnail{
-		/*margin-top: 0;*/
-		/*padding-top: 0;*/
-	}
-	.carousel-caption {
-		/*bottom: 150px;*/
-	}
-
 	.container-fluid{
 		height: 60px;
 	}
 	.thumbnail > p > a{
 		position: relative;
 		top: 0;
-		
 	}
 	.row-fluid{
 		margin:0;
 	}
-	
-	.span12 {
-		margin-top: 0;
-        		padding-top: 0;
-	}
-
-	.msudenver-logo, .msudenver-logo {
-		display: none;
+	.carousel-caption{
+		margin-bottom: 0;
 	}
 	.magazine-logo{
 		left: 10px;
 	}
 	.three-feature-group >  .thumbnail {
 		height: inherit;
+		margin:0;
+		padding: 0;
 	}
-	.black-buttons{
+	.magazine-preview, .search-box,.addthis, .black-buttons,
+	.msudenver-logo {
 		display: none;
 	}
-	.magazine-preview{
-		display: none;
-	}
-	.search-box{
-		display: none;
-	}
-	.addthis{
-		display: none;
-	}
-
 }
 
 
@@ -216,64 +208,32 @@
 
 */
 @media (min-width: 320px) and (max-width: 480px){
-	.three-feature-group{
-		position: relative;
-		padding-top: 0;
-		margin-top: 0;
+
+	/*	HIDE         */
+	.msudenver-logo, .black-buttons,.magazine-preview,
+	.search-box, .left-nav-hidden, .btn,  .btn-inverse, .addthis{
+		display: none;
+	}
+
+
+
+	/*	RESET MARGINS      */
+	.sidebar-nav , .bs-docs-sidenav ,.nav-list,
+	 .nav .left-nav-1, .nav-collapse, .collapse,
+	 .span3, .left-nav-1 > ul, .span12,
+	 .three-feature-group, .media-body, .media, .addthis{
+	 	position: relative;
+		margin:0;
+		padding: 0;
+	
 	}
 	.carousel-caption {
 		bottom: 30px;
-		margin-right: 0;
-		margin-left: 0;
-		/*position: relative;*/
-		/*top: 0px;*/
-		margin-top:0;
-		margin-bottom: 0;
+		margin:0;
 		background-color: rgba(0,0,0,1);
 	}
-
-	.bs-docs-sidenav{
-		padding: 0; margin:0;
-	}
-	.span3, .left-nav-1{
-		padding: 0;
-		margin:0;
-	}
-	.addthis_toolbox , .addthis_default_style, .addthis_32x32_style  {
-		padding: 0;
-		display: block;
-		
-		margin: 0;
-	}
-	.search-box{
-		display: none;
-	}
-	.left-nav-hidden{
-		display: none;
-	}
-	.span12{
-		padding: 0;
-		margin: 0;
-	}
-	.navbar-fixed-top{
-		margin-bottom: 0;
-	}
-	.row-fluid{
-		
-	}
-	.left-nav, .left-nav-1{
-		padding: 0;
-	}
-
-	/* MAGAZINE SECTION */
 	
-	.magazine-preview{
-		display: none;
-	}
-	.black-buttons{
-		display: none;
-	}
-
+	/*	BLACK HEADER CONTAINER HEIGHT*/
 	.container-fluid{
 		height: 40px;
 	}
@@ -281,9 +241,7 @@
 		left: 15px;
 		width: 300px;
 	}
-	.msudenver-logo{
-		display: none;
-	}
+	
 	.carousel-caption  {
 		position: relative;
 		margin-top:0;
@@ -291,24 +249,18 @@
 	/* MEDIA OBJECTS */
 
 	/* media objects row 2nd */
-	.row-fluid:nth-child(3){
-		/*padding-top: 50px;*/
-	}
+
 	.media{
-		margin:0;
-		padding-top: 15px;
+		padding-top: 25px;
 	}
-	.media-body {
-		margin: 0;
-		padding: 0;
-		width: auto;
+	.media-body, .media-heading {
+		margin:0;
+		padding-top: 0;
 		padding-left: 10px;
 	}
 
 	/* ADD THIS MEDIA */
-	.addthis{
-		display: none;
-	}
+
 
 	.three-feature-group >  .thumbnail {
 		height: inherit;
@@ -318,9 +270,8 @@
 	.thumbnail.span6{
 		margin-left:0;
 	}
-	a.btn,  a.btn-inverse{
-		display: none;
-	}
+
+
 
 	
 }
