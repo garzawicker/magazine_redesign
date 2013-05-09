@@ -146,8 +146,21 @@
 
 */
 @media (min-width: 481px) and (max-width: 767px){
+	.span3, .left-nav-1{
+		/*position:fixed;*/
+		padding-top: 0;
+		margin: 0;
+
+	}
+	.carousel-caption{
+		/*position: relative;*/
+	}
+	.hero-image, .hero-unit, .thumbnail{
+		/*margin-top: 0;*/
+		/*padding-top: 0;*/
+	}
 	.carousel-caption {
-		bottom: 150px;
+		/*bottom: 150px;*/
 	}
 
 	.container-fluid{
@@ -176,6 +189,19 @@
 	.three-feature-group >  .thumbnail {
 		height: inherit;
 	}
+	.black-buttons{
+		display: none;
+	}
+	.magazine-preview{
+		display: none;
+	}
+	.search-box{
+		display: none;
+	}
+	.addthis{
+		display: none;
+	}
+
 }
 
 
