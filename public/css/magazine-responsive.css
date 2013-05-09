@@ -48,10 +48,7 @@
 		position: relative;
 		bottom: 125px;
 	}
-	.btn, .btn-inverse{
-		position:fixed;
-		bottom: 20px
-	}
+
 
 }
 
@@ -158,7 +155,8 @@
 @media (min-width: 481px) and (max-width: 767px){
 	.row-fluid, .span12,
 	.span9, .container{
-		padding: 0; margin:0;
+		padding: 0; 
+		margin:0;
 	}
 	table.caption{
 		margin: 10px 100px 25px 100px;
@@ -190,8 +188,6 @@
 	}
 	.three-feature-group >  .thumbnail {
 		height: inherit;
-		margin:0;
-		padding: 0;
 	}
 	.magazine-preview, .search-box,.addthis, .black-buttons,
 	.msudenver-logo {

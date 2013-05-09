@@ -52,7 +52,7 @@
 }
 
 .black-buttons{
-	padding-top: 15px;
+	/*padding-top: 15px;*/
 
 }
 
@@ -377,7 +377,6 @@ section{
 
 .thumbnail{
 	cursor:pointer;
-
 	padding: 10px;
 	height: auto;
 }
@@ -393,7 +392,7 @@ section{
 	height: 390px;
 }
 
-.thumbnail > p > a{
+.thumbnail > p.fullstory {
 	position: relative;
 	/*top: 1025px;*/
 }
@@ -456,7 +455,13 @@ table.caption{
 
 }
 
-
+/*	FULL STORY BUTTONS          */
+/*.fullstory{
+	position:position;
+  	top:950px;
+  	/*margin-left: 1010px;*/
+}
+*/
 
 /*hr{
 	border: 0.4px;
