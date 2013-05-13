@@ -27,8 +27,8 @@ METROPOLITAN DENVER MAGAZINE Online
 <link rel="stylesheet" href="http://msudenver.edu/tst/css/bootstrap-responsive.css">
 <link rel="stylesheet" href="http://msudenver.edu/tst/css/docs.css">
 <link rel="stylesheet" href="http://msudenver.edu/tst/css/magazine.css">
-<!-- <link rel="stylesheet" href="css/normalize.css"> -->
 <link rel="stylesheet" href="http://msudenver.edu/tst/css/magazine-responsive.css">
+<link rel="stylesheet" href="http://msudenver.edu/tst/css/print.css" type="text/css" media="print">
 </head>
 
 <body>
@@ -39,6 +39,7 @@ METROPOLITAN DENVER MAGAZINE Online
 <div class="container-fluid">
 <a href="http://msudenver.edu"><img class="msudenver-logo" src="http://msudenver.edu/tst/img/responsive/msud-logo-C.png" alt=""></a>
 <a href="http://sitemanager.msudenver.edu/m/"><img class="magazine-logo"   src="http://msudenver.edu/tst/img/magazine_logo.png" alt=""></a>
+<img class="magazine-logo hidden" src="http://msudenver.edu/tst/img/magazine_facebook_icon.jpg" alt="">
 </div>
 
 <div class="container">
@@ -57,35 +58,43 @@ METROPOLITAN DENVER MAGAZINE Online
 <div class="container">
 
 <div id="main-container"  class="row-fluid span12" >
-<!-- BEGIN LEFT SIDEBAR NAVIGATION -->
-<div class="span3 left-nav-1">
+
+<!-- LEFT SIDE NAVIGATION-->
+
+<div id="left-nav" class="span3 left-nav-1">
+
 <t4 type="navigation" id="764"/>
     
 <div class="bs-docs-sidenav">
 <section class="search-box">
 <h4>Magazine Search</h4>
-<gcse:searchbox-only></gcse:searchbox-only>
-
+  <form action="http://msudenver.edu/magazine/search/" class="form-search">
+	<input type="hidden" name="cx" value="011688688170056286566:qgdsrb4rrlo" />
+	<input type="hidden" name="cof" value="FORID:11" />
+	<input type="hidden" name="ie" value="UTF-8" />
+    <input type="text" name="q" class="input-medium"/>
+    <button type="submit" class="btn btn-inverse">Search</button>
+</form>
 </section>
 		
-<section class="magazine-preview">
-              <img class="thumbnail" src="http://msudenver.edu/tst/img/final_images/sp13cover_final.jpg" alt="">
+<section class="magazine-preview thumbnail" data-href="http://issuu.com/msudenver">
+              <img src="http://msudenver.edu/tst/img/final_images/sp13cover_final.jpg" alt="">
 <p>
 <b>DIGITAL EDITION</b>
 <br>
-Read the full magazine including alumni class notes
+Read the full magazine, including alumni class notes.
 </p>
 </section>
 
-<ul class="sidebar-nav bs-docs-sidenav  nav   nav-list nav">
+<ul class=" bs-docs-sidenav nav ">
 <li class="black-buttons">
 <a href="http://msudenver.edu/alumni/keepingintouch/updatemyprofile/"  >
-SUBMIT CLASS NOTES
+SUBMIT A CLASS NOTE
 </a>
 </li>
 <li class="black-buttons">
 <a href="http://msudenver.edu/newsroom/">
-NEWSROOM
+MSU DENVER NEWS
 </a>
 <li>
 </li>
@@ -104,23 +113,19 @@ NEWSROOM
 </div>
 </div>	                     
 
-<!-- END LEFT SIDEBAR NAVIGATION -->
+<!-- END NAVIGATION -->
 
 
 <!-- BEGIN MAIN  SPAN 9 CONTAINER GROUP -->
 <div class="span9">
 
-
-
 <!-- *********************************  -->
 <!-- SITEMANAGER HEADER ENDS HERE -->
 <!-- *********************************  -->
 
-
-
+<!-- *********************************  -->
 <!-- SITEMANAGER START FOOTER -->
-
-
+<!-- *********************************  -->
 
 <!-- END MAIN  SPAN 9 CONTAINER GROUP -->
 </div>
@@ -140,7 +145,7 @@ NEWSROOM
 <p class="ar">
 &nbsp;
 <br>
-&copy;	Metropolitan  Denver Magazine 2013
+&copy; 2013 Metropolitan  Denver Magazine
 <br>
 <a href="http://tops.state.co.us/">State of Colorado's Transparency Online Project (TOP)</a>
 </p>
