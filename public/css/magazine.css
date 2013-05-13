@@ -381,9 +381,9 @@ section{
 	height: auto;
 }
 
-.span12 {
+/*.span12 {
     	padding-top: 125px;
-}
+}*/
 .black-buttons-container > ul{
 	padding-top: 25px;
 	padding-bottom: 25px;
@@ -406,12 +406,8 @@ section{
 
 */
 
-/*.thumbnail.hero-unit{
-	cursor:inherit;
 
-}*/
 .hero-unit{
-	  /*background-color: inherit;*/
 	  height: auto;
 }
 	/* CAROUSEL-CAPTION STYLES  */
