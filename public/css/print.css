@@ -6,12 +6,17 @@
 		  border:none;
 		  box-shadow: none !important;
 	}
-	.magazine-logo, .magazine-logo-change{
+	.magazine-logo {
 		  position:absolute;
 		width: 200px;
-		padding:0;
-		margin:0;
+		padding:1em;
+		margin:1em;
 	}
+    
+    img {
+        margin: 1em;
+        
+    }
 	.navbar, .navbar-inverse, .navbar-fixed-top{
 		display:none;  
 	}
@@ -86,15 +91,17 @@
 	.span12{
 		margin: 0 ;
 	}
+    
+    .container {
+    padding: 25px;
+    }
 	.container > button{
 		display:none;
 	  }
 	.container-fluid, .navbar-inner {
 		margin: 0 40% 0 40%;
 	}
-	.msudenver-logo{
-		display:none;
-	}
+
 	.left-nav-1{
 		display:none;
 	}
