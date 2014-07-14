@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/msudenver/magazine_redesign/issues"
   },
-  "homepage": "https://github.com/msudenver/magazine_redesign"
+  "homepage": "https://github.com/msudenver/magazine_redesign",
+  "devDependencies": {
+    "gulp": "^3.8.6"
+  }
 }
