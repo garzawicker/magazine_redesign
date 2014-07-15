@@ -1,0 +1,26 @@
+{
+  "name": "MetropolitanDenverMagazine",
+  "version": "0.2.0",
+  "homepage": "https://github.com/msudenver/magazine_redesign",
+  "authors": [
+    "Miguel Garza Wicker <garzawi@msudenver.edu>"
+  ],
+  "description": "Bower Files for Metropolitan Denver Magazine,
+  "moduleType": [
+    "node"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+
+  "dependencies": [
+    "bootstrap": "3.0.3",
+    "fontawesome": "~4.0.3",
+    "jasny-bootstrap": "~3.1.3"
+  ]
+}
