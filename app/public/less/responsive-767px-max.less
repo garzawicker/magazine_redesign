@@ -54,7 +54,7 @@
   }
   .thumbnails > li {
     float: none;
-    margin-left: 0; // Reset the default margin for all li elements when no .span* classes are present
+    margin-left: 0; // Reset the default margin for all li elements when no .col-md-* classes are present
   }
   // Make all grid-sized elements block level again
   [class*="span"],
@@ -66,8 +66,8 @@
     margin-left: 0;
     .box-sizing(border-box);
   }
-  .span12,
-  .row .span12 {
+  .col-md-12,
+  .row .col-md-12 {
     width: 100%;
     .box-sizing(border-box);
   }

@@ -934,7 +934,7 @@ form.bs-docs-example {
   .masthead .btn {
     font-size: 24px;
   }
-  .marketing .span4 {
+  .marketing .col-md-4 {
     margin-bottom: 40px;
   }
   .bs-docs-social {
