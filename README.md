@@ -1,20 +1,14 @@
-# [![Web Starter Kit](https://cloud.githubusercontent.com/assets/170270/3343034/ceef6e92-f899-11e3-96b9-5d9d69d97a00.png)](https://github.com/google/web-starter-kit/releases/latest)
-
-
 ## Overview
 
-[Web Starter Kit](http://developers.google.com/web/starter-kit) is a starting point for multi-screen web development. It encompasses opinionated recommendations on boilerplate and tooling for building an experience that [works great across multiple devices](http://google.github.io/web-starter-kit/hello-world/). We help you stay productive and aligned with the best practices outlined in Google's [Web Fundamentals](http://developers.google.com/web/fundamentals).  
+This repository is based on the [Web Starter Kit](http://developers.google.com/web/starter-kit) from Google.
 
 [![](https://cloud.githubusercontent.com/assets/170270/3343033/ceee251e-f899-11e3-9dd9-e313cf2522ec.png)](https://developers.google.com/web/starter-kit/ 'Features')
 
-## Quickstart
+## Layouts
 
-[Download](https://github.com/google/web-starter-kit/releases/latest) the kit or clone this repository and build on what we include in the `app` directory.
-
-We provide 2 HTML starting points, from which you can choose:
-
-- `index.html` - the default starting point, containing layout and a slide-out menu
-- `basic.html` - includes no layout
+- `index.html` - Original 1.0 magazine layout in development for version 2.0 including Bootstrap 3.0
+- `basic.html` - Original basic layout provided by the Web Starter Kit
+- `originalindex.html` - Original layout provided by the Web Starter Kit
 
 ## Tooling
 
@@ -102,10 +96,6 @@ This is not to say that Web Starter Kit cannot be used in browsers older than th
 
 If you find yourself running into issues during installation or running the tools, please check our [Troubleshooting](https://github.com/google/web-starter-kit/wiki/Troubleshooting) guide and then open an [issue](https://github.com/google/web-starter-kit/issues). We would be happy to discuss how they can be solved.
 
-## A Boilerplate-only Option
-
-If you would prefer not to use any of our tooling, delete the following files from the project: `package.json`, `gulpfile.js`, `.jshintrc` and `.travis.yml`. You can now safely use the boilerplate with an alternative build-system or no build-system at all if you choose.
-
 ## Inspiration
 
 Web Starter Kit is inspired by [Mobile HTML5 Boilerplate](http://html5boilerplate.com/mobile/) and Yeoman's [generator-gulp-webapp](https://github.com/yeoman/generator-gulp-webapp), having taken input from contributors to both projects during development. Our [FAQs](https://github.com/google/web-starter-kit/wiki/FAQ) attempt to answer commonly asked questions about the project.
@@ -117,4 +107,4 @@ Contributions, questions and comments are all welcome and encouraged. For code c
 ## License
 
 Apache 2.0  
-Copyright 2014 Google Inc
+Copyright 2014 MSU Denver and Google Inc
