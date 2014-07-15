@@ -551,9 +551,9 @@
 }
 
 // Table columns
-.tableColumns(@columnSpan: 1) {
+.tableColumns(@columncol-md-: 1) {
   float: none; // undo default grid column styles
-  width: ((@gridColumnWidth) * @columnSpan) + (@gridGutterWidth * (@columnSpan - 1)) - 16; // 16 is total padding on left and right of table cells
+  width: ((@gridColumnWidth) * @columncol-md-) + (@gridGutterWidth * (@columncol-md- - 1)) - 16; // 16 is total padding on left and right of table cells
   margin-left: 0; // undo default grid column styles
 }
 
@@ -599,7 +599,7 @@
       .clearfix();
     }
 
-    [class*="span"] {
+    [class*="col-md-"] {
       float: left;
       min-height: 1px; // prevent collapsing columns
       margin-left: @gridGutterWidth;
@@ -650,18 +650,18 @@
     .row {
       width: 100%;
       .clearfix();
-      [class*="span"] {
+      [class*="col-md-"] {
         .input-block-level();
         float: left;
         margin-left: @fluidGridGutterWidth;
         *margin-left: @fluidGridGutterWidth - (.5 / @gridRowWidth * 100 * 1%);
       }
-      [class*="span"]:first-child {
+      [class*="col-md-"]:first-child {
         margin-left: 0;
       }
 
       // Space grid-sized controls properly if multiple per line
-      .controls-row [class*="span"] + [class*="span"] {
+      .controls-row [class*="col-md-"] + [class*="col-md-"] {
         margin-left: @fluidGridGutterWidth;
       }
 
@@ -691,7 +691,7 @@
     }
 
     // Space grid-sized controls properly if multiple per line
-    .controls-row [class*="span"] + [class*="span"] {
+    .controls-row [class*="col-md-"] + [class*="col-md-"] {
       margin-left: @gridGutterWidth;
     }
 

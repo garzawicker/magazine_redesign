@@ -32,7 +32,7 @@
 	h3  {font-size:18px;}
 	h4  {font-size:16px;}
 	
-	.container-fluid, button.btn >  span.icon-bar{
+	.container-fluid, button.btn >  col-md-.icon-bar{
 		display:none;   
 	}
 	

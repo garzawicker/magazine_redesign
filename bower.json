@@ -5,22 +5,16 @@
   "authors": [
     "Miguel Garza Wicker <garzawi@msudenver.edu>"
   ],
-  "description": "Bower Files for Metropolitan Denver Magazine,
-  "moduleType": [
-    "node"
-  ],
-  "license": "MIT",
   "ignore": [
     "**/.*",
     "node_modules",
     "bower_components",
-    "test",
-    "tests"
-  ]
-
-  "dependencies": [
-    "bootstrap": "3.0.3",
+    "app/bower_components",
+    "test"
+  ],
+  "dependencies": {
+    "bootstrap": "3.1.0",
     "fontawesome": "~4.0.3",
     "jasny-bootstrap": "~3.1.3"
-  ]
+  }
 }

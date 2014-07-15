@@ -835,7 +835,7 @@ pre {
   padding-left: 0;
   padding-right: 0;
 }
-.highlight-module--code pre span {
+.highlight-module--code pre col-md- {
   margin: 0;
   padding: 0;
   display: inline-block;
@@ -3022,9 +3022,9 @@ object {
   margin: 4px auto;
 }
 .icon-circle i,
-.icon-circle span,
+.icon-circle col-md-,
 .icon-circle--large i,
-.icon-circle--large span {
+.icon-circle--large col-md- {
   position: absolute;
   line-height: 0px;
   top: 50%;
@@ -3034,15 +3034,15 @@ object {
   color: #ffffff;
   font-size: 26px;
 }
-.icon-circle span,
-.icon-circle--large span {
+.icon-circle col-md-,
+.icon-circle--large col-md- {
   font-family: "Roboto Condensed", Helvetica, sans-serif;
   font-size: 26px;
   font-weight: 700;
 }
 @media only screen and (min-width: 620px) {
-  .icon-circle span,
-  .icon-circle--large span {
+  .icon-circle col-md-,
+  .icon-circle--large col-md- {
     font-size: 42px;
   }
 }
