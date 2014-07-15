@@ -2,8 +2,6 @@
 
 This repository is based on the [Web Starter Kit](http://developers.google.com/web/starter-kit) from Google.
 
-[![](https://cloud.githubusercontent.com/assets/170270/3343033/ceee251e-f899-11e3-9dd9-e313cf2522ec.png)](https://developers.google.com/web/starter-kit/ 'Features')
-
 ## Layouts
 
 - `index.html` - Original 1.0 magazine layout in development for version 2.0 including Bootstrap 3.0
