@@ -52,7 +52,7 @@
 }
 
 .black-buttons{
-	padding-top: 15px;
+	margin-top: 15px;
 
 }
 
@@ -370,10 +370,6 @@ section{
 	T H R E E - F E A T U R E -S E C T I O N
 	---------------+---------------
 */
-.three-feature-group{
-	padding-top: -120px;
-	margin-top: -125px;
-}
 
 .thumbnail{
 	cursor:pointer;
@@ -387,9 +383,6 @@ section{
 .black-buttons-container > ul{
 	padding-top: 25px;
 	padding-bottom: 25px;
-}
-.three-feature-group >  .thumbnail {
-	height: 390px;
 }
 
 .thumbnail > p.fullstory {
@@ -451,13 +444,6 @@ table.caption{
 
 }
 
-/*	FULL STORY BUTTONS          */
-/*.fullstory{
-	position:position;
-  	top:950px;
-  	/*margin-left: 1010px;*/
-}
-*/
 
 /*hr{
 	border: 0.4px;
@@ -467,3 +453,61 @@ table.caption{
 }*/
 /*<hr align="center" size=".4"  color="silver" width="100%">*/
 
+
+/**
+*
+* GRANTS ADDITIONS:
+*
+**/
+
+#main-container {
+	margin-top: 150px !important;
+}
+
+.img-thumbnail {
+	padding: 8px !important;
+}
+
+/* HERO IMAGE */
+.hero-caption h2 {
+	margin: 0px !important;
+}
+.hero-caption {
+	background: rgba(0,0,0,0.35);
+	padding: 1em;
+	color: #fff;
+	position: relative;
+}
+.hero-caption:hover {
+	background: rgba(0,0,0,0.55);
+	transition: all 1s ease-in-out;
+}
+
+/* LEFT NAVIGATION */
+.nav-pills { margin-bottom: 1em !important; }
+.nav-pills>li>a {
+	border-radius: 0px !important;
+}
+
+/* FEATURED STORIES */
+.three-feature-group .img-thumbnail { height: 390px; margin-top: 1em; }
+.three-feature-group img {
+	height: 145px !important;
+	width: 100% !important;
+}
+.three-feature-group .btn-default {
+	background: #000;
+	color: #fff;
+	position: absolute;
+	bottom: 10px;
+	right: 25px;
+}
+
+/* ADD THIS */
+.list-inline > li {
+	display: inline-block;
+	margin-right: 2px;
+	padding-right: 0px;
+	padding-left: 0px;
+	width: 32px
+}
