@@ -31,5 +31,5 @@ node_modules/
 
 .sass-cache
 
-#Bower Components
-/bower_components
+#  Bower Components
+bower_components/
