@@ -473,6 +473,9 @@ table.caption{
 	padding-left: 0px !important;
 	padding-right: 0px !important;
 }
+#top-nav-toggle {
+	color: #fff !important;
+}
 
 /* HERO IMAGE */
 .hero-caption h2 {
