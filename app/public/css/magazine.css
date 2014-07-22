@@ -52,7 +52,8 @@
 }
 
 .black-buttons{
-	margin-top: 15px;
+	margin-top: 10px;
+	margin-bottom: 10px;
 
 }
 
@@ -468,6 +469,11 @@ table.caption{
 	padding: 8px !important;
 }
 
+.navbar-collapse {
+	padding-left: 0px !important;
+	padding-right: 0px !important;
+}
+
 /* HERO IMAGE */
 .hero-caption h2 {
 	margin: 0px !important;
@@ -487,6 +493,15 @@ table.caption{
 .nav-pills { margin-bottom: 1em !important; }
 .nav-pills>li>a {
 	border-radius: 0px !important;
+}
+#side-nav .nav li {
+	background: #585759;
+}
+#side-nav .nav li>a {
+	color: #ffffff;
+}
+#side-nav .nav li:hover > a {
+	color: #000000;
 }
 
 /* FEATURED STORIES */
