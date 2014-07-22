@@ -32,4 +32,4 @@ node_modules/
 .sass-cache
 
 #Bower Components
-app/bower_components
+/bower_components
