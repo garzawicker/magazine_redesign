@@ -6,6 +6,12 @@
 }
 */
 
+body {
+  font-size: 14px;
+  line-height: 1.4;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
 .magazine-logo-change, .msudenver-logo,.magazine-logo,
 .magazine-logo-change,.container-fluid, a:hover, .carousel-caption{
   	-webkit-transition: all 0.5s ease-in-out;
@@ -65,7 +71,7 @@ li.black-buttons > a {
 	text-align: left;
 	line-height: 2em;
 	background-color: black;
-	
+
 }
 .black-buttons >  a:hover{
 	color: black;
@@ -82,12 +88,12 @@ li.black-buttons > a {
 .left-nav-1 > ul >li > a:hover{
 	color: black;
 	text-shadow: black ;
-}	
+}
 
 
 
 
-/* 
+/*
 
 	MAGAZINE PREVIEW
 	-----------------
@@ -117,7 +123,7 @@ li.black-buttons > a {
 
 
 
-/* 
+/*
 
 	SITE MANAGER NAVIGATION STYLE
 	+-------------------------+
@@ -197,7 +203,7 @@ li.black-buttons > a {
 	background-color: #717073;
 	border-top: 1px solid #e5e5e5;
 	border-bottom: none;
-	
+
 }
 
 	/* year label */
@@ -234,24 +240,24 @@ li.black-buttons > a {
 [class*="currentbranch"] > a{
 	border-left: none;
 }*/
-	
+
 	/*hover*/
 
-.currentbranch0 > a:hover, .multilevel-linkul-0 > li > a:hover , 
-.currentbranch1 > a:hover, .multilevel-linkul-1 > li > a:hover, 
+.currentbranch0 > a:hover, .multilevel-linkul-0 > li > a:hover ,
+.currentbranch1 > a:hover, .multilevel-linkul-1 > li > a:hover,
 .currentbranch2 > a:hover{
 	background-color: white;
 	color: black;
 }
 
 
-/* 
+/*
 
 	O V E R W R I T E S
 	------+--------
 
- 	for Bootstrap.css 
- 	and docs.css 
+ 	for Bootstrap.css
+ 	and docs.css
 
 */
 
@@ -275,7 +281,7 @@ hr {
 	color:white;
 	text-align: center;
 	word-break: keep-all;
-	
+
 }
 .footer-bg > p > a {
 	color:white;
@@ -306,7 +312,7 @@ hr {
 
 /* SEARCH BOX STYLES */
 
-.search-box > h4{ 
+.search-box > h4{
 	width:auto;
 }
 
@@ -394,8 +400,8 @@ section{
 .hero-image{
 	cursor:inherit;
 }
-/*  
-	-H E R O - U N I T- 
+/*
+	-H E R O - U N I T-
 	------+--------
 
 */
@@ -440,8 +446,8 @@ table.caption{
 	font-style: italic;
 	font-size: 12px;
 	line-height: 19px;
-	color: rgb(115, 120, 126); 
-	word-wrap: break-word; 
+	color: rgb(115, 120, 126);
+	word-wrap: break-word;
 
 }
 
