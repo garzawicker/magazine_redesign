@@ -2,32 +2,36 @@
 $(document).ready(function(){
 	'use strict' ;
 
-	var location1 = "http://msudenver.edu/magazine/";
-	var location2 = "http://sitemanager.msudenver.edu/m/";
-	var location3 = "http://msudenver.edu/m/";
+	var width_threshold = 1200;
+	var currentLocation =  (document.location.href).toString();
 
-
-	var docLocation =  document.location.href;
-
+	// removes sharing icons from full story template
+	magazineLocationTest();
 	// make thumbails clickable if location == main magainze site
-	if(docLocation === location1 || docLocation === location2 || docLocation === location3){
-		// makes magazine preview clickable 
-		$(".magazine-preview, .thumbnail, .carousel-caption").click(function(){
-			var ulr = $(this).data().href ;
-			window.open(ulr,"_self");
-		});
-	}else{
-		// reset cursor if not on main magainze site
-		$('.thumbnail').css('cursor', 'inherit');
+	patternMatchMagazineLocation();
+
+	function magazineLocationTest(){
+		var found = currentLocation.match(/magazine\/20*/g) || [];
+		if(found.length >= 1) {
+			$(".addthis").css("display","none") ;
+		}
 	}
 
 
-	var width_threshold = 1200;
-
-	// remove for production
-	sizedebuggin();
-
-
+	function patternMatchMagazineLocation(){
+		var found = currentLocation.match(/magazine/g) || [];
+		if(found.length >= 1){
+			// makes magazine preview clickable
+			$(".magazine-preview, .thumbnail, .carousel-caption")
+				.click(function(){
+					var ulr = $(this).data().href ;
+					window.open(ulr,"_self");
+				});
+		}else{
+			// reset cursor if not on main magainze site
+			$('.thumbnail').css('cursor', 'inherit');
+		}
+	}
 
 	// scrollTop function
 	$(window).scroll(function(){
@@ -45,19 +49,3 @@ $(document).ready(function(){
 
 	});
 });
-
-
-
-// remove for production  dlsamdlsa
-
-function sizedebuggin(){
-	var container = $('#content-width');
-	// on load 
-	container.text(" "+ $(window).width());
-
-	// on resize
-	$(window).resize(function(){
-		container.text(" "+ $(window).width());
-	});
-}
-
