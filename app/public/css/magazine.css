@@ -117,19 +117,12 @@ li.black-buttons > a {
 	width: 245px;
 }
 
-
-
-
-
-
-
 /*
 
 	SITE MANAGER NAVIGATION STYLE
 	+-------------------------+
 
 */
-
 
 .left-nav-1  {
 	margin-left: 0;
@@ -157,9 +150,6 @@ li.black-buttons > a {
 	border-left: 1px solid #e5e5e5;
 	text-decoration: none;
 }
-
-
-
 .currentbranch2 > a, .multilevel-linkul-1 > li > a{
 	color: white;
 	display: block;
@@ -167,7 +157,6 @@ li.black-buttons > a {
 	padding: 8px 14px;
 	border: 1px solid #e5e5e5;
 	text-decoration: none;
-
 }
 .currentbranch1 > a{
 	display: block;
@@ -177,8 +166,6 @@ li.black-buttons > a {
 	border-bottom: none;
 	text-decoration: none;
 }
-
-
 
 	/*active link element */
 
@@ -350,7 +337,6 @@ hr {
 
 }
 
-
 .navbar .btn-navbar .icon-bar {
 	display: block;
 	width: 30px;
@@ -383,10 +369,6 @@ section{
 	padding: 10px;
 	height: auto;
 }
-
-/*.col-md-12 {
-    	padding-top: 125px;
-}*/
 .black-buttons-container > ul{
 	padding-top: 25px;
 	padding-bottom: 25px;
@@ -397,44 +379,44 @@ section{
 	/*top: 1025px;*/
 }
 
-.hero-image{
-	cursor:inherit;
-}
 /*
 	-H E R O - U N I T-
 	------+--------
 
 */
 
-
+.hero-caption h2 {
+  margin: 0px !important;
+  color: #ffffff;
+  line-height: 35px;
+  margin:0;
+  padding: 0;
+}
+.hero-caption {
+  cursor: pointer;
+  position: relative;
+  bottom: 145px;
+  margin-top: 0;
+  margin-left: 11px;
+  margin-right: 11px;
+  margin-bottom: 20px;
+  background-color: rgba(0, 0, 0, 0.35);
+  background: rgba(0,0,0,0.35);
+  padding: 1em;
+  color: #fff;
+}
+.hero-caption:hover {
+  background: rgba(0,0,0,0.55);
+  transition: all 1s ease-in-out;
+}
 .hero-unit{
 	  height: auto;
 }
-	/* CAROUSEL-CAPTION STYLES  */
 
-
-.carousel-caption {
-	cursor: pointer;
-	position: relative;
-	bottom: 145px;
-	margin-top: 0;
-	margin-left: 11px;
-	margin-right: 11px;
-	margin-bottom: 20px;
-	background-color: #333333;
-	background-color: rgba(0, 0, 0, 0.35);
+.hero-image{
+  cursor:inherit;
 }
 
-.carousel-caption h2 {
-	color: #ffffff;
-	line-height: 35px;
-	margin:0;
-	padding: 0;
-}
-
-.carousel-caption:hover{
-	background-color: rgba(0, 0, 0, 0.55);
-}
 
 
 table.caption{
@@ -483,20 +465,8 @@ table.caption{
 	color: #fff !important;
 }
 
-/* HERO IMAGE */
-.hero-caption h2 {
-	margin: 0px !important;
-}
-.hero-caption {
-	background: rgba(0,0,0,0.35);
-	padding: 1em;
-	color: #fff;
-	position: relative;
-}
-.hero-caption:hover {
-	background: rgba(0,0,0,0.55);
-	transition: all 1s ease-in-out;
-}
+
+
 
 /* LEFT NAVIGATION */
 .nav-pills { margin-bottom: 1em !important; }
