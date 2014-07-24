@@ -365,7 +365,7 @@ section{
 */
 
 .thumbnail {
-position: relative;
+  position: relative;
 	cursor:pointer;
 	padding: 10px;
 	height: auto;
@@ -377,7 +377,6 @@ position: relative;
 
 .thumbnail > p.fullstory {
 	position: relative;
-	/*top: 1025px;*/
 }
 
 .thumbnail-feature {
@@ -404,17 +403,6 @@ position: relative;
   padding: 0;
 }
 
-
-
-/*hr{
-	border: 0.4px;
-  	width: 90%;
-	text-align: center;
-	border-color: silver;
-}*/
-/*<hr align="center" size=".4"  color="silver" width="100%">*/
-
-
 /**
 *
 * GRANTS ADDITIONS:
@@ -436,8 +424,6 @@ position: relative;
 #top-nav-toggle {
 	color: #fff !important;
 }
-
-
 
 
 /* LEFT NAVIGATION */
