@@ -1,90 +1,36 @@
+/* MSU-DENVER Magazine @media queries */
+
 /*
-	@media querie syntax ::
-	viewport is 700px wide or wider ..
-	@media (min-width: 700px) { ... }
 
-*/
+	Large devices
+Desktops (≥1200px)
 
-
-/*  
-		          _*_ 
-	
-	L A R G E - D E S K T O P - V I E W
-	      
-
-
-
-
-
-*/
-
-
-/*  
-		     _*_ 
-	
-	D E S K T O P - V I E W
-	      
 
 */
 @media (min-width: 1200px){
-	.col-md-9{
-		padding-right: 25px;
-	}
-
 	.magazine-logo{
 		top: 25px;
-		/*padding-right: 25px;*/
-
+		padding-right: 25px;
 	}
 	.magazine-logo-change{
 		top: 10px;
 	}
-
-	.carousel-caption {
-		cursor: pointer;
-		position: relative;
-		bottom: 125px;
-	}
-
-
 }
 
-/*  
-			_*_ 
-	
-	S M A L L  D E S K T O P/L A R G E  T A B L E T - V I E W
-	      
+/*
+
+	Medium devices
+Desktops (≥992px)
+
 
 */
-@media (min-width: 980px) and (max-width: 1199px){
-	.carousel-caption {
-		/*bottom: 140px;*/
-	}
-
+@media (min-width: 992px) and (max-width: 1199px){
 	/* Enable use of floated navbar text */
-
 	.navbar-text .pull-right {
 		float: none;
 		padding-left: 5px;
 		padding-right: 5px;
 	}
-
-	/* MSU-DENVER Magazine @media queries */
-
-
-/*
-		:- N O T  E -:
-
-	Class chaining ie.
-	
-	.foo.bar { } 	<~ not allowed in IE 6 
-
-	Just in case this style provides a reset 
-	id for older browsers.
-
-*/
-	
-	
 	.magazine-logo{
 		top: 25px;
 	}
@@ -97,24 +43,24 @@
 		top: 0;
 	}
 	.three-feature-group >  .thumbnail {
-		height: 390px;
+		/*height: 390px;*/
 	}
 	.row .col-md-4 {
-    		width: 41.623932%;
-    		padding: 15px;
+    	/*width: 41.623932%;
+    	padding: 15px;
    	 	margin-left: 0;
-   	 	border: none;
+   	 	border: none;*/
 	}
 }
 
 /*
 	                             _*_
-	
+
 	T A B L E T - H O R I Z O N T A L (iPad)
-		        
+
 */
 
-@media (min-width: 768px) and (max-width: 979px){
+/*@media (min-width: 768px) and (max-width: 979px){
 	.magazine-logo {
 		width: 200px !important;
 	}
@@ -138,7 +84,7 @@
 	.thumbnail > p > a{
 		position: relative;
 		top: 0;
-		
+
 	}
 
 	.msudenver-logo{
@@ -150,11 +96,11 @@
 	.three-feature-group >  .thumbnail {
 		height: inherit;
 	}
-}
+}*/
 
 /*
 	                             _*_
-	
+
 	T A B L E T - P O R T R A I T
 
 
@@ -214,8 +160,8 @@
 
 
 
-/*  
-		        _*_ 
+/*
+		        _*_
 
 	M O B I L E - P O R T R A I T
 
@@ -226,46 +172,46 @@
 	}
 
 	#main-container {
-		margin-top: 50px !important;
-	}
-	
-	.col-md-12, .col-md-9{
-		padding-top: 0;
-		margin-top: 0;
-	}
-	#left-nav {
-	    	margin-top: -20px;
-	}
-	.col-md-4 ,.thumbnail {
-	   	padding-bottom: 10px;
-    		margin-bottom: 25px;
-	}
-	.col-md-3{
-		margin-top: -40px;
-		margin-bottom: 30px;
+		margin-top: 80px !important;
 	}
 
+	/*.col-md-12, .col-md-9{
+		padding-top: 0;
+		margin-top: 0;
+	}*/
+	/*#left-nav {
+	    	margin-top: -20px;
+	}*/
+	/*.col-md-4 ,.thumbnail {
+	   	padding-bottom: 10px;
+    		margin-bottom: 25px;
+	}*/
+	/*.col-md-3{
+		margin-top: -40px;
+		margin-bottom: 30px;
+	}*/
+
 	/*	HIDE         */
-	.msudenver-logo, .black-buttons,.magazine-preview,
-	.search-box, .left-nav-hidden, .btn,  .btn-inverse, .addthis{
+	.msudenver-logo, li.black-buttons,.magazine-preview,
+	.search-box, .left-nav-hidden, .addthis{
 		display: none;
 	}
 
 	/*	RESET MARGINS      */
 	.sidebar-nav , .bs-docs-sidenav ,.nav-list,
-	 .nav .left-nav-1, .nav-collapse, .collapse, 
+	 .nav .left-nav-1, .nav-collapse, .collapse,
 	 .three-feature-group, .media-body, .media, .addthis{
 	 	position: relative;
 		margin:0;
 		padding: 0;
-	
+
 	}
 	.carousel-caption {
 		bottom: 30px;
 		margin:0;
 		background-color: rgba(0,0,0,1);
 	}
-	
+
 	/*	BLACK HEADER CONTAINER HEIGHT*/
 	.container-fluid{
 		height: 40px;
@@ -274,10 +220,13 @@
 		left: 15px;
 		width: 300px;
 	}
-	
-	.carousel-caption  {
+
+	.thumbnail-feature {
 		position: relative;
-		margin-top:0;
+		margin-top:10px;
+		margin-right:10px;
+		margin-left:-10px;
+		background: black;
 	}
 	/* MEDIA OBJECTS */
 
@@ -296,7 +245,7 @@
 
 	.three-feature-group >  .thumbnail {
 		height: inherit;
-		
+
 	}
 	.three-feature-group{
 		margin:0;
