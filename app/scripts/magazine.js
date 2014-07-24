@@ -2,7 +2,7 @@
 $(document).ready(function(){
 	'use strict' ;
 
-	var width_threshold = 1200;
+	var width_threshold = 900;
 	var currentLocation =  (document.location.href).toString();
 
 	// removes sharing icons from full story template
