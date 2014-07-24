@@ -1,11 +1,8 @@
 /* MSU-DENVER Magazine @media queries */
 
 /*
-
 	Large devices
 Desktops (≥1200px)
-
-
 */
 @media (min-width: 1200px){
 	.magazine-logo{
@@ -15,41 +12,27 @@ Desktops (≥1200px)
 	.magazine-logo-change{
 		top: 10px;
 	}
+	.container{
+	padding-top: 0;
+	margin-top: 0;
+	}
 }
 
 /*
-
 	Medium devices
 Desktops (≥992px)
-
-
 */
 @media (min-width: 992px) and (max-width: 1199px){
-	/* Enable use of floated navbar text */
-	.navbar-text .pull-right {
-		float: none;
-		padding-left: 5px;
-		padding-right: 5px;
-	}
 	.magazine-logo{
 		top: 25px;
+		padding-right: 25px;
 	}
 	.magazine-logo-change{
 		top: 10px;
 	}
-
-	.thumbnail > p > a{
-		position: relative;
-		top: 0;
-	}
-	.three-feature-group >  .thumbnail {
-		/*height: 390px;*/
-	}
-	.row .col-md-4 {
-    	/*width: 41.623932%;
-    	padding: 15px;
-   	 	margin-left: 0;
-   	 	border: none;*/
+	.container{
+		padding-top: 0;
+		margin-top: 0;
 	}
 }
 
@@ -99,16 +82,17 @@ Desktops (≥992px)
 }*/
 
 /*
-	                             _*_
-
-	T A B L E T - P O R T R A I T
-
+	   Small devices
+Tablets (≥768px)
 
 */
-@media (min-width: 481px) and (max-width: 767px){
+/*@media (min-width: 769px) and (max-width: 991px){*/
+/*@media (max-width: 991px){
 	.magazine-logo {
+		left: 15px;
 		width: 200px !important;
 	}
+
 	#main-container {
 		margin-top: 50px !important;
 	}
@@ -118,55 +102,57 @@ Desktops (≥992px)
 	.container{
 		padding-top: 0;
 		margin-top: 0;
-	}
-	table.caption{
+	}*/
+	/*table.caption{
 		margin: 10px 100px 25px 100px;
-	}
-	table.caption > p{
+	}*/
+	/*table.caption > p{
 		margin-top: 100px;
 		position: relative;
 		min-width: 300px;
-	}
-	.col-md-3, .left-nav-1{
+	}*/
+	/*.col-md-3, .left-nav-1{
 		padding-top: 0;
 		margin-top: -60px;
-	}
+	}*/
+	/*.container-fluid{
+		height: 60px;
+	}*/
+	/*.thumbnail > p > a{
+		position: relative;
+		top: 0;
+	}*/
+	/*.carousel-caption{
+		margin-bottom: 0;
+	}*/
+
+/*
 	.container-fluid{
 		height: 60px;
 	}
-	.thumbnail > p > a{
-		position: relative;
-		top: 0;
-	}
-	.carousel-caption{
-		margin-bottom: 0;
-	}
-	.magazine-logo{
-		left: 10px;
-	}
+
+
 	.three-feature-group >  .thumbnail {
 		height: inherit;
 	}
 	.magazine-preview, .search-box,.addthis, .black-buttons,
 	.msudenver-logo {
 		display: none;
-	}
-	.col-md-4 ,.thumbnail {
+	}*/
+	/*.col-md-4 ,.thumbnail {
 		margin-top: 40px;
 	    padding-bottom: 10px;
-	}
+	}*/
 
-}
+/*}*/
 
 
 
 /*
-		        _*_
-
-	M O B I L E - P O R T R A I T
-
+				Extra small devices
+				Phones (<768px)
 */
-@media (min-width: 320px) and (max-width: 480px){
+@media (max-width: 992px){
 	.magazine-logo {
 		width: 200px !important;
 	}
@@ -206,15 +192,10 @@ Desktops (≥992px)
 		padding: 0;
 
 	}
-	.carousel-caption {
-		bottom: 30px;
-		margin:0;
-		background-color: rgba(0,0,0,1);
-	}
 
 	/*	BLACK HEADER CONTAINER HEIGHT*/
 	.container-fluid{
-		height: 40px;
+		height: 60px;
 	}
 	.magazine-logo{
 		left: 15px;
@@ -243,16 +224,23 @@ Desktops (≥992px)
 
 	/* ADD THIS MEDIA */
 
-	.three-feature-group >  .thumbnail {
+	/*.three-feature-group >  .thumbnail {
 		height: inherit;
 
-	}
-	.three-feature-group{
+	}*/
+	/*.three-feature-group{
 		margin:0;
 		padding: 0;
-	}
+	}*/
 	/* RESET MARGINS FOR MOBILE */
-	.thumbnail.col-md-6{
+	/*.thumbnail.col-md-6{
 		margin-left:0;
-	}
+	}*/
+
+	/*.thumbnail-feature {
+		bottom: 30px;
+		margin:0;
+		background-color: rgba(0,0,0,1);
+	}*/
+
 }
