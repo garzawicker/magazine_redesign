@@ -399,6 +399,12 @@ section{
   padding: 0;
 }
 
+.well{
+color: #3a87ad;
+background-color: #d9edf7;
+border-color: #bce8f1;
+  }
+
 /**
 *
 * GRANTS ADDITIONS:
