@@ -10,6 +10,8 @@ body {
   font-size: 14px;
   line-height: 1.4;
   font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  position: relative;
+  padding-top: 40px;
 }
 
 .magazine-logo-change, .msudenver-logo,.magazine-logo,
