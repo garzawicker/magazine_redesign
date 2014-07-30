@@ -37,145 +37,13 @@ Desktops (≥992px)
 }
 
 /*
-	                             _*_
-
-	T A B L E T - H O R I Z O N T A L (iPad)
-
+	Medium devices and Smaller (991px)
 */
 
-/*@media (min-width: 768px) and (max-width: 979px){
-	.magazine-logo {
-		width: 200px !important;
-	}
+@media (max-width: 991px){
 	#main-container {
-		margin-top: 50px !important;
+		margin-top: 45px !important;
 	}
-
-	.row .col-md-4 {
-    		width: 41.623932%;
-    		padding: 15px;
-   	 	margin-left: 0;
-   	 	border: none;
-	}
-	.carousel-caption {
-		bottom: 145px;
-	}
-
-	.container-fluid{
-		height: 100px;
-	}
-	.thumbnail > p > a{
-		position: relative;
-		top: 0;
-
-	}
-
-	.msudenver-logo{
-		display: none;
-	}
-	.magazine-logo{
-		top: 35px;
-	}
-	.three-feature-group >  .thumbnail {
-		height: inherit;
-	}
-}*/
-
-/*
-	   Small devices
-Tablets (≥768px)
-
-*/
-/*@media (min-width: 769px) and (max-width: 991px){*/
-/*@media (max-width: 991px){
-	.magazine-logo {
-		left: 15px;
-		width: 200px !important;
-	}
-
-	#main-container {
-		margin-top: 50px !important;
-	}
-	#left-nav {
-	    margin-top: 40px;
-	}
-	.container{
-		padding-top: 0;
-		margin-top: 0;
-	}*/
-	/*table.caption{
-		margin: 10px 100px 25px 100px;
-	}*/
-	/*table.caption > p{
-		margin-top: 100px;
-		position: relative;
-		min-width: 300px;
-	}*/
-	/*.col-md-3, .left-nav-1{
-		padding-top: 0;
-		margin-top: -60px;
-	}*/
-	/*.container-fluid{
-		height: 60px;
-	}*/
-	/*.thumbnail > p > a{
-		position: relative;
-		top: 0;
-	}*/
-	/*.carousel-caption{
-		margin-bottom: 0;
-	}*/
-
-/*
-	.container-fluid{
-		height: 60px;
-	}
-
-
-	.three-feature-group >  .thumbnail {
-		height: inherit;
-	}
-	.magazine-preview, .search-box,.addthis, .black-buttons,
-	.msudenver-logo {
-		display: none;
-	}*/
-	/*.col-md-4 ,.thumbnail {
-		margin-top: 40px;
-	    padding-bottom: 10px;
-	}*/
-
-/*}*/
-
-
-
-/*
-				Extra small devices
-				Phones (<768px)
-*/
-@media (max-width: 992px){
-	.magazine-logo {
-		width: 200px !important;
-	}
-
-	#main-container {
-		margin-top: 80px !important;
-	}
-
-	/*.col-md-12, .col-md-9{
-		padding-top: 0;
-		margin-top: 0;
-	}*/
-	/*#left-nav {
-	    	margin-top: -20px;
-	}*/
-	/*.col-md-4 ,.thumbnail {
-	   	padding-bottom: 10px;
-    		margin-bottom: 25px;
-	}*/
-	/*.col-md-3{
-		margin-top: -40px;
-		margin-bottom: 30px;
-	}*/
 
 	/*	HIDE         */
 	.msudenver-logo, li.black-buttons,.magazine-preview,
@@ -190,18 +58,16 @@ Tablets (≥768px)
 	 	position: relative;
 		margin:0;
 		padding: 0;
-
 	}
 
 	/*	BLACK HEADER CONTAINER HEIGHT*/
 	.container-fluid{
 		height: 60px;
 	}
-	.magazine-logo{
+	.magazine-logo {
 		left: 15px;
-		width: 300px;
+		width: 200px !important;
 	}
-
 	.thumbnail-feature {
 		position: relative;
 		margin-top:10px;
@@ -221,26 +87,4 @@ Tablets (≥768px)
 		padding-top: 0;
 		padding-left: 10px;
 	}
-
-	/* ADD THIS MEDIA */
-
-	/*.three-feature-group >  .thumbnail {
-		height: inherit;
-
-	}*/
-	/*.three-feature-group{
-		margin:0;
-		padding: 0;
-	}*/
-	/* RESET MARGINS FOR MOBILE */
-	/*.thumbnail.col-md-6{
-		margin-left:0;
-	}*/
-
-	/*.thumbnail-feature {
-		bottom: 30px;
-		margin:0;
-		background-color: rgba(0,0,0,1);
-	}*/
-
 }
