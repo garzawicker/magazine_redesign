@@ -1,0 +1,90 @@
+/* MSU-DENVER Magazine @media queries */
+
+/*
+	Large devices
+Desktops (≥1200px)
+*/
+@media (min-width: 1200px){
+	.magazine-logo{
+		top: 25px;
+		padding-right: 25px;
+	}
+	.magazine-logo-change{
+		top: 10px;
+	}
+	.container{
+	padding-top: 0;
+	margin-top: 0;
+	}
+}
+
+/*
+	Medium devices
+Desktops (≥992px)
+*/
+@media (min-width: 992px) and (max-width: 1199px){
+	.magazine-logo{
+		top: 25px;
+		padding-right: 25px;
+	}
+	.magazine-logo-change{
+		top: 10px;
+	}
+	.container{
+		padding-top: 0;
+		margin-top: 0;
+	}
+}
+
+/*
+	Medium devices and Smaller (991px)
+*/
+
+@media (max-width: 991px){
+	#main-container {
+		margin-top: 45px !important;
+	}
+
+	/*	HIDE         */
+	.msudenver-logo, li.black-buttons,.magazine-preview,
+	.search-box, .left-nav-hidden, .addthis{
+		display: none;
+	}
+
+	/*	RESET MARGINS      */
+	.sidebar-nav , .bs-docs-sidenav ,.nav-list,
+	 .nav .left-nav-1, .nav-collapse, .collapse,
+	 .three-feature-group, .media-body, .media, .addthis{
+	 	position: relative;
+		margin:0;
+		padding: 0;
+	}
+
+	/*	BLACK HEADER CONTAINER HEIGHT*/
+	.container-fluid{
+		height: 60px;
+	}
+	.magazine-logo {
+		left: 15px;
+		width: 200px !important;
+	}
+	.thumbnail-feature {
+		position: relative;
+		margin-top:10px;
+		margin-right:10px;
+		margin-left:-10px;
+		background: black;
+	}
+	/* MEDIA OBJECTS */
+
+	/* media objects row 2nd */
+
+	.media{
+		padding-top: 25px;
+	}
+	.media-body, .media-heading {
+		margin:0;
+		padding-top: 0;
+		padding-left: 10px;
+	}
+}

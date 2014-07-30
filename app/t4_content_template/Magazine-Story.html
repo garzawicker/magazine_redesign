@@ -1,0 +1,36 @@
+<!-- Magazine Story/T4 Content template -->
+<div class="content">
+    <h1><t4 type="content" name="Headline" output="normal" modifiers=""  /></h1>
+    <h1><small><t4 type="content" name="Subhead" output="normal" modifiers=""  /></small></h1>
+    <h4><t4 type="content" name="Author" output="selective-output" modifiers="" format="By $value"/></h4>
+    <h4><t4 type="content" name="Authors Email Address" output="normal" modifiers=""  /></h4>
+    <h5>Publish Date: <t4 type="content" name="Publish Date" output="normal" modifiers="" date_format="MMMM d, yyyy" /></h5>
+    <p><t4 type="content" name="Content" output="normal" modifiers="medialibrary, nav_sections"  /></p>
+</div>
+
+
+<t4 type="content" name="Sidebar Content" output="selective-output" modifiers="medialibrary, nav_sections" format="<div class='well'> $value </div> "/>
+
+
+    <div id="disqus_thread"></div>
+    <script type="text/javascript">
+      var disqus_shortname = 'msudenver';
+      var disqus_identifier = '<t4 type="meta" meta="content_id" />';
+    	var disqus_title = '<t4 type="content" name="Headline" output="normal"/>';
+      var disqus_category_id = '3183496';
+
+        (function() {
+            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+            dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        })();
+    </script>
+
+    <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+<div id="Copyright">
+<p class="hidden">
+<i>©Copyright 2014 by Metropolitan Denver Magazine . All rights reserved.<br>
+  MSU Denver Office of Marketing and Communications, 303-556-2957</i>
+</p>
+</div>
