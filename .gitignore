@@ -11,7 +11,7 @@ backups-and-assets
 # Photoshop files
 public/img/psd/
 
-# Debugging tools 
+# Debugging tools
 debugging/
 
 # DreamWeaver specific
@@ -26,3 +26,10 @@ node_modules/
 
 /iisnode
 /web.config
+
+/dist
+
+.sass-cache
+
+#  Bower Components
+bower_components/

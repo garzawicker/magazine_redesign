@@ -1,0 +1,19 @@
+{
+  "name": "MetropolitanDenverMagazine",
+  "version": "0.2.0",
+  "homepage": "https://github.com/msudenver/magazine_redesign",
+  "authors": [
+    "Miguel Garza Wicker <garzawi@msudenver.edu>"
+  ],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test"
+  ],
+  "dependencies": {
+    "bootstrap": "3.1.0",
+    "fontawesome": "~4.0.3",
+    "jasny-bootstrap": "~3.1.3"
+  }
+}

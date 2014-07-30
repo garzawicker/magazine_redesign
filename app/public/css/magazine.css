@@ -1,0 +1,484 @@
+/*MAGAZINE MAIN CSS*/
+
+body {
+  font-size: 14px;
+  line-height: 1.4;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  position: relative;
+  padding-top: 40px;
+}
+
+.content a {
+color: #0088cc !important;
+}
+
+.magazine-logo-change, .msudenver-logo,.magazine-logo,
+.magazine-logo-change,.container-fluid, a:hover, .carousel-caption{
+  	-webkit-transition: all 0.5s ease-in-out;
+  	-moz-transition: all 0.5s ease-in-out;
+  	-o-transition: all 0.5s ease-in-out;
+  	transition: all 0.5s ease-in-out;
+}
+
+.msudenver-logo{
+	position:  absolute;
+	left:  50px;
+	top:   30px;
+	width: 450px;
+}
+.msudenver-logo-change{
+	left:  25px;
+	width: 350px;
+	top:  5px;
+}
+.magazine-logo{
+	position: absolute;
+	top: 10px;
+	right: 50px;
+	width: 400px;
+}
+.magazine-logo-change{
+	position: absolute;
+	width: 200px;
+
+}
+.row{
+	padding-bottom: 25px;
+}
+.container-fluid{
+	height: 130px;
+}
+.container-fluid-change{
+	height: 60px;
+}
+
+.bs-docs-sidenav >  a:hover{
+	color: black;
+	background-color: white;
+}
+
+.black-buttons{
+	margin-top: 10px;
+	margin-bottom: 10px;
+
+}
+ .clickable {
+  cursor: pointer;
+}
+
+.addthis{
+	margin-top: 25px;
+}
+li.black-buttons > a {
+	color:white;
+	text-align: left;
+	line-height: 2em;
+	background-color: black;
+
+}
+.black-buttons >  a:hover{
+	color: black;
+	background-color: white;
+}
+.sidebar-nav {
+	line-height: 3em;
+}
+
+.left-nav-1 > ul >li > a{
+	color: white;
+	text-shadow: black ;
+}
+.left-nav-1 > ul >li > a:hover{
+	color: black;
+	text-shadow: black ;
+}
+
+
+
+
+/*
+
+	MAGAZINE PREVIEW
+	-----------------
+
+*/
+.magazine-preview {
+	cursor:pointer;
+	margin-top:0;
+	line-height: 1em;
+	margin-top: 25px;
+}
+.magazine-preview p{
+	color: inherit;
+	padding:10px;
+	line-height: 1.4em;
+	letter-spacing: 0.1em;
+}
+
+.magazine-preview > img {
+	margin: 0 auto 0 auto;
+	width: 245px;
+}
+
+/*
+
+	SITE MANAGER NAVIGATION STYLE
+	+-------------------------+
+
+*/
+
+.left-nav-1  {
+	margin-left: 0;
+	list-style: none;
+}
+.currentbranch0  > a {
+	color: white;
+	display: block;
+	margin: 0 0 -1px;
+	padding: 8px 14px;
+	border-top: 1px solid #e5e5e5;
+	border-bottom: none;
+	border-left:none;
+	border-right:none;
+	text-decoration: none;
+}
+.multilevel-linkul-0 > li > a{
+	color: white;
+	display: block;
+	margin: 0 0 -1px;
+	padding: 8px 14px;
+	text-decoration: none;
+}
+.multilevel-linkul-0 > li {
+	border-left: 1px solid #e5e5e5;
+	text-decoration: none;
+}
+.currentbranch2 > a, .multilevel-linkul-1 > li > a{
+	color: white;
+	display: block;
+	margin: 0 0 -1px;
+	padding: 8px 14px;
+	border: 1px solid #e5e5e5;
+	text-decoration: none;
+}
+.currentbranch1 > a{
+	display: block;
+	margin: 0 0 -1px;
+	padding: 8px 14px;
+	border-left: 1px solid #e5e5e5;
+	border-bottom: none;
+	text-decoration: none;
+}
+
+	/*active link element */
+
+.currentbranch1 > a {
+	border-left:none;
+}
+.currentbranch0  > ul > li {
+	list-style: none;
+
+}
+.multilevel-linkul-0 > li > a{
+	color: white;
+	display: block;
+	margin: 0 0 -1px;
+	padding: 8px 14px;
+	text-decoration: none;
+
+}
+.multilevel-linkul-0 > li {
+	list-style: none;
+	text-decoration: none;
+	background-color: #717073;
+	border-top: 1px solid #e5e5e5;
+	border-bottom: none;
+
+}
+
+	/* year label */
+
+.currentbranch1 > a{
+	color: white;
+	text-decoration: none;
+	background-color: #717073;
+}
+.multilevel-linkul-1 > li {
+	background-color: #8A898d;
+	list-style: none;
+}
+
+.currentbranch2 > a{
+	color: black;
+	display: block;
+	margin: 0 0 -1px;
+	padding: 8px 4%;
+	background-color: rgb(0,68,124);
+	background-color: white;
+
+}
+
+
+/* active or current issue color: #0088cc*/
+
+
+
+	/* WHILE CARD SELCTOR*/
+
+
+/*[class^="currentbranch"] > a,
+[class*="currentbranch"] > a{
+	border-left: none;
+}*/
+
+	/*hover*/
+
+.currentbranch0 > a:hover, .multilevel-linkul-0 > li > a:hover ,
+.currentbranch1 > a:hover, .multilevel-linkul-1 > li > a:hover,
+.currentbranch2 > a:hover{
+	background-color: white;
+	color: black;
+}
+
+
+/*
+
+	O V E R W R I T E S
+	------+--------
+
+ 	for Bootstrap.css
+ 	and docs.css
+
+*/
+
+
+hr {
+  margin: inherit;
+  border-top: 1px solid #eeeeee;
+  border-bottom: 1px solid #ffffff;
+}
+
+.bs-docs-sidenav > li > a {
+	border-left: none;
+	border-right: none;
+}
+
+.footer-bg > p{
+	margin: 0;
+	padding: 0;
+	padding-bottom: 10px;
+	color:white;
+	text-align: center;
+	word-break: keep-all;
+
+}
+.footer-bg > p > a {
+	color:white;
+}
+.footer-bg > p > a:hover {
+	color: #0088cc;
+}¨
+.bs-docs-sidenav {
+	padding: 0;
+}
+
+.bs-docs-sidenav > li:first-child > a {
+  -webkit-border-radius: inherit;
+     -moz-border-radius: inherit;
+          border-radius: 0;
+}
+.bs-docs-sidenav > li:last-child > a {
+  -webkit-border-radius: inherit;
+     -moz-border-radius: inherit;
+          border-radius: 0;
+}
+
+.navbar-fixed-bottom{
+	background-color: rgb(0,0,0);
+	position: relative;
+}
+
+/* SEARCH BOX STYLES */
+
+.search-box > h4{
+	width:auto;
+}
+
+
+.digital-edition > p{
+	color: black;
+	padding: 15px;
+}
+
+.left-nav-1 > ul > section > ul > li{
+	background-color: white;
+}
+.left-nav-1 >  ul > li.search-box{
+	background-color: white;
+}
+.left-nav-1 > ul >li:not(.digital-edition){
+	color: white;
+	text-shadow: black;
+	background-color: #585759;
+}
+.search-box > h4{
+	color:black;
+	background-color: white;
+}
+
+.search-box {
+	background-color: white;
+}
+
+.addthis_toolbox , .addthis_default_style, .addthis_32x32_style > li > a{
+	padding: 0;
+	margin-top: 0;
+
+}
+
+.navbar .btn-navbar .icon-bar {
+	display: block;
+	width: 30px;
+	height: 5px;
+
+}
+.media-object{
+	float: left;
+	width: 84px;
+}
+
+section{
+	padding: 0;
+	margin:0;
+}
+
+.media-body  a ,
+.media-body p{
+	padding-left: 15px;
+	color: black;
+}
+
+/*
+	T H R E E - F E A T U R E -S E C T I O N
+	---------------+---------------
+*/
+
+.thumbnail {
+  position: relative;
+	cursor:pointer;
+	padding: 10px;
+	height: auto;
+}
+.black-buttons-container > ul{
+	padding-top: 25px;
+	padding-bottom: 25px;
+}
+
+.thumbnail > p.fullstory {
+	position: relative;
+}
+
+.thumbnail-feature {
+  position: absolute;
+  left: 10px;
+  right: 10px;
+  bottom: 10px;
+  font-size: 16px;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.35);
+  background: rgba(0,0,0,0.35);
+	word-wrap: break-word;
+  padding: .75em;
+}
+
+.thumbnail-feature:hover {
+  background: rgba(0,0,0,0.55);
+  transition: all 1s ease-in-out;
+}
+
+.thumbnail-caption h2 {
+  color: #fff;
+  margin:0;
+  padding: 0;
+}
+
+.well{
+color: #3a87ad;
+background-color: #d9edf7;
+border-color: #bce8f1;
+  }
+
+table.caption{
+	margin: 20px;
+	max-width: 100%;
+	background-color: transparent;
+	border-collapse: collapse;
+	border-spacing: 0;
+	font-style: italic;
+	font-size: 12px;
+	line-height: 19px;
+	color: rgb(115, 120, 126);
+	word-wrap: break-word;
+}
+
+
+/**
+*
+* GRANTS ADDITIONS:
+*
+**/
+
+#main-container {
+	margin-top: 115px !important;
+}
+
+.img-thumbnail {
+	padding: 8px !important;
+}
+
+.navbar-collapse {
+	padding-left: 0px !important;
+	padding-right: 0px !important;
+}
+#top-nav-toggle {
+	color: #fff !important;
+}
+
+
+/* LEFT NAVIGATION */
+.nav-pills { margin-bottom: 1em !important; }
+.nav-pills>li>a {
+	border-radius: 0px !important;
+}
+#side-nav .nav li {
+	background: #585759;
+}
+#side-nav .nav li>a {
+	color: #ffffff;
+}
+#side-nav .nav li:hover > a {
+	color: #000000;
+}
+
+/* FEATURED STORIES */
+.three-feature-group .img-thumbnail { min-height: 365px !important; margin-top: 1em; }
+.three-feature-group img {
+	min-height: 145px !important;*/
+	width: 100% !important;
+}
+.three-feature-group .btn-default {
+	background: #000;
+	color: #fff;
+	position: relative;
+	bottom: 0px;
+	right: 0px;
+}
+
+/* ADD THIS */
+.list-inline > li {
+	display: inline-block;
+	margin-right: 2px;
+	padding-right: 0px;
+	padding-left: 0px;
+	width: 32px
+}
